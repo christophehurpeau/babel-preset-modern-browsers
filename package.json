@@ -1,0 +1,52 @@
+{
+  "name": "babel-preset-modern-browsers",
+  "version": "1.0.1",
+  "description": "Babel presets for modern browsers",
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "license": "ISC",
+  "homepage": "https://github.com/christophehurpeau/babel-preset-modern-browsers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophehurpeau/babel-preset-modern-browsers.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "babel-plugin-check-es2015-constants": "^6.5.0",
+    "babel-plugin-syntax-trailing-function-commas": "^6.5.0",
+    "babel-plugin-transform-async-to-generator": "^6.5.0",
+    "babel-plugin-transform-class-constructor-call": "^6.5.0",
+    "babel-plugin-transform-class-properties": "^6.5.2",
+    "babel-plugin-transform-decorators": "^6.5.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.5.2",
+    "babel-plugin-transform-es2015-block-scoped-functions": "^6.5.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.5.0",
+    "babel-plugin-transform-es2015-classes": "^6.5.2",
+    "babel-plugin-transform-es2015-destructuring": "^6.5.0",
+    "babel-plugin-transform-es2015-for-of": "^6.5.2",
+    "babel-plugin-transform-es2015-function-name": "^6.5.0",
+    "babel-plugin-transform-es2015-literals": "^6.5.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.5.2",
+    "babel-plugin-transform-es2015-object-super": "^6.5.0",
+    "babel-plugin-transform-es2015-parameters": "^6.5.0",
+    "babel-plugin-transform-es2015-spread": "^6.5.2",
+    "babel-plugin-transform-es2015-sticky-regex": "^6.5.0",
+    "babel-plugin-transform-es2015-unicode-regex": "^6.5.0",
+    "babel-plugin-transform-exponentiation-operator": "^6.5.0",
+    "babel-plugin-transform-export-extensions": "^6.5.0",
+    "babel-plugin-transform-object-rest-spread": "^6.5.0",
+    "babel-plugin-transform-strict-mode": "^6.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "babel",
+    "preset",
+    "modern",
+    "browser",
+    "browsers"
+  ],
+  "bugs": {
+    "url": "https://github.com/christophehurpeau/babel-preset-modern-browsers/issues"
+  }
+}
