@@ -5,7 +5,7 @@
 [![NPM Version](http://img.shields.io/npm/v/babel-preset-modern-browsers.svg?style=flat-square)](https://www.npmjs.org/package/babel-preset-modern-browsers)
 ![Edge 13](https://img.shields.io/badge/Edge-13-green.svg?style=flat-square)
 ![Firefox 45](https://img.shields.io/badge/Firefox-45-green.svg?style=flat-square)
-![Chrome 49](https://img.shields.io/badge/Chrome-41-green.svg?style=flat-square)
+![Chrome 49](https://img.shields.io/badge/Chrome-49-green.svg?style=flat-square)
 ![Opera 36](https://img.shields.io/badge/Opera-36-green.svg?style=flat-square)
 ![Safari 9](https://img.shields.io/badge/Safari-9-orange.svg?style=flat-square)
 
