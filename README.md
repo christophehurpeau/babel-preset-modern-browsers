@@ -414,7 +414,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td>
-            [<code>async</code>/<code>await</code>](http://kangax.github.io/compat-table/esnext/#test-async_functions)
+            <a href="http://kangax.github.io/compat-table/esnext/#test-async_functions"><code>async</code>/<code>await</code></a>
         </td>
         <td>No</td>
         <td>No</td>
