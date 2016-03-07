@@ -83,8 +83,8 @@ Add the following line to your `.babelrc` file:
         </td>
         <td>Partial</td>
         <td>Partial</td>
-        <td>Partial</td>
-        <td>Partial</td>
+        <td>51</td>
+        <td>38</td>
         <td>Partial</td>
         <td>5.1 Partial</td>
         <td>Partial</td>
