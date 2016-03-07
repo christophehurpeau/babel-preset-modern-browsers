@@ -345,8 +345,8 @@ Add the following line to your `.babelrc` file:
         </td>
         <td>12</td>
         <td>No</td>
-        <td>No</td>
-        <td>No</td>
+        <td>51</td>
+        <td>38</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
@@ -374,8 +374,8 @@ Add the following line to your `.babelrc` file:
         </td>
         <td>13</td>
         <td>Partial</td>
-        <td>Partial</td>
-        <td>Partial</td>
+        <td>51</td>
+        <td>38</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
