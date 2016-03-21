@@ -1,7 +1,5 @@
 # babel-preset-modern-browsers
 
-> Babel preset for modern browsers. All you need to compile your code to a ES5/ES6 hybrid.
-
 [![NPM Version](http://img.shields.io/npm/v/babel-preset-modern-browsers.svg?style=flat-square)](https://www.npmjs.org/package/babel-preset-modern-browsers)
 ![Edge 13](https://img.shields.io/badge/Edge-13-green.svg?style=flat-square)
 ![Firefox 45](https://img.shields.io/badge/Firefox-45-green.svg?style=flat-square)
@@ -9,7 +7,7 @@
 ![Opera 36](https://img.shields.io/badge/Opera-36-green.svg?style=flat-square)
 ![Safari 9](https://img.shields.io/badge/Safari-9-orange.svg?style=flat-square)
 
-This preset is based on Babel's default [ES2015 preset](https://babeljs.io/docs/plugins/preset-es2015/).
+Transpile with babel only for modern browsers.
 
 ## Installation
 
@@ -32,7 +30,7 @@ Add the following line to your `.babelrc` file:
 - modern-browsers
 - modern-browsers/webpack2 use this instead if you use webpack
 - modern-browsers/safari9 ![Safari 9](https://img.shields.io/badge/Safari-9-green.svg?style=flat-square) Add this if you need better safari9 support
-- modern-browsers/stage1
+- modern-browsers/stage1 add stage 1 or higher features
 
 
 ## Compatibility Table
@@ -74,7 +72,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-block-scoping">transform-es2015-block-scoping</a> (also known as “lexical declarations”)
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-block-scoping">transform-es2015-block-scoping</a> (also known as “lexical declarations”)
         </td>
     </tr>
     <tr>
@@ -91,7 +89,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-for-of">transform-es2015-for-of</a>
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-for-of">transform-es2015-for-of</a>
         </td>
     </tr>
     <tr>
@@ -108,7 +106,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-arrow-functions">transform-es2015-arrow-functions</a>
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-arrow-functions">transform-es2015-arrow-functions</a>
         </td>
     </tr>
     <tr>
@@ -125,7 +123,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-classes">transform-es2015-classes</a>
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-classes">transform-es2015-classes</a>
         </td>
     </tr>
     <tr>
@@ -142,7 +140,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-computed-properties">transform-es2015-computed-properties</a>
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-computed-properties">transform-es2015-computed-properties</a>
         </td>
     </tr>
     <tr>
@@ -159,7 +157,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-destructuring">transform-es2015-destructuring</a>
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-destructuring">transform-es2015-destructuring</a>
         </td>
     </tr>
     <tr>
@@ -176,7 +174,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-function-name">transform-es2015-function-name</a>
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-function-name">transform-es2015-function-name</a>
         </td>
     </tr>
     <tr>
@@ -205,7 +203,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-literals">transform-es2015-literals</a>
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-literals">transform-es2015-literals</a>
         </td>
     </tr>
     <tr>
@@ -222,7 +220,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-object-super">transform-es2015-object-super</a>
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-object-super">transform-es2015-object-super</a>
         </td>
     </tr>
     <tr>
@@ -251,7 +249,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-parameters">transform-es2015-parameters</a>
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-parameters">transform-es2015-parameters</a>
         </td>
     </tr>
     <tr>
@@ -268,7 +266,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-shorthand-properties">transform-es2015-shorthand-properties</a>
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-shorthand-properties">transform-es2015-shorthand-properties</a>
         </td>
     </tr>
     <tr>
@@ -285,7 +283,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-spread">transform-es2015-spread</a>
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-spread">transform-es2015-spread</a>
         </td>
     </tr>
     <tr>
@@ -302,7 +300,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-sticky-regex">transform-es2015-sticky-regex</a>
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-sticky-regex">transform-es2015-sticky-regex</a>
         </td>
     </tr>
     <tr>
@@ -319,7 +317,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-template-literals">transform-es2015-template-literals</a>
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-template-literals">transform-es2015-template-literals</a>
         </td>
     </tr>
     <tr>
@@ -336,7 +334,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-typeof-symbol">transform-es2015-typeof-symbol</a>
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-typeof-symbol">transform-es2015-typeof-symbol</a>
         </td>
     </tr>
     <tr>
@@ -353,7 +351,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-es2015-unicode-regex">transform-es2015-unicode-regex</a>
+            <a href="https://babeljs.io/docs/plugins/transform-es2015-unicode-regex">transform-es2015-unicode-regex</a>
         </td>
     </tr>
     <tr>
@@ -382,7 +380,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-regenerator">transform-regenerator</a>
+            <a href="https://babeljs.io/docs/plugins/transform-regenerator">transform-regenerator</a>
         </td>
     </tr>
     <tr>
@@ -404,7 +402,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-exponentiation-operator">transform-exponentiation-operator</a>
+            <a href="https://babeljs.io/docs/plugins/transform-exponentiation-operator">transform-exponentiation-operator</a>
         </td>
     </tr>
     <tr>
@@ -426,7 +424,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            &#8627; <a href="https://babeljs.io/docs/plugins/transform-async-to-generator">transform-async-to-generator</a>
+            <a href="https://babeljs.io/docs/plugins/transform-async-to-generator">transform-async-to-generator</a>
         </td>
     </tr>
 </table>
