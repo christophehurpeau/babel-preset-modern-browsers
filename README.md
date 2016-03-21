@@ -428,3 +428,7 @@ Add the following line to your `.babelrc` file:
         </td>
     </tr>
 </table>
+
+## Thanks
+
+- Inspired by [https://github.com/askmatey/babel-preset-modern](https://github.com/askmatey/babel-preset-modern)
