@@ -50,8 +50,8 @@ Add the following line to your `.babelrc` file:
         <td>
             <a href="https://kangax.github.io/compat-table/es6/#test-const"><code>const</code></a>
         </td>
-        <td>11</td>
-        <td>36</td>
+        <td>11 (Partial)</td>
+        <td>36 (Partial)</td>
         <td>49</td>
         <td>36</td>
         <td>No</td>
@@ -62,7 +62,7 @@ Add the following line to your `.babelrc` file:
         <td>
             <a href="https://kangax.github.io/compat-table/es6/#test-let"><code>let</code></a>
         </td>
-        <td>Partial</td>
+        <td>14</td>
         <td>Partial</td>
         <td>49</td>
         <td>36</td>
@@ -147,13 +147,13 @@ Add the following line to your `.babelrc` file:
         <td>
             <a href="https://kangax.github.io/compat-table/es6/">destructuring</a>
         </td>
+        <td>14 (Partial)</td>
+        <td>Partial</td>
+        <td>52</td>
+        <td>39</td>
+        <td>Partial</td>
         <td>No</td>
-        <td>Partial</td>
-        <td>Partial</td>
-        <td>Partial</td>
-        <td>Partial</td>
-        <td>No</td>
-        <td>Partial since 8</td>
+        <td>8 (Partial)</td>
     </tr>
     <tr>
         <td colspan="8">
@@ -166,8 +166,8 @@ Add the following line to your `.babelrc` file:
         </td>
         <td>Partial</td>
         <td>Partial</td>
-        <td>Partial</td>
-        <td>Partial</td>
+        <td>52</td>
+        <td>39</td>
         <td>Partial</td>
         <td>Partial</td>
         <td>Partial</td>
@@ -182,7 +182,7 @@ Add the following line to your `.babelrc` file:
             <a href="https://kangax.github.io/compat-table/es6/#test-Unicode_code_point_escapes_in_strings">Unicode Strings</a>
         </td>
         <td>12</td>
-        <td>Partial</td>
+        <td>45</td>
         <td>44</td>
         <td>31</td>
         <td>9</td>
@@ -227,7 +227,7 @@ Add the following line to your `.babelrc` file:
         <td>
             <a href="https://kangax.github.io/compat-table/es6/#test-default_function_parameters">default parameters</a>
         </td>
-        <td>No</td>
+        <td>14</td>
         <td>Partial</td>
         <td>49</td>
         <td>36</td>
@@ -392,7 +392,7 @@ Add the following line to your `.babelrc` file:
         <td>
             <a href="http://kangax.github.io/compat-table/esnext/#test-exponentiation_(**)_operator">exponentiation operator</a>
         </td>
-        <td>No</td>
+        <td>14</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
