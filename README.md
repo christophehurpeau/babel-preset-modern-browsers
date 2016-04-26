@@ -2,7 +2,7 @@
 
 [![NPM Version](http://img.shields.io/npm/v/babel-preset-modern-browsers.svg?style=flat-square)](https://www.npmjs.org/package/babel-preset-modern-browsers)
 ![Edge 13](https://img.shields.io/badge/Edge-13-green.svg?style=flat-square)
-![Firefox 45](https://img.shields.io/badge/Firefox-45-green.svg?style=flat-square)
+![Firefox 46](https://img.shields.io/badge/Firefox-46-green.svg?style=flat-square)
 ![Chrome 49](https://img.shields.io/badge/Chrome-49-green.svg?style=flat-square)
 ![Opera 36](https://img.shields.io/badge/Opera-36-green.svg?style=flat-square)
 ![Safari 9](https://img.shields.io/badge/Safari-9-orange.svg?style=flat-square)
@@ -47,180 +47,8 @@ Add the following line to your `.babelrc` file:
         <th>iOS</th>
     </thead>
     <tr>
-        <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-const"><code>const</code></a>
-        </td>
-        <td>11 (Partial)</td>
-        <td>36 (Partial)</td>
-        <td>49</td>
-        <td>36</td>
-        <td>No</td>
-        <td>No</td>
-        <td>No</td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-let"><code>let</code></a>
-        </td>
-        <td>14</td>
-        <td>Partial</td>
-        <td>49</td>
-        <td>36</td>
-        <td>Partial</td>
-        <td>No</td>
-        <td>Partial</td>
-    </tr>
-    <tr>
         <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-block-scoping">transform-es2015-block-scoping</a> (also known as “lexical declarations”)
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-for..of_loops"><code>for...of</code></a>
-        </td>
-        <td>Partial</td>
-        <td>Partial</td>
-        <td>51</td>
-        <td>38</td>
-        <td>Partial</td>
-        <td>5.1 Partial</td>
-        <td>Partial</td>
-    </tr>
-    <tr>
-        <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-for-of">transform-es2015-for-of</a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-arrow_functions">arrow functions</a>
-        </td>
-        <td>13</td>
-        <td>45</td>
-        <td>49</td>
-        <td>36</td>
-        <td>No</td>
-        <td>No</td>
-        <td>No</td>
-    </tr>
-    <tr>
-        <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-arrow-functions">transform-es2015-arrow-functions</a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-arrow_functions">classes</a>
-        </td>
-        <td>13</td>
-        <td>45</td>
-        <td>49</td>
-        <td>36</td>
-        <td>9 (partial)</td>
-        <td>No</td>
-        <td>9 (partial)</td>
-    </tr>
-    <tr>
-        <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-classes">transform-es2015-classes</a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-object_literal_extensions_computed_properties">computed properties</a>
-        </td>
-        <td>12</td>
-        <td>34</td>
-        <td>44</td>
-        <td>31</td>
-        <td>7.1</td>
-        <td>No</td>
-        <td>8</td>
-    </tr>
-    <tr>
-        <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-computed-properties">transform-es2015-computed-properties</a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://kangax.github.io/compat-table/es6/">destructuring</a>
-        </td>
-        <td>14 (Partial)</td>
-        <td>Partial</td>
-        <td>52</td>
-        <td>39</td>
-        <td>Partial</td>
-        <td>No</td>
-        <td>8 (Partial)</td>
-    </tr>
-    <tr>
-        <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-destructuring">transform-es2015-destructuring</a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-function_name_property">function name</a>
-        </td>
-        <td>Partial</td>
-        <td>Partial</td>
-        <td>52</td>
-        <td>39</td>
-        <td>Partial</td>
-        <td>Partial</td>
-        <td>Partial</td>
-    </tr>
-    <tr>
-        <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-function-name">transform-es2015-function-name</a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-Unicode_code_point_escapes_in_strings">Unicode Strings</a>
-        </td>
-        <td>12</td>
-        <td>45</td>
-        <td>44</td>
-        <td>31</td>
-        <td>9</td>
-        <td>No</td>
-        <td>9</td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-octal_and_binary_literals">Octal/Binary Numbers</a>
-        </td>
-        <td>12</td>
-        <td>36</td>
-        <td>41</td>
-        <td>28</td>
-        <td>9</td>
-        <td>No</td>
-        <td>9</td>
-    </tr>
-    <tr>
-        <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-literals">transform-es2015-literals</a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-super">super</a>
-        </td>
-        <td>13</td>
-        <td>45</td>
-        <td>49</td>
-        <td>36</td>
-        <td>Partial</td>
-        <td>No</td>
-        <td>Partial</td>
-    </tr>
-    <tr>
-        <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-object-super">transform-es2015-object-super</a>
+            <h4>Syntax</h4>
         </td>
     </tr>
     <tr>
@@ -249,26 +77,10 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-parameters">transform-es2015-parameters</a>
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-parameters">transform-es2015-parameters</a>
         </td>
     </tr>
-    <tr>
-        <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-object_literal_extensions_shorthand_properties">shorthand properties</a>
-        </td>
-        <td>12</td>
-        <td>33</td>
-        <td>43</td>
-        <td>30</td>
-        <td>9</td>
-        <td>No</td>
-        <td>9</td>
-    </tr>
-    <tr>
-        <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-shorthand-properties">transform-es2015-shorthand-properties</a>
-        </td>
-    </tr>
+
     <tr>
         <td>
             <a href="https://kangax.github.io/compat-table/es6/#test-spread">spread</a>
@@ -283,26 +95,64 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-spread">transform-es2015-spread</a>
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-spread">transform-es2015-spread</a>
         </td>
     </tr>
+
     <tr>
         <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-RegExp_y_and_u_flags_y_flag">Regexp sticky</a>
+            <a href="https://kangax.github.io/compat-table/es6/#test-object_literal_extensions_computed_properties">computed properties</a>
         </td>
-        <td>13</td>
+        <td>12</td>
+        <td>34</td>
+        <td>44</td>
         <td>31</td>
-        <td>49</td>
-        <td>36</td>
+        <td>7.1</td>
         <td>No</td>
-        <td>No</td>
-        <td>No</td>
+        <td>8</td>
     </tr>
     <tr>
         <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-sticky-regex">transform-es2015-sticky-regex</a>
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-computed-properties">transform-es2015-computed-properties</a>
         </td>
     </tr>
+
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/#test-object_literal_extensions_shorthand_properties">shorthand properties</a>
+        </td>
+        <td>12</td>
+        <td>33</td>
+        <td>43</td>
+        <td>30</td>
+        <td>9</td>
+        <td>No</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td colspan="8">
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-shorthand-properties">transform-es2015-shorthand-properties</a>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/#test-for..of_loops"><code>for...of</code></a>
+        </td>
+        <td>Partial</td>
+        <td>Partial</td>
+        <td>51</td>
+        <td>38</td>
+        <td>Partial</td>
+        <td>5.1 Partial</td>
+        <td>Partial</td>
+    </tr>
+    <tr>
+        <td colspan="8">
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-for-of">transform-es2015-for-of</a>
+        </td>
+    </tr>
+
     <tr>
         <td>
             <a href="https://kangax.github.io/compat-table/es6/#test-template_strings">template string</a>
@@ -317,26 +167,28 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-template-literals">transform-es2015-template-literals</a>
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-template-literals">transform-es2015-template-literals</a>
         </td>
     </tr>
+
     <tr>
         <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-Symbol_typeof_support">typeof Symbol</a>
+            <a href="https://kangax.github.io/compat-table/es6/#test-RegExp_y_and_u_flags_y_flag">Regexp sticky</a>
         </td>
-        <td>12</td>
+        <td>13</td>
+        <td>31</td>
+        <td>49</td>
         <td>36</td>
-        <td>38</td>
-        <td>25</td>
-        <td>9</td>
-        <td>5.1</td>
-        <td>9</td>
+        <td>No</td>
+        <td>No</td>
+        <td>No</td>
     </tr>
     <tr>
         <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-typeof-symbol">transform-es2015-typeof-symbol</a>
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-sticky-regex">transform-es2015-sticky-regex</a>
         </td>
     </tr>
+
     <tr>
         <td>
             <a href="https://kangax.github.io/compat-table/es6/#test-RegExp_y_and_u_flags_u_flag">Regexp unicode</a>
@@ -351,12 +203,103 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-es2015-unicode-regex">transform-es2015-unicode-regex</a>
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-unicode-regex">transform-es2015-unicode-regex</a>
         </td>
+    </tr>
+
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/">destructuring</a>
+        </td>
+        <td>14 (Partial)</td>
+        <td>Partial</td>
+        <td>52</td>
+        <td>39</td>
+        <td>Partial</td>
+        <td>No</td>
+        <td>8 (Partial)</td>
+    </tr>
+    <tr>
+        <td colspan="8">
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-destructuring">transform-es2015-destructuring</a>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/#test-Unicode_code_point_escapes_in_strings">Unicode Strings</a>
+        </td>
+        <td>12</td>
+        <td>45</td>
+        <td>44</td>
+        <td>31</td>
+        <td>9</td>
+        <td>No</td>
+        <td>9</td>
     </tr>
     <tr>
         <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-generators">generators without <code>yield *</code>, iterator return</a>
+            <a href="https://kangax.github.io/compat-table/es6/#test-octal_and_binary_literals">Octal/Binary Numbers</a>
+        </td>
+        <td>12</td>
+        <td>36</td>
+        <td>41</td>
+        <td>28</td>
+        <td>9</td>
+        <td>No</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td colspan="8">
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-literals">transform-es2015-literals</a>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="8">
+            <h4>Bindings</h4>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/#test-const"><code>const</code></a>
+        </td>
+        <td>11 (Partial)</td>
+        <td>36 (Partial)</td>
+        <td>49</td>
+        <td>36</td>
+        <td>No</td>
+        <td>No</td>
+        <td>No</td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/#test-let"><code>let</code></a>
+        </td>
+        <td>14</td>
+        <td>Partial</td>
+        <td>49</td>
+        <td>36</td>
+        <td>Partial</td>
+        <td>No</td>
+        <td>Partial</td>
+    </tr>
+    <tr>
+        <td colspan="8">
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-block-scoping">transform-es2015-block-scoping</a> (also known as “lexical declarations”)
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="8">
+            <h4>Functions</h4>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/#test-arrow_functions">arrow functions</a>
         </td>
         <td>13</td>
         <td>45</td>
@@ -367,25 +310,128 @@ Add the following line to your `.babelrc` file:
         <td>No</td>
     </tr>
     <tr>
+        <td colspan="8">
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-arrow-functions">transform-es2015-arrow-functions</a>
+        </td>
+    </tr>
+
+    <tr>
         <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-generators">generators, <code>yield *</code>, iterator return</a>
+            <a href="https://kangax.github.io/compat-table/es6/#test-arrow_functions">classes</a>
         </td>
         <td>13</td>
-        <td>Partial</td>
-        <td>51</td>
-        <td>38</td>
+        <td>45</td>
+        <td>49</td>
+        <td>36</td>
+        <td>9 (partial)</td>
         <td>No</td>
-        <td>No</td>
-        <td>No</td>
+        <td>9 (partial)</td>
     </tr>
     <tr>
         <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-regenerator">transform-regenerator</a>
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-classes">transform-es2015-classes</a>
         </td>
     </tr>
+
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/#test-super">super</a>
+        </td>
+        <td>13</td>
+        <td>45</td>
+        <td>49</td>
+        <td>36</td>
+        <td>Partial</td>
+        <td>No</td>
+        <td>Partial</td>
+    </tr>
     <tr>
         <td colspan="8">
-            STAGE 4
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-object-super">transform-es2015-object-super</a>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="8">
+            <h4>Built-ins</h4>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/#test-Symbol_typeof_support">typeof Symbol</a>
+        </td>
+        <td>12</td>
+        <td>36</td>
+        <td>38</td>
+        <td>25</td>
+        <td>9</td>
+        <td>5.1</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td colspan="8">
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-typeof-symbol">transform-es2015-typeof-symbol</a>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="8">
+            <h4>Built-in extensions</h4>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/#test-function_name_property">function name</a>
+        </td>
+        <td>Partial</td>
+        <td>Partial</td>
+        <td>52</td>
+        <td>39</td>
+        <td>Partial</td>
+        <td>Partial</td>
+        <td>Partial</td>
+    </tr>
+    <tr>
+        <td colspan="8">
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-function-name">transform-es2015-function-name</a>
+        </td>
+    </tr>
+
+        <tr>
+            <td>
+                <a href="https://kangax.github.io/compat-table/es6/#test-generators">generators without <code>yield *</code>, iterator return</a>
+            </td>
+            <td>13</td>
+            <td>45</td>
+            <td>49</td>
+            <td>36</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://kangax.github.io/compat-table/es6/#test-generators">generators, <code>yield *</code>, iterator return</a>
+            </td>
+            <td>13</td>
+            <td>Partial</td>
+            <td>51</td>
+            <td>38</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td colspan="8">
+                ↳ <a href="https://babeljs.io/docs/plugins/transform-regenerator">transform-regenerator</a>
+            </td>
+        </tr>
+
+    <tr>
+        <td colspan="8">
+            <h4>Stage 4</h4>
         </td>
     </tr>
     <tr>
@@ -402,12 +448,12 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-exponentiation-operator">transform-exponentiation-operator</a>
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-exponentiation-operator">transform-exponentiation-operator</a>
         </td>
     </tr>
     <tr>
         <td colspan="8">
-            STAGE 3
+            <h4>Stage 3</h4>
         </td>
     </tr>
     <tr>
@@ -424,7 +470,7 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            <a href="https://babeljs.io/docs/plugins/transform-async-to-generator">transform-async-to-generator</a>
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-async-to-generator">transform-async-to-generator</a>
         </td>
     </tr>
 </table>
