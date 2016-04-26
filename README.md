@@ -194,7 +194,7 @@ Add the following line to your `.babelrc` file:
             <a href="https://kangax.github.io/compat-table/es6/#test-RegExp_y_and_u_flags_u_flag">Regexp unicode</a>
         </td>
         <td>12</td>
-        <td>No</td>
+        <td>46</td>
         <td>51</td>
         <td>38</td>
         <td>No</td>
@@ -288,6 +288,24 @@ Add the following line to your `.babelrc` file:
     <tr>
         <td colspan="8">
             ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-block-scoping">transform-es2015-block-scoping</a> (also known as “lexical declarations”)
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/#test-block-level_function_declaration"><code>block-level function declaration</code></a>
+        </td>
+        <td>11</td>
+        <td>46</td>
+        <td>41</td>
+        <td>28</td>
+        <td>No</td>
+        <td>No</td>
+        <td>No</td>
+    </tr>
+    <tr>
+        <td colspan="8">
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-block-scoped-functions">transform-es2015-block-scoped-functions</a>
         </td>
     </tr>
 
