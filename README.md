@@ -9,6 +9,12 @@
 
 Transpile with babel only for modern browsers.
 
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Presets](#presets)
+* [Compatibility Table](#compatibility-table)
+
 ## Installation
 
 ```sh
