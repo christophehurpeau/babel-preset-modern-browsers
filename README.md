@@ -14,6 +14,7 @@ Transpile with babel only for modern browsers.
 * [Usage](#usage)
 * [Presets](#presets)
 * [Compatibility Table](#compatibility-table)
+* [Release Dates](#release-dates)
 
 ## Installation
 
@@ -498,6 +499,29 @@ Add the following line to your `.babelrc` file:
         </td>
     </tr>
 </table>
+
+## Release Dates
+
+### [Firefox](https://wiki.mozilla.org/RapidRelease/Calendar)
+
+| Date       | Version |
+| ---------- | ------- |
+| 2016-08-02 | 48 |
+| 2016-06-07 | 47 |
+| 2016-04-26 | 46 |
+| 2016-03-08 | 45 |
+| 2016-01-26 | 44 |
+
+### [Chrome](https://www.chromium.org/developers/calendar)
+
+| Date       | Version |
+| ---------- | ------- |
+| 2016-08-25 | 54 |
+| 2016-06-30 | 53 |
+| 2016-05-19 | 52 |
+| 2016-04-08 | 51 |
+| 2016-02-26 | 50 |
+| 2016-01-15 | 49 |
 
 ## Thanks
 
