@@ -3,6 +3,7 @@ module.exports = {
         require('babel-plugin-check-es2015-constants'),
         require('babel-plugin-transform-strict-mode'),
 
+        require('babel-plugin-transform-es2015-shorthand-properties'),
         require('babel-plugin-transform-es2015-block-scoping'),
         require('babel-plugin-transform-es2015-destructuring'),
         require('babel-plugin-transform-es2015-for-of'),
