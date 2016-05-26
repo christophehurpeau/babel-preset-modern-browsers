@@ -1,7 +1,6 @@
 module.exports = {
     plugins: [
         require('babel-plugin-check-es2015-constants'),
-        require('babel-plugin-transform-strict-mode'),
 
         // https://github.com/webpack/webpack/issues/2522
         require('babel-plugin-transform-es2015-shorthand-properties'),

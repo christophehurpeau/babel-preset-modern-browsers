@@ -36,6 +36,7 @@ Add the following line to your `.babelrc` file:
 
 - modern-browsers
 - modern-browsers/webpack2 use this instead if you use webpack
+- modern-browsers/webpack2-uglifyjs works with webpack2 and uglifyjs harmony branch
 - modern-browsers/safari9 ![Safari 9](https://img.shields.io/badge/Safari-9-green.svg?style=flat-square) Add this if you need better safari9 support
 - modern-browsers/stage1 add stage 1 or higher features
 
