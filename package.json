@@ -12,11 +12,6 @@
   "main": "index.js",
   "dependencies": {
     "babel-plugin-check-es2015-constants": "^6.8.0",
-    "babel-plugin-syntax-trailing-function-commas": "^6.8.0",
-    "babel-plugin-transform-async-to-generator": "^6.8.0",
-    "babel-plugin-transform-class-constructor-call": "^6.8.0",
-    "babel-plugin-transform-class-properties": "^6.9.1",
-    "babel-plugin-transform-decorators": "^6.8.0",
     "babel-plugin-transform-es2015-arrow-functions": "^6.8.0",
     "babel-plugin-transform-es2015-block-scoped-functions": "^6.8.0",
     "babel-plugin-transform-es2015-block-scoping": "^6.10.1",
@@ -32,9 +27,6 @@
     "babel-plugin-transform-es2015-spread": "^6.8.0",
     "babel-plugin-transform-es2015-sticky-regex": "^6.8.0",
     "babel-plugin-transform-es2015-unicode-regex": "^6.8.0",
-    "babel-plugin-transform-exponentiation-operator": "^6.8.0",
-    "babel-plugin-transform-export-extensions": "^6.8.0",
-    "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-plugin-transform-strict-mode": "^6.8.0"
   },
   "scripts": {
