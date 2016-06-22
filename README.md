@@ -1,10 +1,10 @@
 # babel-preset-modern-browsers
 
 [![NPM Version](http://img.shields.io/npm/v/babel-preset-modern-browsers.svg?style=flat-square)](https://www.npmjs.org/package/babel-preset-modern-browsers)
-![Edge 13](https://img.shields.io/badge/Edge-13-green.svg?style=flat-square)
-![Firefox 46](https://img.shields.io/badge/Firefox-46-green.svg?style=flat-square)
-![Chrome 49](https://img.shields.io/badge/Chrome-49-green.svg?style=flat-square)
-![Opera 36](https://img.shields.io/badge/Opera-36-green.svg?style=flat-square)
+![Edge 14](https://img.shields.io/badge/Edge-14-green.svg?style=flat-square)
+![Firefox 47](https://img.shields.io/badge/Firefox-47-green.svg?style=flat-square)
+![Chrome 51](https://img.shields.io/badge/Chrome-51-green.svg?style=flat-square)
+![Opera 38](https://img.shields.io/badge/Opera-38-green.svg?style=flat-square)
 ![Safari 9](https://img.shields.io/badge/Safari-9-orange.svg?style=flat-square)
 
 Transpile with babel only for modern browsers.
@@ -36,10 +36,21 @@ Add the following line to your `.babelrc` file:
 
 - modern-browsers
 - modern-browsers/webpack2 use this instead if you use webpack
-- modern-browsers/webpack2-uglifyjs works with webpack2 and uglifyjs harmony branch
 - modern-browsers/safari9 ![Safari 9](https://img.shields.io/badge/Safari-9-green.svg?style=flat-square) Add this if you need better safari9 support
 - modern-browsers/stage1 add stage 1 or higher features
+- modern-browsers/full-support add support for features below
 
+## Features supported only with full-support
+
+- default parameters: temporal dead zone, separate scope and new Function() support
+- for...of: iterator closing
+- destructuring: iterator closing, separate scope and new Function() support
+
+More info in the compatibility table below
+
+## Features not supported
+
+- generators: iterator closing on firefox
 
 ## Compatibility Table
 
@@ -51,8 +62,6 @@ Add the following line to your `.babelrc` file:
         <th>Chrome</th>
         <th>Opera</th>
         <th>Safari</th>
-        <th>Android</th>
-        <th>iOS</th>
     </thead>
     <tr>
         <td colspan="8">
@@ -61,14 +70,22 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-default_function_parameters">default parameters</a>
+            <a href="https://kangax.github.io/compat-table/es6/#test-default_function_parameters">default parameters, without temporal dead zone, separate scope and new Function() support</a>
         </td>
         <td>14</td>
-        <td>Partial</td>
+        <td>43</td>
         <td>49</td>
         <td>36</td>
         <td>No</td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/#test-default_function_parameters">default parameters, with temporal dead zone, separate scope and new Function() support</a>
+        </td>
+        <td>14</td>
         <td>No</td>
+        <td>49</td>
+        <td>36</td>
         <td>No</td>
     </tr>
     <tr>
@@ -79,8 +96,6 @@ Add the following line to your `.babelrc` file:
         <td>43</td>
         <td>47</td>
         <td>34</td>
-        <td>No</td>
-        <td>No</td>
         <td>No</td>
     </tr>
     <tr>
@@ -98,8 +113,6 @@ Add the following line to your `.babelrc` file:
         <td>46</td>
         <td>33</td>
         <td>Partial</td>
-        <td>No</td>
-        <td>Partial</td>
     </tr>
     <tr>
         <td colspan="8">
@@ -116,8 +129,6 @@ Add the following line to your `.babelrc` file:
         <td>44</td>
         <td>31</td>
         <td>7.1</td>
-        <td>No</td>
-        <td>8</td>
     </tr>
     <tr>
         <td colspan="8">
@@ -134,8 +145,6 @@ Add the following line to your `.babelrc` file:
         <td>43</td>
         <td>30</td>
         <td>9</td>
-        <td>No</td>
-        <td>9</td>
     </tr>
     <tr>
         <td colspan="8">
@@ -145,14 +154,22 @@ Add the following line to your `.babelrc` file:
 
     <tr>
         <td>
-            <a href="https://kangax.github.io/compat-table/es6/#test-for..of_loops"><code>for...of</code></a>
+            <a href="https://kangax.github.io/compat-table/es6/#test-for..of_loops"><code>for...of</code>, without iterator closing</a>
         </td>
+        <td>13</td>
+        <td>36</td>
+        <td>39</td>
+        <td>26</td>
         <td>Partial</td>
-        <td>Partial</td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/#test-for..of_loops"><code>for...of</code>, with iterator closing</a>
+        </td>
+        <td>No</td>
+        <td>No</td>
         <td>51</td>
         <td>38</td>
-        <td>Partial</td>
-        <td>5.1 Partial</td>
         <td>Partial</td>
     </tr>
     <tr>
@@ -170,8 +187,6 @@ Add the following line to your `.babelrc` file:
         <td>41</td>
         <td>28</td>
         <td>9</td>
-        <td>No</td>
-        <td>9</td>
     </tr>
     <tr>
         <td colspan="8">
@@ -187,8 +202,6 @@ Add the following line to your `.babelrc` file:
         <td>31</td>
         <td>49</td>
         <td>36</td>
-        <td>No</td>
-        <td>No</td>
         <td>No</td>
     </tr>
     <tr>
@@ -206,8 +219,6 @@ Add the following line to your `.babelrc` file:
         <td>51</td>
         <td>38</td>
         <td>No</td>
-        <td>No</td>
-        <td>No</td>
     </tr>
     <tr>
         <td colspan="8">
@@ -217,15 +228,23 @@ Add the following line to your `.babelrc` file:
 
     <tr>
         <td>
-            <a href="https://kangax.github.io/compat-table/es6/">destructuring</a>
+            <a href="https://kangax.github.io/compat-table/es6/">destructuring, without iterator closing, separate scope, new Function() support</a>
         </td>
-        <td>14 (Partial)</td>
+        <td>14</td>
+        <td>47</td>
+        <td>49</td>
+        <td>36</td>
         <td>Partial</td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/">destructuring, with iterator closing, separate scope, new Function() support</a>
+        </td>
+        <td>No</td>
+        <td>No</td>
         <td>52</td>
         <td>39</td>
-        <td>Partial</td>
         <td>No</td>
-        <td>8 (Partial)</td>
     </tr>
     <tr>
         <td colspan="8">
@@ -242,8 +261,6 @@ Add the following line to your `.babelrc` file:
         <td>44</td>
         <td>31</td>
         <td>9</td>
-        <td>No</td>
-        <td>9</td>
     </tr>
     <tr>
         <td>
@@ -253,8 +270,6 @@ Add the following line to your `.babelrc` file:
         <td>36</td>
         <td>41</td>
         <td>28</td>
-        <td>9</td>
-        <td>No</td>
         <td>9</td>
     </tr>
     <tr>
@@ -273,12 +288,10 @@ Add the following line to your `.babelrc` file:
         <td>
             <a href="https://kangax.github.io/compat-table/es6/#test-const"><code>const</code></a>
         </td>
-        <td>11 (Partial)</td>
-        <td>36 (Partial)</td>
+        <td>14</td>
+        <td>Partial</td>
         <td>49</td>
         <td>36</td>
-        <td>No</td>
-        <td>No</td>
         <td>No</td>
     </tr>
     <tr>
@@ -289,8 +302,6 @@ Add the following line to your `.babelrc` file:
         <td>Partial</td>
         <td>49</td>
         <td>36</td>
-        <td>Partial</td>
-        <td>No</td>
         <td>Partial</td>
     </tr>
     <tr>
@@ -307,8 +318,6 @@ Add the following line to your `.babelrc` file:
         <td>46</td>
         <td>41</td>
         <td>28</td>
-        <td>No</td>
-        <td>No</td>
         <td>No</td>
     </tr>
     <tr>
@@ -332,8 +341,6 @@ Add the following line to your `.babelrc` file:
         <td>49</td>
         <td>36</td>
         <td>No</td>
-        <td>No</td>
-        <td>No</td>
     </tr>
     <tr>
         <td colspan="8">
@@ -349,8 +356,6 @@ Add the following line to your `.babelrc` file:
         <td>45</td>
         <td>49</td>
         <td>36</td>
-        <td>9 (partial)</td>
-        <td>No</td>
         <td>9 (partial)</td>
     </tr>
     <tr>
@@ -368,12 +373,36 @@ Add the following line to your `.babelrc` file:
         <td>49</td>
         <td>36</td>
         <td>Partial</td>
-        <td>No</td>
-        <td>Partial</td>
     </tr>
     <tr>
         <td colspan="8">
             ↳ <a href="https://babeljs.io/docs/plugins/transform-es2015-object-super">transform-es2015-object-super</a>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/#test-generators">generators without <code>yield *</code>, iterator closing</a>
+        </td>
+        <td>13</td>
+        <td>45</td>
+        <td>49</td>
+        <td>36</td>
+        <td>No</td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://kangax.github.io/compat-table/es6/#test-generators">generators, <code>yield *</code>, iterator closing</a>
+        </td>
+        <td>13</td>
+        <td>No</td>
+        <td>51</td>
+        <td>38</td>
+        <td>No</td>
+    </tr>
+    <tr>
+        <td colspan="8">
+            ↳ <a href="https://babeljs.io/docs/plugins/transform-regenerator">transform-regenerator</a>
         </td>
     </tr>
 
@@ -391,8 +420,6 @@ Add the following line to your `.babelrc` file:
         <td>36</td>
         <td>38</td>
         <td>25</td>
-        <td>9</td>
-        <td>5.1</td>
         <td>9</td>
     </tr>
     <tr>
@@ -416,8 +443,6 @@ Add the following line to your `.babelrc` file:
         <td>52</td>
         <td>39</td>
         <td>Partial</td>
-        <td>Partial</td>
-        <td>Partial</td>
     </tr>
     <tr>
         <td colspan="8">
@@ -425,39 +450,9 @@ Add the following line to your `.babelrc` file:
         </td>
     </tr>
 
-        <tr>
-            <td>
-                <a href="https://kangax.github.io/compat-table/es6/#test-generators">generators without <code>yield *</code>, iterator return</a>
-            </td>
-            <td>13</td>
-            <td>45</td>
-            <td>49</td>
-            <td>36</td>
-            <td>No</td>
-            <td>No</td>
-            <td>No</td>
-        </tr>
-        <tr>
-            <td>
-                <a href="https://kangax.github.io/compat-table/es6/#test-generators">generators, <code>yield *</code>, iterator return</a>
-            </td>
-            <td>13</td>
-            <td>Partial</td>
-            <td>51</td>
-            <td>38</td>
-            <td>No</td>
-            <td>No</td>
-            <td>No</td>
-        </tr>
-        <tr>
-            <td colspan="8">
-                ↳ <a href="https://babeljs.io/docs/plugins/transform-regenerator">transform-regenerator</a>
-            </td>
-        </tr>
-
     <tr>
         <td colspan="8">
-            <h4>Stage 4</h4>
+            <h4>Finished Proposals</h4>
         </td>
     </tr>
     <tr>
@@ -466,10 +461,8 @@ Add the following line to your `.babelrc` file:
         </td>
         <td>14</td>
         <td>No</td>
-        <td>No</td>
-        <td>No</td>
-        <td>No</td>
-        <td>No</td>
+        <td>52</td>
+        <td>39</td>
         <td>No</td>
     </tr>
     <tr>
@@ -486,9 +479,7 @@ Add the following line to your `.babelrc` file:
         <td>
             <a href="http://kangax.github.io/compat-table/esnext/#test-async_functions"><code>async</code>/<code>await</code></a>
         </td>
-        <td>No</td>
-        <td>No</td>
-        <td>No</td>
+        <td>14</td>
         <td>No</td>
         <td>No</td>
         <td>No</td>
@@ -496,7 +487,22 @@ Add the following line to your `.babelrc` file:
     </tr>
     <tr>
         <td colspan="8">
-            ↳ <a href="https://babeljs.io/docs/plugins/transform-async-to-generator">transform-async-to-generator</a>
+            ↳ <a href="https://babeljs.io/docs/plugins/babel-plugin-syntax-trailing-function-commas">transform-async-to-generator</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://kangax.github.io/compat-table/esnext/#test-trailing_commas_in_function_syntax">trailing commas in function</a>
+        </td>
+        <td>14</td>
+        <td>No</td>
+        <td>No</td>
+        <td>No</td>
+        <td>No</td>
+    </tr>
+    <tr>
+        <td colspan="8">
+            ↳ <a href="https://babeljs.io/docs/plugins/babel-plugin-syntax-trailing-function-commas">babel-plugin-syntax-trailing-function-commas</a>
         </td>
     </tr>
 </table>
@@ -507,6 +513,7 @@ Add the following line to your `.babelrc` file:
 
 | Date       | Version |
 | ---------- | ------- |
+| 2016-09-13 | 49 |
 | 2016-08-02 | 48 |
 | 2016-06-07 | 47 |
 | 2016-04-26 | 46 |
@@ -517,12 +524,11 @@ Add the following line to your `.babelrc` file:
 
 | Date       | Version |
 | ---------- | ------- |
-| 2016-08-25 | 54 |
-| 2016-06-30 | 53 |
-| 2016-05-19 | 52 |
-| 2016-04-08 | 51 |
-| 2016-02-26 | 50 |
-| 2016-01-15 | 49 |
+| 2016-09-06? | 53 |
+| 2016-07-26? | 52 |
+| 2016-05-25  | 51 |
+| 2016-04-13  | 50 |
+| 2016-03-02  | 49 |
 
 ## Thanks
 
