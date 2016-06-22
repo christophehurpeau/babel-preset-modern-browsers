@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-modern-browsers",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Babel presets for modern browsers",
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
   "license": "ISC",

@@ -1,3 +1,9 @@
+## 4.0
+
+- uglify fixed issue https://github.com/mishoo/UglifyJS2/issues/1098L remove uglifyjs special preset
+- add full-support preset: parameters, for...of and destructuring (see readme for details)
+- Breaking: firefox 46 and edge 13 are no longer supported (upgrade to edge 14 and Firefox 47)
+
 ## 3.0
 
 Webpack fixed https://github.com/webpack/webpack/issues/2522 and https://github.com/webpack/webpack/issues/2523
