@@ -470,11 +470,13 @@ More info in the compatibility table below
             ↳ <a href="https://babeljs.io/docs/plugins/transform-exponentiation-operator">transform-exponentiation-operator</a>
         </td>
     </tr>
+
     <tr>
         <td colspan="8">
             <h4>Stage 3</h4>
         </td>
     </tr>
+
     <tr>
         <td>
             <a href="http://kangax.github.io/compat-table/esnext/#test-async_functions"><code>async</code>/<code>await</code></a>
@@ -490,6 +492,7 @@ More info in the compatibility table below
             ↳ <a href="https://babeljs.io/docs/plugins/babel-plugin-syntax-trailing-function-commas">transform-async-to-generator</a>
         </td>
     </tr>
+
     <tr>
         <td>
             <a href="http://kangax.github.io/compat-table/esnext/#test-trailing_commas_in_function_syntax">trailing commas in function</a>
@@ -503,6 +506,38 @@ More info in the compatibility table below
     <tr>
         <td colspan="8">
             ↳ <a href="https://babeljs.io/docs/plugins/babel-plugin-syntax-trailing-function-commas">babel-plugin-syntax-trailing-function-commas</a>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="8">
+            <h4>Stage 2</h4>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <a href="http://kangax.github.io/compat-table/esnext/#test-object_rest_properties">Object rest properties</a>
+        </td>
+        <td>No</td>
+        <td>No</td>
+        <td>No</td>
+        <td>No</td>
+        <td>No</td>
+    </tr>
+    <tr>
+        <td>
+            <a href="http://kangax.github.io/compat-table/esnext/#test-object_spread_properties">Object spread properties</a>
+        </td>
+        <td>No</td>
+        <td>No</td>
+        <td>No</td>
+        <td>No</td>
+        <td>No</td>
+    </tr>
+    <tr>
+        <td colspan="8">
+            ↳ <a href="https://babeljs.io/docs/plugins/babel-plugin-transform-object-rest-spread">transform-object-rest-spread</a>
         </td>
     </tr>
 </table>
