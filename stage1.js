@@ -1,9 +1,9 @@
 module.exports = {
     plugins: [
-        // https://github.com/tc39/ecma262
-        // Stage 4
+        // Finished proposals : https://github.com/tc39/proposals/blob/master/finished-proposals.md
         require("babel-plugin-transform-exponentiation-operator"),
 
+        // https://github.com/tc39/proposals
         // Stage 3
         require("babel-plugin-transform-async-to-generator"),
         require("babel-plugin-syntax-trailing-function-commas"),
