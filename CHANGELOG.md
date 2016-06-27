@@ -1,3 +1,8 @@
+## 5.0
+
+- removed stage1, see #4 for discussion
+- updated compatibility table
+
 ## 4.0
 
 - uglify fixed issue https://github.com/mishoo/UglifyJS2/issues/1098L remove uglifyjs special preset
