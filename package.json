@@ -26,7 +26,7 @@
     "babel-plugin-transform-es2015-shorthand-properties": "^6.8.0",
     "babel-plugin-transform-es2015-spread": "^6.8.0",
     "babel-plugin-transform-es2015-sticky-regex": "^6.8.0",
-    "babel-plugin-transform-es2015-unicode-regex": "^6.8.0",
+    "babel-plugin-transform-es2015-unicode-regex": "^6.11.0",
     "babel-plugin-transform-exponentiation-operator": "^6.8.0",
     "babel-plugin-transform-strict-mode": "^6.8.0"
   },
