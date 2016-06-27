@@ -28,7 +28,7 @@ Add the following line to your `.babelrc` file:
 
 ```json
 {
-  "presets": ["modern-browsers", "modern-browsers/safari9", "modern-browsers/stage1"]
+  "presets": ["modern-browsers", "modern-browsers/safari9"]
 }
 ```
 
@@ -37,7 +37,6 @@ Add the following line to your `.babelrc` file:
 - modern-browsers
 - modern-browsers/webpack2 use this instead if you use webpack
 - modern-browsers/safari9 ![Safari 9](https://img.shields.io/badge/Safari-9-green.svg?style=flat-square) Add this if you need better safari9 support
-- modern-browsers/stage1 add stage 1 or higher features
 - modern-browsers/full-support add support for features below
 
 ## Features supported only with full-support
@@ -57,6 +56,7 @@ More info in the compatibility table below
 
 | Feature | Edge | Firefox | Chrome | Opera | Safari |
 | ------- | ---- | ------- | ------ | ----- | ------ |
+| <h3>ES2015</h3> ||||||
 | <h4>Syntax</h4> ||||||
 | [default parameters, without temporal dead zone, separate scope and new Function() support](https://kangax.github.io/compat-table/es6/#test-default_function_parameters) | 14 | 43 | 49 | 36 | No |
 | [default parameters, with temporal dead zone, separate scope and new Function() support](https://kangax.github.io/compat-table/es6/#test-default_function_parameters) | 14 | No | 49 | 36 | No |
@@ -106,18 +106,9 @@ More info in the compatibility table below
 | <h4>Built-in extensions</h4> ||||||
 | [function name](https://kangax.github.io/compat-table/es6/#test-function_name_property) | Partial | Partial | 52 | 39 | Partial |
 | ↳ [transform-es2015-function-name](https://babeljs.io/docs/plugins/transform-es2015-function-name) ||||||
-| <h4>Finished Proposals</h4> ||||||
+| <h3>ES2016</h3> ||||||
 | [exponentiation operator](http://kangax.github.io/compat-table/esnext/#test-exponentiation_(**)_operator) | 14 | No | 52 | 39 | No |
 | ↳ [transform-exponentiation-operator](https://babeljs.io/docs/plugins/transform-exponentiation-operator) ||||||
-| <h4>Stage 3</h4> ||||||
-| [`async`/`await`](http://kangax.github.io/compat-table/esnext/#test-async_functions) | 14 | No | No | No | No |
-| ↳ [transform-async-to-generator](https://babeljs.io/docs/plugins/babel-plugin-syntax-trailing-function-commas) ||||||
-| [trailing commas in function](http://kangax.github.io/compat-table/esnext/#test-trailing_commas_in_function_syntax) | 14 | No | No | No | No |
-| ↳ [syntax-trailing-function-commas](https://babeljs.io/docs/plugins/babel-plugin-syntax-trailing-function-commas) ||||||
-| <h4>Stage 2</h4> ||||||
-| [Object rest properties](http://kangax.github.io/compat-table/esnext/#test-object_rest_properties) | No | No | No | No | No |
-| [Object spread properties](http://kangax.github.io/compat-table/esnext/#test-object_spread_properties) | No | No | No | No | No |
-| ↳ [transform-object-rest-spread](https://babeljs.io/docs/plugins/babel-plugin-transform-object-rest-spread) ||||||
 
 ## Release Dates
 
