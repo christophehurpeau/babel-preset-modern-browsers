@@ -40,6 +40,8 @@ Add the following line to your `.babelrc` file:
 - modern-browsers/safari9 ![Safari 9](https://img.shields.io/badge/Safari-9-green.svg?style=flat-square) Add this if you need better safari9 support
 - modern-browsers/full-support add support for features below
 
+Note: to support `async` functions and other proposals, you can add babel preset `stage-1` ot the stage you want. There is also [babel-preset-modern-browsers-stage-1](https://www.npmjs.com/package/babel-preset-modern-browsers-stage-1).
+
 ## Features supported only with full-support
 
 - default parameters: temporal dead zone, separate scope and new Function() support
