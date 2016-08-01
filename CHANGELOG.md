@@ -1,3 +1,7 @@
+## 5.1
+
+- added object-rest
+
 ## 5.0
 
 - removed stage1, see #4 for discussion
