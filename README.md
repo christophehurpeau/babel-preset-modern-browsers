@@ -111,7 +111,7 @@ More info in the compatibility table below
 | [function name](https://kangax.github.io/compat-table/es6/#test-function_name_property) | Partial | Partial | 52 | 39 | 10 |
 | ↳ [transform-es2015-function-name](https://babeljs.io/docs/plugins/transform-es2015-function-name) ||||||
 | <h3>ES2016</h3> ||||||
-| [exponentiation operator](http://kangax.github.io/compat-table/esnext/#test-exponentiation_(**)_operator) | 14 | No | 52 | 39 | 10 |
+| [exponentiation operator](http://kangax.github.io/compat-table/es2016plus/#test-exponentiation_(**)_operator) | 14 | No | 52 | 39 | 10 |
 | ↳ [transform-exponentiation-operator](https://babeljs.io/docs/plugins/transform-exponentiation-operator) ||||||
 
 ## Release Dates
