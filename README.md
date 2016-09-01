@@ -91,7 +91,7 @@ More info in the compatibility table below
 | <h4>Bindings</h4> ||||||
 | [`const`](https://kangax.github.io/compat-table/es6/#test-const) | 14 | Partial | 49 | 36 | 10 |
 | [`let`](https://kangax.github.io/compat-table/es6/#test-let) | 14 | Partial | 49 | 36 | 10 |
-| ↳ [transform-es2015-block-scoping</a> (also known a](https://babeljs.io/docs/plugins/transform-es2015-block-scoping) ||||||
+| ↳ [transform-es2015-block-scoping](https://babeljs.io/docs/plugins/transform-es2015-block-scoping) ||||||
 | [`block-level function declaration`](https://kangax.github.io/compat-table/es6/#test-block-level_function_declaration) | 11 | 46 | 41 | 28 | 10 |
 | ↳ [transform-es2015-block-scoped-functions](https://babeljs.io/docs/plugins/transform-es2015-block-scoped-functions) ||||||
 | <h4>Functions</h4> ||||||
