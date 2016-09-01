@@ -75,7 +75,7 @@ More info in the compatibility table below
 | [shorthand properties](https://kangax.github.io/compat-table/es6/#test-object_literal_extensions_shorthand_properties) | 12 | 33 | 43 | 30 | 9 |
 | ↳ [transform-es2015-shorthand-properties](https://babeljs.io/docs/plugins/transform-es2015-shorthand-properties) ||||||
 | [`for...of`, without iterator closing](https://kangax.github.io/compat-table/es6/#test-for..of_loops) | 13 | 36 | 39 | 26 | 10 |
-| [`for...of`, with iterator closing](https://kangax.github.io/compat-table/es6/#test-for..of_loops) | No | No | 51 | 38 | 10 |
+| [`for...of`, with iterator closing](https://kangax.github.io/compat-table/es6/#test-for..of_loops) | 14 | No | 51 | 38 | 10 |
 | ↳ [transform-es2015-for-of](https://babeljs.io/docs/plugins/transform-es2015-for-of) ||||||
 | [template string](https://kangax.github.io/compat-table/es6/#test-template_strings) | 13 | 34 | 41 | 28 | 9 |
 | ↳ [transform-es2015-template-literals](https://babeljs.io/docs/plugins/transform-es2015-template-literals) ||||||
