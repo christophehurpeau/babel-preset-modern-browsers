@@ -63,7 +63,8 @@ More info in the compatibility table below
 | <h3>ES2015</h3> ||||||
 | <h4>Syntax</h4> ||||||
 | [default parameters, without temporal dead zone, separate scope and new Function() support](https://kangax.github.io/compat-table/es6/#test-default_function_parameters) | 14 | 43 | 49 | 36 | 10 |
-| [default parameters, with temporal dead zone, separate scope and new Function() support](https://kangax.github.io/compat-table/es6/#test-default_function_parameters) | 14 | No | 49 | 36 | 10 |
+| [default parameters, with temporal dead zone and separate scope](https://kangax.github.io/compat-table/es6/#test-default_function_parameters) | 14 | 51 | 49 | 36 | 10 |
+| [default parameters, with new Function() support](https://kangax.github.io/compat-table/es6/#test-default_function_parameters) | 14 | No | 49 | 36 | 10 |
 | ↳ [transform-es2015-parameters](https://babeljs.io/docs/plugins/transform-es2015-parameters) ||||||
 | [rest parameters](https://kangax.github.io/compat-table/es6/#test-rest_parameters) | 12 | 43 | 47 | 34 | 10 |
 | ↳ [transform-es2015-parameters](https://babeljs.io/docs/plugins/transform-es2015-parameters) ||||||
@@ -89,8 +90,8 @@ More info in the compatibility table below
 | [Octal/Binary Numbers](https://kangax.github.io/compat-table/es6/#test-octal_and_binary_literals) | 12 | 36 | 41 | 28 | 9 |
 | ↳ [transform-es2015-literals](https://babeljs.io/docs/plugins/transform-es2015-literals) ||||||
 | <h4>Bindings</h4> ||||||
-| [`const`](https://kangax.github.io/compat-table/es6/#test-const) | 14 | Partial | 49 | 36 | 10 |
-| [`let`](https://kangax.github.io/compat-table/es6/#test-let) | 14 | Partial | 49 | 36 | 10 |
+| [`const`](https://kangax.github.io/compat-table/es6/#test-const) | 14 | 51 | 49 | 36 | 10 |
+| [`let`](https://kangax.github.io/compat-table/es6/#test-let) | 14 | 51 | 49 | 36 | 10 |
 | ↳ [transform-es2015-block-scoping](https://babeljs.io/docs/plugins/transform-es2015-block-scoping) ||||||
 | [`block-level function declaration`](https://kangax.github.io/compat-table/es6/#test-block-level_function_declaration) | 11 | 46 | 41 | 28 | 10 |
 | ↳ [transform-es2015-block-scoped-functions](https://babeljs.io/docs/plugins/transform-es2015-block-scoped-functions) ||||||
