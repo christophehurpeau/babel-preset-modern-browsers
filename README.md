@@ -41,7 +41,13 @@ Add the following line to your `.babelrc` file:
 - modern-browsers/full-support add support for features below
 - modern-browsers/object-rest add if you need object-rest (stage 2)
 
-Note: to support `async` functions and other proposals, you can add babel preset `stage-1` ot the stage you want. There is also [babel-preset-modern-browsers-stage-1](https://www.npmjs.com/package/babel-preset-modern-browsers-stage-1).
+Note: to support `async` functions and other proposals, you can add babel preset `stage-1` or the stage you want:
+
+```json
+{
+  "presets": ["modern-browsers", "modern-browsers/object-rest", "stage-1"]
+}
+```
 
 ## Features supported only with full-support
 
