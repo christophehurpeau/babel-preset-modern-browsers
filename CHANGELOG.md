@@ -1,3 +1,8 @@
+## 6.0
+
+- remove safari 9
+- preset options
+
 ## 5.1
 
 - added object-rest
