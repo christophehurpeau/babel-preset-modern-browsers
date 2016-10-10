@@ -1,6 +1,6 @@
 ## 6.0
 
-- remove safari 9
+- drop safari 9 support
 - preset options
 
 ## 5.1
