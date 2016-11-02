@@ -173,6 +173,10 @@ More info in the compatibility table below
 
 - Inspired by [https://github.com/askmatey/babel-preset-modern](https://github.com/askmatey/babel-preset-modern)
 
+## Alternatives
+
+- https://github.com/babel/babel-preset-env
+
 [edge-11]: https://img.shields.io/badge/Edge-11-green.svg?style=flat-square
 [edge-12]: https://img.shields.io/badge/Edge-12-green.svg?style=flat-square
 [edge-13]: https://img.shields.io/badge/Edge-13-green.svg?style=flat-square
