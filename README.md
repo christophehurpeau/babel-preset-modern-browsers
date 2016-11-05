@@ -157,12 +157,12 @@ More info in the compatibility table below
 | 2016-03-08 | 45 |
 | 2016-01-26 | 44 |
 
-### [Chrome](https://www.chromium.org/developers/calendar)
+### [Chrome (Desktop release date)](https://www.chromium.org/developers/calendar)
 
 | Date       | Version |
 | ---------- | ------- |
 | 2016-12-06? | 55 |
-| 2016-10-18? | 54 |
+| 2016-10-12  | 54 |
 | 2016-08-31  | 53 |
 | 2016-07-20  | 52 |
 | 2016-05-25  | 51 |
