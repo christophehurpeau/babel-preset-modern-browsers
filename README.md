@@ -192,9 +192,10 @@ More info in the compatibility table below
 [firefox-45]: https://img.shields.io/badge/Firefox-45-green.svg?style=flat-square
 [firefox-46]: https://img.shields.io/badge/Firefox-46-green.svg?style=flat-square
 [firefox-47]: https://img.shields.io/badge/Firefox-47-green.svg?style=flat-square
-[firefox-50]: https://img.shields.io/badge/Firefox%20Beta-50-red.svg?style=flat-square
-[firefox-51]: https://img.shields.io/badge/Firefox%20Aurora-51-red.svg?style=flat-square
-[firefox-52]: https://img.shields.io/badge/Firefox%20Nightly-52-red.svg?style=flat-square
+[firefox-50]: https://img.shields.io/badge/Firefox-50-green.svg?style=flat-square
+[firefox-51]: https://img.shields.io/badge/Firefox%20Beta-51-red.svg?style=flat-square
+[firefox-52]: https://img.shields.io/badge/Firefox%20Aurora-52-red.svg?style=flat-square
+[firefox-53]: https://img.shields.io/badge/Firefox%20Nightly-52-red.svg?style=flat-square
 [firefox-partial]: https://img.shields.io/badge/Firefox-Partial-red.svg?style=flat-square
 [firefox-none]: https://img.shields.io/badge/Firefox-None-red.svg?style=flat-square
                                                                        
