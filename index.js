@@ -3,7 +3,12 @@ function preset(context, opts = {}) {
     const loose = opts.loose !== undefined ? opts.loose : false;
     const modules = opts.modules !== undefined ? opts.modules : 'commonjs';
     const fullSupport = opts.fullSupport !== undefined ? opts.fullSupport : false;
-    const objectRest = opts.objectRest !== undefined ? opts.objectRest : false;
+    if (opts.objectRest) {
+      console.log(
+        "warning: Babel now supports object rest without additional plugins. "
+        + "You can remove the option. https://babeljs.io/blog/2016/11/16/6.19.0"
+      );
+    }
 
     if (modules !== false && moduleTypes.indexOf(modules) === -1) {
       throw new Error("Preset es2015 'modules' option must be 'false' to indicate no modules\n" +
@@ -11,7 +16,6 @@ function preset(context, opts = {}) {
     }
     if (typeof loose !== "boolean") throw new Error("Preset modern-browsers 'loose' option must be a boolean.");
     if (typeof fullSupport !== "boolean") throw new Error("Preset modern-browsers 'fullSupport' option must be a boolean.");
-    if (typeof objectRest !== "boolean") throw new Error("Preset modern-browsers 'objectRest' option must be a boolean.");
 
     const optsLoose = { loose };
 
@@ -21,11 +25,11 @@ function preset(context, opts = {}) {
             require('babel-plugin-check-es2015-constants'),
 
             require('babel-plugin-transform-es2015-block-scoping'),
-            (objectRest || true) && require('babel-plugin-transform-es2015-function-name'),
+            require('babel-plugin-transform-es2015-function-name'),
 
             fullSupport && [require('babel-plugin-transform-es2015-for-of'), optsLoose],
-            (objectRest || fullSupport) && require('babel-plugin-transform-es2015-parameters'),
-            (objectRest || fullSupport) && [require('babel-plugin-transform-es2015-destructuring'), optsLoose],
+            fullSupport && require('babel-plugin-transform-es2015-parameters'),
+            fullSupport && [require('babel-plugin-transform-es2015-destructuring'), optsLoose],
 
             modules === "commonjs" && [require("babel-plugin-transform-es2015-modules-commonjs"), optsLoose],
 
