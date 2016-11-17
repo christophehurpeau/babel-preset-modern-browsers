@@ -1,7 +1,7 @@
-## 6.0
+## 7.0
 
 - remove object-rest (now supported in [babel 6.19](https://babeljs.io/blog/2016/11/16/6.19.0))
-- preset options
+- add babel-plugin-transform-es2015-arrow-functions
 
 ## 6.0
 

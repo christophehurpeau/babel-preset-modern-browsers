@@ -124,7 +124,7 @@ More info in the compatibility table below
 | ↳ (unused) [transform-es2015-block-scoped-functions](https://babeljs.io/docs/plugins/transform-es2015-block-scoped-functions) ||||||
 | <h4>Functions</h4> ||||||
 | [arrow functions](https://kangax.github.io/compat-table/es6/#test-arrow_functions) | ![Edge 13][edge-13] | ![Firefox 45][firefox-45] | ![Chrome 49][chrome-49] | ![Opera 36][opera-36] | ![Safari 10][safari-10] |
-| ↳ (unused) [transform-es2015-arrow-functions](https://babeljs.io/docs/plugins/transform-es2015-arrow-functions) ||||||
+| ↳ (used, [needed with function-name](https://github.com/babel/babel/pull/4849)) [transform-es2015-arrow-functions](https://babeljs.io/docs/plugins/transform-es2015-arrow-functions) ||||||
 | [classes](https://kangax.github.io/compat-table/es6/#test-arrow_functions) | ![Edge 13][edge-13] | ![Firefox 45][firefox-45] | ![Chrome 49][chrome-49] | ![Opera 36][opera-36] | ![Safari 10][safari-10] |
 | ↳ (unused) [transform-es2015-classes](https://babeljs.io/docs/plugins/transform-es2015-classes) ||||||
 | [super](https://kangax.github.io/compat-table/es6/#test-super) | ![Edge 13][edge-13] | ![Firefox 45][firefox-45] | ![Chrome 49][chrome-49] | ![Opera 36][opera-36] | ![Safari 10][safari-10] |

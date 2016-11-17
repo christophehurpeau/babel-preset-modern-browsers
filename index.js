@@ -21,10 +21,11 @@ function preset(context, opts = {}) {
 
     return {
         plugins: [
-            // es2015
+            /* es2015 */
             require('babel-plugin-check-es2015-constants'),
 
             require('babel-plugin-transform-es2015-block-scoping'),
+            require('babel-plugin-transform-es2015-arrow-functions'), // needed for function-name
             require('babel-plugin-transform-es2015-function-name'),
 
             fullSupport && [require('babel-plugin-transform-es2015-for-of'), optsLoose],
@@ -33,7 +34,7 @@ function preset(context, opts = {}) {
 
             modules === "commonjs" && [require("babel-plugin-transform-es2015-modules-commonjs"), optsLoose],
 
-            // es2016
+            /* es2016 */
             require('babel-plugin-transform-exponentiation-operator'),
         ].filter(Boolean),
     };
