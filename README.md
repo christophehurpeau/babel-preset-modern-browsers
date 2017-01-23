@@ -9,12 +9,15 @@
 
 Transpile with babel only for modern browsers.
 
-
 * [Installation](#installation)
 * [Usage](#usage)
 * [Presets](#presets)
 * [Compatibility Table](#compatibility-table)
 * [Release Dates](#release-dates)
+
+## Alternatives
+
+- https://github.com/babel/babel-preset-env
 
 ## Installation
 
@@ -148,34 +151,32 @@ More info in the compatibility table below
 
 | Date       | Version |
 | ---------- | ------- |
+| 2017-06-13 | 54 |
+| 2017-04-18 | 53 |
+| 2017-03-07 | 52 |
+| 2017-01-24 | 51 |
 | 2016-12-13 | 50.0.1 |
 | 2016-11-08 | 50 |
 | 2016-09-20 | 49 |
 | 2016-08-02 | 48 |
 | 2016-06-07 | 47 |
-| 2016-04-26 | 46 |
-| 2016-03-08 | 45 |
-| 2016-01-26 | 44 |
 
 ### [Chrome (Desktop release date)](https://www.chromium.org/developers/calendar)
 
 | Date       | Version |
 | ---------- | ------- |
-| 2016-12-06? | 55 |
+| 2017-06-06? | 59 |
+| 2017-04-25? | 58 |
+| 2017-03-14? | 57 |
+| 2017-01-31? | 56 |
+| 2016-12-06  | 55 |
 | 2016-10-12  | 54 |
 | 2016-08-31  | 53 |
 | 2016-07-20  | 52 |
-| 2016-05-25  | 51 |
-| 2016-04-13  | 50 |
-| 2016-03-02  | 49 |
 
 ## Thanks
 
 - Inspired by [https://github.com/askmatey/babel-preset-modern](https://github.com/askmatey/babel-preset-modern)
-
-## Alternatives
-
-- https://github.com/babel/babel-preset-env
 
 [edge-11]: https://img.shields.io/badge/Edge-11-green.svg?style=flat-square
 [edge-12]: https://img.shields.io/badge/Edge-12-green.svg?style=flat-square
