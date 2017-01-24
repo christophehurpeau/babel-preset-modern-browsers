@@ -6,7 +6,7 @@ function preset(context, opts = {}) {
     if (opts.objectRest) {
       console.log(
         "warning: Babel now supports object rest without additional plugins. "
-        + "You can remove the option. https://babeljs.io/blog/2016/11/16/6.19.0"
+        + "You can remove the option."
       );
     }
 
@@ -24,7 +24,6 @@ function preset(context, opts = {}) {
             /* es2015 */
             require('babel-plugin-check-es2015-constants'),
 
-            require('babel-plugin-transform-es2015-block-scoping'),
             require('babel-plugin-transform-es2015-arrow-functions'), // needed for function-name
             require('babel-plugin-transform-es2015-function-name'),
 

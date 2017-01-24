@@ -1,3 +1,9 @@
+## 8.0
+
+- Firefox 51 release   
+Firefox 50 is no longer supported (removed `babel-plugin-transform-es2015-block-scoping`)
+ 
+ 
 ## 7.0
 
 - remove object-rest (now supported in [babel 6.19](https://babeljs.io/blog/2016/11/16/6.19.0))
