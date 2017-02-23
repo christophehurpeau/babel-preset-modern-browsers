@@ -152,28 +152,28 @@ More info in the compatibility table below
 
 | Date       | Version |
 | ---------- | ------- |
-| 2017-06-13 | 54 |
-| 2017-04-18 | 53 |
-| 2017-03-07 | 52 |
-| 2017-01-24 | 51 |
+| 2017-06-13 | ![Firefox 54][firefox-54] |
+| 2017-04-18 | ![Firefox 53][firefox-53] |
+| 2017-03-07 | ![Firefox 52][firefox-52] |
+| 2017-01-24 | ![Firefox 51][firefox-51] |
 | 2016-12-13 | 50.0.1 |
-| 2016-11-08 | 50 |
-| 2016-09-20 | 49 |
-| 2016-08-02 | 48 |
-| 2016-06-07 | 47 |
+| 2016-11-08 | ![Firefox 50][firefox-50] |
+| 2016-09-20 | ![Firefox 49][firefox-49] |
+| 2016-08-02 | ![Firefox 48][firefox-48] |
+| 2016-06-07 | ![Firefox 47][firefox-47] |
 
 ### [Chrome (Desktop release date)](https://www.chromium.org/developers/calendar)
 
 | Date       | Version |
 | ---------- | ------- |
-| 2017-06-06? | 59 |
-| 2017-04-25? | 58 |
-| 2017-03-14? | 57 |
-| 2017-01-31? | 56 |
-| 2016-12-06  | 55 |
-| 2016-10-12  | 54 |
-| 2016-08-31  | 53 |
-| 2016-07-20  | 52 |
+| 2017-06-06? | ![Chrome 59][chrome-59] |
+| 2017-04-25? | ![Chrome 58][chrome-58] |
+| 2017-03-14? | ![Chrome 57][chrome-57] |
+| 2017-01-25  | ![Chrome 56][chrome-56] |
+| 2016-12-06  | ![Chrome 55][chrome-55] |
+| 2016-10-12  | ![Chrome 54][chrome-54] |
+| 2016-08-31  | ![Chrome 53][chrome-53] |
+| 2016-07-20  | ![Chrome 52][chrome-52] |
 
 ## Thanks
 
@@ -195,6 +195,8 @@ More info in the compatibility table below
 [firefox-45]: https://img.shields.io/badge/Firefox-45-green.svg?style=flat-square
 [firefox-46]: https://img.shields.io/badge/Firefox-46-green.svg?style=flat-square
 [firefox-47]: https://img.shields.io/badge/Firefox-47-green.svg?style=flat-square
+[firefox-48]: https://img.shields.io/badge/Firefox-48-green.svg?style=flat-square
+[firefox-49]: https://img.shields.io/badge/Firefox-49-green.svg?style=flat-square
 [firefox-50]: https://img.shields.io/badge/Firefox-50-green.svg?style=flat-square
 [firefox-51]: https://img.shields.io/badge/Firefox-51-green.svg?style=flat-square
 [firefox-52]: https://img.shields.io/badge/Firefox%20Beta-52-red.svg?style=flat-square
@@ -213,6 +215,13 @@ More info in the compatibility table below
 [chrome-49]: https://img.shields.io/badge/Chrome-49-green.svg?style=flat-square
 [chrome-51]: https://img.shields.io/badge/Chrome-51-green.svg?style=flat-square
 [chrome-52]: https://img.shields.io/badge/Chrome-52-green.svg?style=flat-square
+[chrome-53]: https://img.shields.io/badge/Chrome-53-green.svg?style=flat-square
+[chrome-54]: https://img.shields.io/badge/Chrome-54-green.svg?style=flat-square
+[chrome-55]: https://img.shields.io/badge/Chrome-55-green.svg?style=flat-square
+[chrome-56]: https://img.shields.io/badge/Chrome-56-green.svg?style=flat-square
+[chrome-57]: https://img.shields.io/badge/Chrome-57%20Beta-red.svg?style=flat-square
+[chrome-58]: https://img.shields.io/badge/Chrome-58%20Canary-red.svg?style=flat-square
+[chrome-59]: https://img.shields.io/badge/Chrome-59-red.svg?style=flat-square
                                                                 
 [opera-25]: https://img.shields.io/badge/Opera-25-green.svg?style=flat-square
 [opera-26]: https://img.shields.io/badge/Opera-26-green.svg?style=flat-square
