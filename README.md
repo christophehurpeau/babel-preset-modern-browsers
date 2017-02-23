@@ -219,8 +219,8 @@ More info in the compatibility table below
 [chrome-54]: https://img.shields.io/badge/Chrome-54-green.svg?style=flat-square
 [chrome-55]: https://img.shields.io/badge/Chrome-55-green.svg?style=flat-square
 [chrome-56]: https://img.shields.io/badge/Chrome-56-green.svg?style=flat-square
-[chrome-57]: https://img.shields.io/badge/Chrome-57%20Beta-red.svg?style=flat-square
-[chrome-58]: https://img.shields.io/badge/Chrome-58%20Canary-red.svg?style=flat-square
+[chrome-57]: https://img.shields.io/badge/Chrome%20Beta-57-red.svg?style=flat-square
+[chrome-58]: https://img.shields.io/badge/Chrome%20Canary-58-red.svg?style=flat-square
 [chrome-59]: https://img.shields.io/badge/Chrome-59-red.svg?style=flat-square
                                                                 
 [opera-25]: https://img.shields.io/badge/Opera-25-green.svg?style=flat-square
