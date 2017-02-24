@@ -3,6 +3,8 @@ function preset(context, opts = {}) {
     const loose = opts.loose !== undefined ? opts.loose : false;
     const modules = opts.modules !== undefined ? opts.modules : 'commonjs';
     const fullSupport = opts.fullSupport !== undefined ? opts.fullSupport : false;
+    const es2016 = opts.es2016 !== undefined ? opts.es2016 : true;
+    const es2017 = opts.es2017 !== undefined ? opts.es2017 : true;
     if (opts.objectRest) {
       console.log(
         "warning: Babel now supports object rest without additional plugins. "
@@ -16,6 +18,8 @@ function preset(context, opts = {}) {
     }
     if (typeof loose !== "boolean") throw new Error("Preset modern-browsers 'loose' option must be a boolean.");
     if (typeof fullSupport !== "boolean") throw new Error("Preset modern-browsers 'fullSupport' option must be a boolean.");
+    if (typeof es2016 !== "boolean") throw new Error("Preset modern-browsers 'es2016' option must be a boolean.");
+    if (typeof es2017 !== "boolean") throw new Error("Preset modern-browsers 'es2017' option must be a boolean.");
 
     const optsLoose = { loose };
 
@@ -34,7 +38,11 @@ function preset(context, opts = {}) {
             modules === "commonjs" && [require("babel-plugin-transform-es2015-modules-commonjs"), optsLoose],
 
             /* es2016 */
-            require('babel-plugin-transform-exponentiation-operator'),
+            es2016 && require('babel-plugin-transform-exponentiation-operator'),
+
+            /* es2017 */
+            es2017 && require('babel-plugin-syntax-trailing-function-commas'),
+            es2017 && require('babel-plugin-transform-async-to-generator'),
         ].filter(Boolean),
     };
 }
