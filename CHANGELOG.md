@@ -1,3 +1,12 @@
+<a name="8.1.0"></a>
+# [8.1.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v8.0.0...v8.1.0) (2017-02-25)
+
+
+### Features
+
+* add es2017 plugins and es2016, es2017 option ([ade31a8](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/ade31a8))
+
+
 ## 8.0
 
 - Firefox 51 release   
