@@ -72,19 +72,15 @@ Note: to support `async` functions and other proposals, you can add babel preset
 }
 ```
 
-This preset only covers `es2015` and `es2016`.
+This preset covers `es2015`, `es2016` and `es2017`.
 
 ## Features supported only with full-support
 
-- default parameters: temporal dead zone, separate scope and new Function() support
+- default parameters: new Function() support
 - for...of: iterator closing
-- destructuring: iterator closing, separate scope and new Function() support
+- destructuring: iterator closing
 
 More info in the compatibility table below
-
-## Features not supported
-
-- generators: iterator closing on firefox
 
 ## Compatibility Table
 
@@ -148,9 +144,9 @@ More info in the compatibility table below
 | ↳ (used) [transform-exponentiation-operator](https://babeljs.io/docs/plugins/transform-exponentiation-operator) ||||||
 | <h3>ES2017</h3> ||||||
 | [trailing commas in function](http://kangax.github.io/compat-table/es2016plus/#test-trailing_commas_in_function_syntax) | ![Edge 14][edge-14] | ![Firefox 52][firefox-52] | ![Chrome 58][chrome-58] | ![Opera 45][opera-45] | ![Safari 10][safari-10] |
-| ↳ (used) [babel-plugin-syntax-trailing-function-commas](https://babeljs.io/docs/plugins/babel-plugin-syntax-trailing-function-commas) ||||||
+| ↳ (used) [babel-plugin-syntax-trailing-function-commas](https://babeljs.io/docs/plugins/syntax-trailing-function-commas) ||||||
 | [async function](http://kangax.github.io/compat-table/es2016plus/#test-async_functions) | ![Edge 14][edge-14] | ![Firefox 52][firefox-52] | ![Chrome 55][chrome-55] | ![Opera 42][opera-42] | ![Safari 10][safari-10] |
-| ↳ (used) [babel-plugin-transform-async-to-generator](https://babeljs.io/docs/plugins/babel-plugin-transform-async-to-generator) ||||||
+| ↳ (used) [babel-plugin-transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator) ||||||
 
 ## Release Dates
 
