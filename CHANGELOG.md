@@ -1,3 +1,12 @@
+<a name="8.1.1"></a>
+## [8.1.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v8.1.0...v8.1.1) (2017-02-27)
+
+
+### Bug Fixes
+
+* missing dependencies ([f925a55](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/f925a55)), closes [#16](https://github.com/christophehurpeau/babel-preset-modern-browsers/issues/16)
+
+
 <a name="8.1.0"></a>
 # [8.1.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v8.0.0...v8.1.0) (2017-02-25)
 
