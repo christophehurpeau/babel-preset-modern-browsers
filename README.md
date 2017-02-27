@@ -239,6 +239,8 @@ More info in the compatibility table below
 [opera-36]: https://img.shields.io/badge/Opera-36-green.svg?style=flat-square
 [opera-38]: https://img.shields.io/badge/Opera-38-green.svg?style=flat-square
 [opera-39]: https://img.shields.io/badge/Opera-39-green.svg?style=flat-square
+[opera-42]: https://img.shields.io/badge/Opera-42-green.svg?style=flat-square
+[opera-45]: https://img.shields.io/badge/Opera-45-green.svg?style=flat-square
 
 [safari-7.1]: https://img.shields.io/badge/Safari-7.1-green.svg?style=flat-square
 [safari-9]: https://img.shields.io/badge/Safari-9-green.svg?style=flat-square
