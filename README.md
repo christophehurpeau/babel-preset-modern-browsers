@@ -1,13 +1,15 @@
-# babel-preset-modern-browsers
+# babel-preset-modern-browsers [![NPM version][npm-image]][npm-url]
 
-[![NPM Version](http://img.shields.io/npm/v/babel-preset-modern-browsers.svg?style=flat-square)](https://www.npmjs.org/package/babel-preset-modern-browsers)
 ![Edge 14](https://img.shields.io/badge/Edge-14-green.svg?style=flat-square)
 ![Firefox 51](https://img.shields.io/badge/Firefox-51-green.svg?style=flat-square)
 ![Chrome 51](https://img.shields.io/badge/Chrome-51-green.svg?style=flat-square)
 ![Opera 38](https://img.shields.io/badge/Opera-38-green.svg?style=flat-square)
 ![Safari 10](https://img.shields.io/badge/Safari-10-green.svg?style=flat-square)
 
-Transpile with babel only for modern browsers.
+Babel presets for modern browsers
+
+[![Dependency ci Status][dependencyci-image]][dependencyci-url]
+[![Dependency Status][daviddm-image]][daviddm-url]
 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -241,3 +243,10 @@ More info in the compatibility table below
 [safari-7.1]: https://img.shields.io/badge/Safari-7.1-green.svg?style=flat-square
 [safari-9]: https://img.shields.io/badge/Safari-9-green.svg?style=flat-square
 [safari-10]: https://img.shields.io/badge/Safari-10-green.svg?style=flat-square
+
+[npm-image]: https://img.shields.io/npm/v/babel-preset-modern-browsers.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/babel-preset-modern-browsers
+[daviddm-image]: https://david-dm.org/christophehurpeau/babel-preset-modern-browsers.svg?style=flat-square
+[daviddm-url]: https://david-dm.org/christophehurpeau/babel-preset-modern-browsers
+[dependencyci-image]: https://dependencyci.com/github/christophehurpeau/babel-preset-modern-browsers/badge?style=flat-square
+[dependencyci-url]: https://dependencyci.com/github/christophehurpeau/babel-preset-modern-browsers

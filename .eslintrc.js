@@ -1,0 +1,1 @@
+exports.extends = 'pob/base';

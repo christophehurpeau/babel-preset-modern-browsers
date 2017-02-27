@@ -2,14 +2,30 @@
   "name": "babel-preset-modern-browsers",
   "version": "8.1.1",
   "description": "Babel presets for modern browsers",
+  "keywords": [
+    "babel",
+    "preset",
+    "modern",
+    "browser",
+    "browsers"
+  ],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
   "license": "ISC",
+  "repository": "git@github.com:christophehurpeau/babel-preset-modern-browsers.git",
   "homepage": "https://github.com/christophehurpeau/babel-preset-modern-browsers",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/christophehurpeau/babel-preset-modern-browsers.git"
+  "bugs": {
+    "url": "https://github.com/christophehurpeau/babel-preset-modern-browsers/issues"
   },
   "main": "index.js",
+  "scripts": {
+    "clean": "rm -Rf docs dist test/node6 coverage",
+    "lint": "eslint --ext .js,.jsx index.js",
+    "prepare": "ln -s ../../git-hooks/pre-commit .git/hooks/pre-commit 2>/dev/null || true ; ln -s ../../git-hooks/post-checkout .git/hooks/post-checkout 2>/dev/null || true ; ln -s ../../git-hooks/post-merge .git/hooks/post-merge 2>/dev/null || true ; ln -s ../../git-hooks/prepare-commit-msg .git/hooks/prepare-commit-msg 2>/dev/null || true",
+    "prepublish": "ln -s ../../git-hooks/pre-commit .git/hooks/pre-commit 2>/dev/null || true ; ln -s ../../git-hooks/post-checkout .git/hooks/post-checkout 2>/dev/null || true ; ln -s ../../git-hooks/post-merge .git/hooks/post-merge 2>/dev/null || true ; ln -s ../../git-hooks/prepare-commit-msg .git/hooks/prepare-commit-msg 2>/dev/null || true",
+    "preversion": "npm run lint && pob-repository-check-clean",
+    "release": "pob-repository-check-clean && pob-release",
+    "version": "pob-version"
+  },
   "dependencies": {
     "babel-plugin-check-es2015-constants": "^6.22.0",
     "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
@@ -23,22 +39,13 @@
     "babel-plugin-transform-exponentiation-operator": "^6.22.0",
     "babel-plugin-transform-strict-mode": "^6.22.0"
   },
-  "scripts": {
-    "preversion": "pob-repository-check-clean",
-    "release": "pob-repository-check-clean && pob-release",
-    "version": "pob-version"
-  },
-  "keywords": [
-    "babel",
-    "preset",
-    "modern",
-    "browser",
-    "browsers"
-  ],
-  "bugs": {
-    "url": "https://github.com/christophehurpeau/babel-preset-modern-browsers/issues"
-  },
   "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-config-pob": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "komet": "^0.1.4",
+    "komet-karma": "^0.2.5",
     "pob-release": "^3.1.0"
   }
 }
