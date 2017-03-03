@@ -1,3 +1,9 @@
+<a name="8.1.2"></a>
+## [8.1.2](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v8.1.1...v8.1.2) (2017-03-03)
+
+support node 4
+
+
 <a name="8.1.1"></a>
 ## [8.1.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v8.1.0...v8.1.1) (2017-02-27)
 
