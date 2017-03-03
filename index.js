@@ -1,7 +1,7 @@
 /* eslint-disable global-require */
 
 function preset(context, opts) {
-  opts = opts || {};
+  opts = opts || {}; // support node 4
   const moduleTypes = ['commonjs'];
   const loose = opts.loose !== undefined ? opts.loose : false;
   const modules = opts.modules !== undefined ? opts.modules : 'commonjs';
