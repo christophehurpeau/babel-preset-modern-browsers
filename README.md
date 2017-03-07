@@ -1,10 +1,10 @@
 # babel-preset-modern-browsers [![NPM version][npm-image]][npm-url]
 
-![Edge 14](https://img.shields.io/badge/Edge-14-green.svg?style=flat-square)
-![Firefox 51](https://img.shields.io/badge/Firefox-51-green.svg?style=flat-square)
-![Chrome 51](https://img.shields.io/badge/Chrome-51-green.svg?style=flat-square)
-![Opera 38](https://img.shields.io/badge/Opera-38-green.svg?style=flat-square)
-![Safari 10](https://img.shields.io/badge/Safari-10-green.svg?style=flat-square)
+![Edge 14][edge-14]
+![Firefox 52][firefox-52]
+![Chrome 55][chrome-55]
+![Opera 42][opera-42]
+![Safari 10.1][safari-10.1]
 
 Babel presets for modern browsers
 
@@ -42,6 +42,7 @@ Add the following line to your `.babelrc` file:
 - `loose`: Enable “loose” transformations for any plugins in this preset that allow them (Disabled by default).
 - `modules` - Enable transformation of ES6 module syntax to another module type (Enabled by default to "commonjs"). Can be false to not transform modules, or "commonjs"
 - `fullSupport` - Add support for features below
+- `safari10` - Add support for ![Safari 10][safari-10]
 - `es2016` - Enable es2016 features (Enabled by default)
 - `es2017` - Enable es2017 features (Enabled by default)
 
@@ -91,8 +92,7 @@ More info in the compatibility table below
 | ------- | ---- | ------- | ------ | ----- | ------ |
 | <h3>ES2015</h3> ||||||
 | <h4>Syntax</h4> ||||||
-| [default parameters, without temporal dead zone, separate scope and new Function() support](https://kangax.github.io/compat-table/es6/#test-default_function_parameters) | ![Edge 14][edge-14] | ![Firefox 43][firefox-43] | ![Chrome 49][chrome-49] | ![Opera 36][opera-36] | ![Safari 10][safari-10] |
-| [default parameters, with temporal dead zone and separate scope](https://kangax.github.io/compat-table/es6/#test-default_function_parameters) | ![Edge 14][edge-14] | ![Firefox 51][firefox-51] | ![Chrome 49][chrome-49] | ![Opera 36][opera-36] | ![Safari 10][safari-10] |
+| [default parameters, without new Function() support](https://kangax.github.io/compat-table/es6/#test-default_function_parameters) | ![Edge 14][edge-14] | ![Firefox 51][firefox-51] | ![Chrome 49][chrome-49] | ![Opera 36][opera-36] | ![Safari 10][safari-10] |
 | [default parameters, with new Function() support](https://kangax.github.io/compat-table/es6/#test-default_function_parameters) | ![Edge 14][edge-14] | ![Firefox 53][firefox-53] | ![Chrome 49][chrome-49] | ![Opera 36][opera-36] | ![Safari 10][safari-10] |
 | ↳ (fullSupport) [transform-es2015-parameters](https://babeljs.io/docs/plugins/transform-es2015-parameters) ||||||
 | [rest parameters](https://kangax.github.io/compat-table/es6/#test-rest_parameters) | ![Edge 12][edge-12] | ![Firefox 43][firefox-43] | ![Chrome 47][chrome-47] | ![Opera 34][opera-34] | ![Safari 10][safari-10] |
@@ -112,8 +112,8 @@ More info in the compatibility table below
 | ↳ (unused)  [transform-es2015-sticky-regex](https://babeljs.io/docs/plugins/transform-es2015-sticky-regex) ||||||
 | [Regexp unicode](https://kangax.github.io/compat-table/es6/#test-RegExp_y_and_u_flags_u_flag) | ![Edge 12][edge-12] | ![Firefox 46][firefox-46] | ![Chrome 51][chrome-51] | ![Opera 38][opera-38] | ![Safari 10][safari-10] |
 | ↳ (unused) [transform-es2015-unicode-regex](https://babeljs.io/docs/plugins/transform-es2015-unicode-regex) ||||||
-| [destructuring, without iterator closing, separate scope, new Function() support](https://kangax.github.io/compat-table/es6/) | ![Edge 14][edge-14] | ![Firefox 47][firefox-47] | ![Chrome 49][chrome-49] | ![Opera 36][opera-36] | ![Safari 10][safari-10] |
-| [destructuring, with iterator closing, separate scope, new Function() support](https://kangax.github.io/compat-table/es6/) | ![Edge 15][edge-15] | ![Firefox 53][firefox-53] | ![Chrome 52][chrome-52] | ![Opera 39][opera-39] | ![Safari 10][safari-10] |
+| [destructuring, without iterator closing, new Function() support](https://kangax.github.io/compat-table/es6/) | ![Edge 14][edge-14] | ![Firefox 51][firefox-51] | ![Chrome 49][chrome-49] | ![Opera 36][opera-36] | ![Safari 10][safari-10] |
+| [destructuring, with iterator closing, new Function() support](https://kangax.github.io/compat-table/es6/) | ![Edge 15][edge-15] | ![Firefox 53][firefox-53] | ![Chrome 52][chrome-52] | ![Opera 39][opera-39] | ![Safari 10][safari-10] |
 | ↳ (fullSupport) [transform-es2015-destructuring](https://babeljs.io/docs/plugins/transform-es2015-destructuring) ||||||
 | [Unicode Strings](https://kangax.github.io/compat-table/es6/#test-Unicode_code_point_escapes_in_strings) | ![Edge 12][edge-12] | ![Firefox 45][firefox-45] | ![Chrome 44][chrome-44] | ![Opera 31][opera-31] | ![Safari 9][safari-9] |
 | [Octal/Binary Numbers](https://kangax.github.io/compat-table/es6/#test-octal_and_binary_literals) | ![Edge 12][edge-12] | ![Firefox 36][firefox-36] | ![Chrome 41][chrome-41] | ![Opera 28][opera-28] | ![Safari 9][safari-9] |
@@ -139,16 +139,15 @@ More info in the compatibility table below
 | ↳ (unused) [transform-es2015-typeof-symbol](https://babeljs.io/docs/plugins/transform-es2015-typeof-symbol) ||||||
 | <h4>Built-in extensions</h4> ||||||
 | [function name](https://kangax.github.io/compat-table/es6/#test-function_name_property) | ![Edge Partial][edge-partial] | ![Firefox 53][firefox-53] | ![Chrome 52][chrome-52] | ![Opera 39][opera-39] | ![Safari 10][safari-10] |
-| [function name (babel support)](https://kangax.github.io/compat-table/es6/#test-function_name_property) | ![Edge Partial][edge-partial] | ![Firefox 53][firefox-53] | ![Chrome 52][chrome-52] | ![Opera 39][opera-39] | ![Safari 10][safari-10] |
 | ↳ (used) [transform-es2015-function-name](https://babeljs.io/docs/plugins/transform-es2015-function-name) ||||||
 | <h3>ES2016</h3> ||||||
 | [exponentiation operator](http://kangax.github.io/compat-table/es2016plus/#test-exponentiation_(**)_operator) | ![Edge 14][edge-14] | ![Firefox 52][firefox-52] | ![Chrome 52][chrome-52] | ![Opera 39][opera-39] | ![Safari 10][safari-10] |
-| ↳ (used) [transform-exponentiation-operator](https://babeljs.io/docs/plugins/transform-exponentiation-operator) ||||||
+| ↳ (unused) [transform-exponentiation-operator](https://babeljs.io/docs/plugins/transform-exponentiation-operator) ||||||
 | <h3>ES2017</h3> ||||||
 | [trailing commas in function](http://kangax.github.io/compat-table/es2016plus/#test-trailing_commas_in_function_syntax) | ![Edge 14][edge-14] | ![Firefox 52][firefox-52] | ![Chrome 58][chrome-58] | ![Opera 45][opera-45] | ![Safari 10][safari-10] |
 | ↳ (used) [babel-plugin-syntax-trailing-function-commas](https://babeljs.io/docs/plugins/syntax-trailing-function-commas) ||||||
-| [async function](http://kangax.github.io/compat-table/es2016plus/#test-async_functions) | ![Edge 14][edge-14] | ![Firefox 52][firefox-52] | ![Chrome 55][chrome-55] | ![Opera 42][opera-42] | ![Safari 10][safari-10] |
-| ↳ (used) [babel-plugin-transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator) ||||||
+| [async function](http://kangax.github.io/compat-table/es2016plus/#test-async_functions) | ![Edge 14][edge-14] | ![Firefox 52][firefox-52] | ![Chrome 55][chrome-55] | ![Opera 42][opera-42] | ![Safari 10.1][safari-10.1] |
+| ↳ (unused) [babel-plugin-transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator) ||||||
 
 ## Release Dates
 
@@ -203,9 +202,10 @@ More info in the compatibility table below
 [firefox-49]: https://img.shields.io/badge/Firefox-49-green.svg?style=flat-square
 [firefox-50]: https://img.shields.io/badge/Firefox-50-green.svg?style=flat-square
 [firefox-51]: https://img.shields.io/badge/Firefox-51-green.svg?style=flat-square
-[firefox-52]: https://img.shields.io/badge/Firefox%20Beta-52-red.svg?style=flat-square
-[firefox-53]: https://img.shields.io/badge/Firefox%20Aurora-53-red.svg?style=flat-square
-[firefox-54]: https://img.shields.io/badge/Firefox%20Nightly-54-red.svg?style=flat-square
+[firefox-52]: https://img.shields.io/badge/Firefox-52-green.svg?style=flat-square
+[firefox-53]: https://img.shields.io/badge/Firefox%20Beta-53-red.svg?style=flat-square
+[firefox-54]: https://img.shields.io/badge/Firefox%20Aurora-54-red.svg?style=flat-square
+[firefox-55]: https://img.shields.io/badge/Firefox%20Nightly-55-red.svg?style=flat-square
 [firefox-partial]: https://img.shields.io/badge/Firefox-Partial-red.svg?style=flat-square
 [firefox-none]: https://img.shields.io/badge/Firefox-None-red.svg?style=flat-square
 
@@ -243,6 +243,7 @@ More info in the compatibility table below
 [safari-7.1]: https://img.shields.io/badge/Safari-7.1-green.svg?style=flat-square
 [safari-9]: https://img.shields.io/badge/Safari-9-green.svg?style=flat-square
 [safari-10]: https://img.shields.io/badge/Safari-10-green.svg?style=flat-square
+[safari-10.1]: https://img.shields.io/badge/Safari-10.1-red.svg?style=flat-square
 
 [npm-image]: https://img.shields.io/npm/v/babel-preset-modern-browsers.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/babel-preset-modern-browsers

@@ -3,6 +3,7 @@
 function preset(context, opts) {
   opts = opts || {}; // support node 4
   const moduleTypes = ['commonjs'];
+  const safari10 = opts.safari10 !== undefined ? opts.safari10 : false;
   const loose = opts.loose !== undefined ? opts.loose : false;
   const modules = opts.modules !== undefined ? opts.modules : 'commonjs';
   const fullSupport = opts.fullSupport !== undefined ? opts.fullSupport : false;
@@ -19,6 +20,7 @@ function preset(context, opts) {
     throw new Error("Preset es2015 'modules' option must be 'false' to indicate no modules\n" +
         "or 'commonjs' (default)");
   }
+  if (typeof safari10 !== 'boolean') throw new Error("Preset modern-browsers 'safari10' option must be a boolean.");
   if (typeof loose !== 'boolean') throw new Error("Preset modern-browsers 'loose' option must be a boolean.");
   if (typeof fullSupport !== 'boolean') throw new Error("Preset modern-browsers 'fullSupport' option must be a boolean.");
   if (typeof es2016 !== 'boolean') throw new Error("Preset modern-browsers 'es2016' option must be a boolean.");
@@ -28,7 +30,7 @@ function preset(context, opts) {
 
   return {
     plugins: [
-            /* es2015 */
+      /* es2015 */
       require('babel-plugin-check-es2015-constants'),
 
       require('babel-plugin-transform-es2015-arrow-functions'), // needed for function-name
@@ -40,12 +42,9 @@ function preset(context, opts) {
 
       modules === 'commonjs' && [require('babel-plugin-transform-es2015-modules-commonjs'), optsLoose],
 
-            /* es2016 */
-      es2016 && require('babel-plugin-transform-exponentiation-operator'),
-
-            /* es2017 */
+      /* es2017 */
       es2017 && require('babel-plugin-syntax-trailing-function-commas'),
-      es2017 && require('babel-plugin-transform-async-to-generator'),
+      es2017 && safari10 && require('babel-plugin-transform-async-to-generator'),
     ].filter(Boolean),
   };
 }

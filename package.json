@@ -35,9 +35,7 @@
     "babel-plugin-transform-es2015-for-of": "^6.22.0",
     "babel-plugin-transform-es2015-function-name": "^6.22.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0",
-    "babel-plugin-transform-es2015-parameters": "^6.22.0",
-    "babel-plugin-transform-exponentiation-operator": "^6.22.0",
-    "babel-plugin-transform-strict-mode": "^6.22.0"
+    "babel-plugin-transform-es2015-parameters": "^6.22.0"
   },
   "devDependencies": {
     "eslint": "^3.12.2",
