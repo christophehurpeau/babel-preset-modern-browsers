@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-modern-browsers",
-  "version": "8.1.2",
+  "version": "9.0.0",
   "description": "Babel presets for modern browsers",
   "keywords": [
     "babel",

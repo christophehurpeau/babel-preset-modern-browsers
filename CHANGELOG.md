@@ -1,3 +1,17 @@
+<a name="9.0.0"></a>
+# [9.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v8.1.2...v9.0.0) (2017-03-08)
+
+
+### Features
+
+* async functions and exponentiation operator ([1f1682e](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/1f1682e))
+
+
+### BREAKING CHANGES
+
+* drop support firefox < 42, chrome < 55, opera < 42, safari < 10.1, option `safari10`
+
+
 <a name="8.1.2"></a>
 ## [8.1.2](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v8.1.1...v8.1.2) (2017-03-03)
 
