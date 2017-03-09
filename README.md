@@ -2,8 +2,8 @@
 
 ![Edge 14][edge-14]
 ![Firefox 52][firefox-52]
-![Chrome 55][chrome-52]
-![Opera 42][opera-29]
+![Chrome 55][chrome-55]
+![Opera 39][opera-39]
 ![Safari 10][safari-10]
 
 Babel presets for modern browsers
