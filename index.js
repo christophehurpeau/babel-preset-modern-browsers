@@ -44,7 +44,7 @@ function preset(context, opts) {
 
       /* es2017 */
       es2017 && require('babel-plugin-syntax-trailing-function-commas'),
-      es2017 && safari10 && require('babel-plugin-transform-async-to-generator'),
+      es2017 && require('babel-plugin-transform-async-to-generator'),
     ].filter(Boolean),
   };
 }

@@ -2,9 +2,9 @@
 
 ![Edge 14][edge-14]
 ![Firefox 52][firefox-52]
-![Chrome 55][chrome-55]
-![Opera 42][opera-42]
-![Safari 10.1][safari-10.1]
+![Chrome 55][chrome-52]
+![Opera 42][opera-29]
+![Safari 10][safari-10]
 
 Babel presets for modern browsers
 
@@ -42,7 +42,6 @@ Add the following line to your `.babelrc` file:
 - `loose`: Enable “loose” transformations for any plugins in this preset that allow them (Disabled by default).
 - `modules` - Enable transformation of ES6 module syntax to another module type (Enabled by default to "commonjs"). Can be false to not transform modules, or "commonjs"
 - `fullSupport` - Add support for features below
-- `safari10` - Add support for ![Safari 10][safari-10]
 - `es2016` - Enable es2016 features (Enabled by default)
 - `es2017` - Enable es2017 features (Enabled by default)
 
@@ -146,8 +145,8 @@ More info in the compatibility table below
 | <h3>ES2017</h3> ||||||
 | [trailing commas in function](http://kangax.github.io/compat-table/es2016plus/#test-trailing_commas_in_function_syntax) | ![Edge 14][edge-14] | ![Firefox 52][firefox-52] | ![Chrome 58][chrome-58] | ![Opera 45][opera-45] | ![Safari 10][safari-10] |
 | ↳ (used) [babel-plugin-syntax-trailing-function-commas](https://babeljs.io/docs/plugins/syntax-trailing-function-commas) ||||||
-| [async function](http://kangax.github.io/compat-table/es2016plus/#test-async_functions) | ![Edge 14][edge-14] | ![Firefox 52][firefox-52] | ![Chrome 55][chrome-55] | ![Opera 42][opera-42] | ![Safari 10.1][safari-10.1] |
-| ↳ (unused) [babel-plugin-transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator) ||||||
+| [async function](http://kangax.github.io/compat-table/es2016plus/#test-async_functions) | ![Edge None][edge-none] | ![Firefox 52][firefox-52] | ![Chrome 55][chrome-55] | ![Opera 42][opera-42] | ![Safari 10.1][safari-10.1] |
+| ↳ (used) [babel-plugin-transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator) ||||||
 
 ## Release Dates
 
