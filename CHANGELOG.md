@@ -1,3 +1,12 @@
+<a name="9.0.1"></a>
+## [9.0.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v9.0.0...v9.0.1) (2017-03-09)
+
+
+### Bug Fixes
+
+* reenable transform-async-to-generator ([7b26e8f](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/7b26e8f))
+
+
 <a name="9.0.0"></a>
 # [9.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v8.1.2...v9.0.0) (2017-03-08)
 
