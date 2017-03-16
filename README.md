@@ -170,7 +170,7 @@ More info in the compatibility table below
 | ---------- | ------- |
 | 2017-06-06? | ![Chrome 59][chrome-59] |
 | 2017-04-25? | ![Chrome 58][chrome-58] |
-| 2017-03-14? | ![Chrome 57][chrome-57] |
+| 2017-03-09  | ![Chrome 57][chrome-57] |
 | 2017-01-25  | ![Chrome 56][chrome-56] |
 | 2016-12-06  | ![Chrome 55][chrome-55] |
 | 2016-10-12  | ![Chrome 54][chrome-54] |
@@ -222,9 +222,10 @@ More info in the compatibility table below
 [chrome-54]: https://img.shields.io/badge/Chrome-54-green.svg?style=flat-square
 [chrome-55]: https://img.shields.io/badge/Chrome-55-green.svg?style=flat-square
 [chrome-56]: https://img.shields.io/badge/Chrome-56-green.svg?style=flat-square
-[chrome-57]: https://img.shields.io/badge/Chrome%20Beta-57-red.svg?style=flat-square
-[chrome-58]: https://img.shields.io/badge/Chrome%20Canary-58-red.svg?style=flat-square
-[chrome-59]: https://img.shields.io/badge/Chrome-59-red.svg?style=flat-square
+[chrome-57]: https://img.shields.io/badge/Chrome-57-green.svg?style=flat-square
+[chrome-58]: https://img.shields.io/badge/Chrome%20Beta-58-red.svg?style=flat-square
+[chrome-59]: https://img.shields.io/badge/Chrome%20Canary-59-red.svg?style=flat-square
+[chrome-60]: https://img.shields.io/badge/Chrome-60-red.svg?style=flat-square
 
 [opera-25]: https://img.shields.io/badge/Opera-25-green.svg?style=flat-square
 [opera-26]: https://img.shields.io/badge/Opera-26-green.svg?style=flat-square
