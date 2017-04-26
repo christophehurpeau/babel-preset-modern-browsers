@@ -47,7 +47,7 @@ Add the following line to your `.babelrc` file:
 - `modules` - Enable transformation of ES6 module syntax to another module type (Enabled by default to "commonjs"). Can be false to not transform modules, or "commonjs"
 - `es2016` - Enable es2016 features (Enabled by default)
 - `es2017` - Enable es2017 features (Enabled by default)
-- `edge` - Support Eged (Disabled by default)
+- `edge` - Support Edge (Disabled by default)
 
 ```js
 {
