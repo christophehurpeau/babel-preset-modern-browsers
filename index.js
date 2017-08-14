@@ -2,28 +2,25 @@
 
 function preset(context, opts) {
   opts = opts || {}; // support node 4
-  const moduleTypes = ['commonjs'];
+  const modules = opts.modules !== undefined ? opts.modules : 'commonjs';
+
   const safari10 = opts.safari10 !== undefined ? opts.safari10 : false;
   const edge = opts.edge !== undefined ? opts.edge : false;
   const loose = opts.loose !== undefined ? opts.loose : false;
-  const modules = opts.modules !== undefined ? opts.modules : 'commonjs';
   const es2016 = opts.es2016 !== undefined ? opts.es2016 : true;
   const es2017 = opts.es2017 !== undefined ? opts.es2017 : true;
-  if (opts.objectRest) {
-    console.log(
-        'warning: Babel now supports object rest without additional plugins. '
-        + 'You can remove the option.'
-      );
-  }
+  const esnext = opts.esnext !== undefined ? opts.esnext : true;
 
-  if (modules !== false && moduleTypes.indexOf(modules) === -1) {
+  if (modules !== false && modules !== 'commonjs') {
     throw new Error("Preset es2015 'modules' option must be 'false' to indicate no modules\n" +
         "or 'commonjs' (default)");
   }
   if (typeof safari10 !== 'boolean') throw new Error("Preset modern-browsers 'safari10' option must be a boolean.");
+  if (typeof edge !== 'boolean') throw new Error("Preset modern-browsers 'edge' option must be a boolean.");
   if (typeof loose !== 'boolean') throw new Error("Preset modern-browsers 'loose' option must be a boolean.");
   if (typeof es2016 !== 'boolean') throw new Error("Preset modern-browsers 'es2016' option must be a boolean.");
   if (typeof es2017 !== 'boolean') throw new Error("Preset modern-browsers 'es2017' option must be a boolean.");
+  if (typeof esnext !== 'boolean') throw new Error("Preset modern-browsers 'esnext' option must be a boolean.");
 
   const optsLoose = { loose };
 
@@ -39,6 +36,13 @@ function preset(context, opts) {
 
       /* es2017 */
       es2017 && require('babel-plugin-syntax-trailing-function-commas'),
+
+      /* esnext */
+      esnext && (
+        (safari10 || edge)
+          ? require('babel-plugin-transform-object-rest-spread')
+          : require('babel-plugin-syntax-object-rest-spread')
+      ),
     ].filter(Boolean),
   };
 }

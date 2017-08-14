@@ -1,10 +1,11 @@
 # babel-preset-modern-browsers [![NPM version][npm-image]][npm-url]
 
-![Edge 15][edge-15]
-![Firefox 53][firefox-53]
-![Chrome 55][chrome-55]
-![Opera 42][opera-42]
-![Safari 10.1][safari-10.1]
+![Firefox 55][firefox-55]
+![Chrome 60][chrome-60]
+![Opera 47][opera-47]
+
+with `edge: true`: ![Edge 15][edge-15]
+with `safari10: true`: ![Safari 10.1][safari-10.1]
 
 Babel presets for modern browsers
 
@@ -47,7 +48,9 @@ Add the following line to your `.babelrc` file:
 - `modules` - Enable transformation of ES6 module syntax to another module type (Enabled by default to "commonjs"). Can be false to not transform modules, or "commonjs"
 - `es2016` - Enable es2016 features (Enabled by default)
 - `es2017` - Enable es2017 features (Enabled by default)
+- `esnext` - Enable esnext features (Enabled by default)
 - `edge` - Support Edge (Disabled by default)
+- `safari 10` - Support Safari 10 (Disabled by default)
 
 ```js
 {
@@ -88,11 +91,14 @@ Missing features added for `edge` option:
 
 | Feature | Edge | Firefox | Chrome | Opera | Safari |
 | ------- | ---- | ------- | ------ | ----- | ------ |
+| <h3>ESNEXT</h3> ||||||
+| [Object Rest/Spread Properties](https://kangax.github.io/compat-table/esnext/#test-object_rest/spread_properties) | ![Edge None][edge-none] | ![Firefox 55][firefox-55] | ![Chrome 60][chrome-60] | ![Opera 47][opera-47] | ![Safari None][safari-none] |
+| ↳ `edge` or `safari10`: [transform-object-rest-spread](https://babeljs.io/docs/plugins/transform-object-rest-spread)<br>else [syntax-object-rest-spread](https://babeljs.io/docs/plugins/syntax-object-rest-spread) ||||||
 | <h3>ES2017</h3> ||||||
 | [trailing commas in function](http://kangax.github.io/compat-table/es2016plus/#test-trailing_commas_in_function_syntax) | ![Edge 14][edge-14] | ![Firefox 52][firefox-52] | ![Chrome 58][chrome-58] | ![Opera 45][opera-45] | ![Safari 10][safari-10] |
-| ↳ (used) [babel-plugin-syntax-trailing-function-commas](https://babeljs.io/docs/plugins/syntax-trailing-function-commas) ||||||
+| ↳ (used) [syntax-trailing-function-commas](https://babeljs.io/docs/plugins/syntax-trailing-function-commas) ||||||
 | [async function](http://kangax.github.io/compat-table/es2016plus/#test-async_functions) | ![Edge 15][edge-15] | ![Firefox 52][firefox-52] | ![Chrome 55][chrome-55] | ![Opera 42][opera-42] | ![Safari 10.1][safari-10.1] |
-| ↳ (unused) [babel-plugin-transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator) ||||||
+| ↳ (unused) [transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator) ||||||
 | <h3>ES2016</h3> ||||||
 | [exponentiation operator](http://kangax.github.io/compat-table/es2016plus/#test-exponentiation_(**)_operator) | ![Edge 14][edge-14] | ![Firefox 52][firefox-52] | ![Chrome 52][chrome-52] | ![Opera 39][opera-39] | ![Safari 10][safari-10] |
 | ↳ (unused) [transform-exponentiation-operator](https://babeljs.io/docs/plugins/transform-exponentiation-operator) ||||||
@@ -129,7 +135,7 @@ Missing features added for `edge` option:
 | ↳ (unused) [transform-es2015-block-scoped-functions](https://babeljs.io/docs/plugins/transform-es2015-block-scoped-functions) ||||||
 | <h4>Functions</h4> ||||||
 | [arrow functions](https://kangax.github.io/compat-table/es6/#test-arrow_functions) | ![Edge 13][edge-13] | ![Firefox 45][firefox-45] | ![Chrome 49][chrome-49] | ![Opera 36][opera-36] | ![Safari 10][safari-10] |
-| ↳ (used with `edge`, [needed with function-name](https://github.com/babel/babel/pull/4849)) [transform-es2015-arrow-functions](https://babeljs.io/docs/plugins/transform-es2015-arrow-functions) ||||||
+| ↳ (used with `edge`, [with function-name](https://github.com/babel/babel/pull/4849)) [transform-es2015-arrow-functions](https://babeljs.io/docs/plugins/transform-es2015-arrow-functions) ||||||
 | [classes](https://kangax.github.io/compat-table/es6/#test-arrow_functions) | ![Edge 13][edge-13] | ![Firefox 45][firefox-45] | ![Chrome 49][chrome-49] | ![Opera 36][opera-36] | ![Safari 10][safari-10] |
 | ↳ (unused) [transform-es2015-classes](https://babeljs.io/docs/plugins/transform-es2015-classes) ||||||
 | [super](https://kangax.github.io/compat-table/es6/#test-super) | ![Edge 13][edge-13] | ![Firefox 45][firefox-45] | ![Chrome 49][chrome-49] | ![Opera 36][opera-36] | ![Safari 10][safari-10] |
@@ -150,6 +156,10 @@ Missing features added for `edge` option:
 
 | Date       | Version |
 | ---------- | ------- |
+| 2017-11-14 | ![Firefox 57][firefox-57] |
+| 2017-09-26 | ![Firefox 56][firefox-56] |
+| 2017-08-08 | ![Firefox 55][firefox-55] |
+| 2017-06-13 | ![Firefox 54][firefox-54] |
 | 2017-04-19 | ![Firefox 53][firefox-53] |
 | 2017-03-07 | ![Firefox 52][firefox-52] |
 | 2017-01-24 | ![Firefox 51][firefox-51] |
@@ -158,10 +168,14 @@ Missing features added for `edge` option:
 | 2016-08-02 | ![Firefox 48][firefox-48] |
 | 2016-06-07 | ![Firefox 47][firefox-47] |
 
-### [Chrome (Desktop release date)](https://www.chromium.org/developers/calendar)
+### [Chrome (Desktop release date)](https://www.chromium.org/developers/calendar)  ([Version History](https://en.wikipedia.org/wiki/Google_Chrome_version_history))
 
 | Date       | Version |
 | ---------- | ------- |
+| 2017-10-17  | ![Chrome 62][chrome-62] |
+| 2017-09-05  | ![Chrome 61][chrome-61] |
+| 2017-07-25  | ![Chrome 60][chrome-60] |
+| 2017-06-05  | ![Chrome 59][chrome-59] |
 | 2017-04-19  | ![Chrome 58][chrome-58] |
 | 2017-03-09  | ![Chrome 57][chrome-57] |
 | 2017-01-25  | ![Chrome 56][chrome-56] |
@@ -170,11 +184,11 @@ Missing features added for `edge` option:
 | 2016-08-31  | ![Chrome 53][chrome-53] |
 | 2016-07-20  | ![Chrome 52][chrome-52] |
 
-### [Safari](https://developer.apple.com/safari/)
+### [Safari](https://developer.apple.com/safari/) ([Version History](https://en.wikipedia.org/wiki/Safari_version_history))
 
 | Date       | Version |
 | ---------- | ------- |
-| 2017-03-27 | [![Safari 10.1][safari-10.1]](https://support.apple.com/fr-be/HT207600) |
+| 2017-03-27 | [![Safari 10.1][safari-10.1]](https://support.apple.com/fr-fr/HT207600) |
 | 2016-09-20 | [![Safari 10][safari-10]](https://support.apple.com/fr-fr/HT207157) |
 
 ### [Edge](https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/)
@@ -210,8 +224,10 @@ Missing features added for `edge` option:
 [firefox-51]: https://img.shields.io/badge/Firefox-51-green.svg?style=flat-square
 [firefox-52]: https://img.shields.io/badge/Firefox-52-green.svg?style=flat-square
 [firefox-53]: https://img.shields.io/badge/Firefox-53-green.svg?style=flat-square
-[firefox-54]: https://img.shields.io/badge/Firefox%20Beta-54-red.svg?style=flat-square
-[firefox-55]: https://img.shields.io/badge/Firefox%20Nightly-55-red.svg?style=flat-square
+[firefox-54]: https://img.shields.io/badge/Firefox-54-green.svg?style=flat-square
+[firefox-55]: https://img.shields.io/badge/Firefox-55-green.svg?style=flat-square
+[firefox-56]: https://img.shields.io/badge/Firefox%20Beta-56-red.svg?style=flat-square
+[firefox-57]: https://img.shields.io/badge/Firefox%20Nightly-57-red.svg?style=flat-square
 
 [chrome-38]: https://img.shields.io/badge/Chrome-38-green.svg?style=flat-square
 [chrome-39]: https://img.shields.io/badge/Chrome-39-green.svg?style=flat-square
@@ -229,8 +245,10 @@ Missing features added for `edge` option:
 [chrome-56]: https://img.shields.io/badge/Chrome-56-green.svg?style=flat-square
 [chrome-57]: https://img.shields.io/badge/Chrome-57-green.svg?style=flat-square
 [chrome-58]: https://img.shields.io/badge/Chrome-58-green.svg?style=flat-square
-[chrome-59]: https://img.shields.io/badge/Chrome%20Beta-59-red.svg?style=flat-square
-[chrome-60]: https://img.shields.io/badge/Chrome%20Canary-60-red.svg?style=flat-square
+[chrome-59]: https://img.shields.io/badge/Chrome-59-green.svg?style=flat-square
+[chrome-60]: https://img.shields.io/badge/Chrome-60-green.svg?style=flat-square
+[chrome-61]: https://img.shields.io/badge/Chrome%20Beta-61-red.svg?style=flat-square
+[chrome-62]: https://img.shields.io/badge/Chrome%20Canary-62-red.svg?style=flat-square
 
 [opera-25]: https://img.shields.io/badge/Opera-25-green.svg?style=flat-square
 [opera-26]: https://img.shields.io/badge/Opera-26-green.svg?style=flat-square
@@ -244,11 +262,13 @@ Missing features added for `edge` option:
 [opera-39]: https://img.shields.io/badge/Opera-39-green.svg?style=flat-square
 [opera-42]: https://img.shields.io/badge/Opera-42-green.svg?style=flat-square
 [opera-45]: https://img.shields.io/badge/Opera-45-green.svg?style=flat-square
+[opera-47]: https://img.shields.io/badge/Opera-47-green.svg?style=flat-square
 
 [safari-7.1]: https://img.shields.io/badge/Safari-7.1-green.svg?style=flat-square
 [safari-9]: https://img.shields.io/badge/Safari-9-green.svg?style=flat-square
 [safari-10]: https://img.shields.io/badge/Safari-10-green.svg?style=flat-square
 [safari-10.1]: https://img.shields.io/badge/Safari-10.1-green.svg?style=flat-square
+[safari-none]: https://img.shields.io/badge/Safari-None-red.svg?style=flat-square
 
 [npm-image]: https://img.shields.io/npm/v/babel-preset-modern-browsers.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/babel-preset-modern-browsers
