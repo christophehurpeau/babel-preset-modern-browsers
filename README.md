@@ -1,5 +1,7 @@
 # babel-preset-modern-browsers [![NPM version][npm-image]][npm-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/christophehurpeau/babel-preset-modern-browsers.svg)](https://greenkeeper.io/)
+
 ![Edge 15][edge-15]
 ![Firefox 53][firefox-53]
 ![Chrome 55][chrome-55]
