@@ -36,9 +36,9 @@
     "babel-plugin-transform-object-rest-spread": "^6.23.0"
   },
   "devDependencies": {
-    "eslint": "^3.12.2",
+    "eslint": "^4.4.1",
     "eslint-config-airbnb-base": "^11.0.0",
-    "eslint-config-pob": "^11.0.0",
+    "eslint-config-pob": "^14.1.2",
     "eslint-plugin-import": "^2.2.0",
     "komet": "^0.1.4",
     "komet-karma": "^0.2.5",
