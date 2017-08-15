@@ -1,12 +1,5 @@
 # babel-preset-modern-browsers [![NPM version][npm-image]][npm-url]
 
-![Firefox 55][firefox-55]
-![Chrome 60][chrome-60]
-![Opera 47][opera-47]
-
-with `edge: true`: ![Edge 15][edge-15]
-with `safari10: true`: ![Safari 10.1][safari-10.1]
-
 Babel presets for modern browsers
 
 [![Dependency ci Status][dependencyci-image]][dependencyci-url]
@@ -25,6 +18,12 @@ More info in the compatibility table below
 ## Alternatives
 
 - https://github.com/babel/babel-preset-env
+
+## Modern browsers
+
+- with `edge: true`: ![Edge 15][edge-15] ![Firefox 53][firefox-53] ![Chrome 55][chrome-55] ![Opera 42][opera-42] ![Safari 10.1][safari-10.1]
+- with `safari10: true`: ![Edge 15][edge-15] ![Firefox 53][firefox-53] ![Chrome 55][chrome-55] ![Opera 42][opera-42] ![Safari 10.1][safari-10.1]
+- with `edge: false` and `safari10: false`: ![Firefox 55][firefox-55] ![Chrome 60][chrome-60] ![Opera 47][opera-47]
 
 ## Installation
 
@@ -85,6 +84,7 @@ Add the following line to your `.babelrc` file:
 Missing features added for `edge` option:
 
 - function-name
+- object rest/spread properties
 
 ## Compatibility Table
 
