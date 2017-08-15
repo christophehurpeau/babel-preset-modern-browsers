@@ -92,6 +92,8 @@ Missing features added for `edge` option:
 | Feature | Edge | Firefox | Chrome | Opera | Safari |
 | ------- | ---- | ------- | ------ | ----- | ------ |
 | <h3>ESNEXT</h3> ||||||
+| [Dynamic import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) | - | - | - | - | - |
+| ↳ [babel-plugin-syntax-dynamic-import](https://babeljs.io/docs/plugins/babel-plugin-syntax-dynamic-import) ||||||
 | [Object Rest/Spread Properties](https://kangax.github.io/compat-table/esnext/#test-object_rest/spread_properties) | ![Edge None][edge-none] | ![Firefox 55][firefox-55] | ![Chrome 60][chrome-60] | ![Opera 47][opera-47] | ![Safari None][safari-none] |
 | ↳ `edge` or `safari10`: [transform-object-rest-spread](https://babeljs.io/docs/plugins/transform-object-rest-spread)<br>else [syntax-object-rest-spread](https://babeljs.io/docs/plugins/syntax-object-rest-spread) ||||||
 | <h3>ES2017</h3> ||||||
