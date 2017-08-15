@@ -1,3 +1,15 @@
+<a name="10.0.0"></a>
+# [10.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v9.0.2...v10.0.0) (2017-08-15)
+
+
+### Features
+
+* add dynamic import syntax ([d0e7a7e](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/d0e7a7e))
+* add object rest/spread ([d3c695f](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/d3c695f))
+* enable `edge` and `safari10` by default ([c3212e7](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/c3212e7))
+* firefox 53, safari 10.1 and edge 15 ([b66b6cd](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/b66b6cd))
+
+
 <a name="9.0.2"></a>
 ## [9.0.2](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v9.0.1...v9.0.2) (2017-03-09)
 
