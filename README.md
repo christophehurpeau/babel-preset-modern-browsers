@@ -49,8 +49,8 @@ Add the following line to your `.babelrc` file:
 - `es2016` - Enable es2016 features (Enabled by default)
 - `es2017` - Enable es2017 features (Enabled by default)
 - `esnext` - Enable esnext features (Enabled by default)
-- `edge` - Support Edge (Disabled by default)
-- `safari 10` - Support Safari 10 (Disabled by default)
+- `edge` - Support Edge (Enabled by default)
+- `safari 10` - Support Safari 10 (Enabled by default)
 
 ```js
 {

@@ -4,8 +4,8 @@ function preset(context, opts) {
   opts = opts || {}; // support node 4
   const modules = opts.modules !== undefined ? opts.modules : 'commonjs';
 
-  const safari10 = opts.safari10 !== undefined ? opts.safari10 : false;
-  const edge = opts.edge !== undefined ? opts.edge : false;
+  const safari10 = opts.safari10 !== undefined ? opts.safari10 : true;
+  const edge = opts.edge !== undefined ? opts.edge : true;
   const loose = opts.loose !== undefined ? opts.loose : false;
   const es2016 = opts.es2016 !== undefined ? opts.es2016 : true;
   const es2017 = opts.es2017 !== undefined ? opts.es2017 : true;
