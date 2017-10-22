@@ -1,3 +1,10 @@
+<a name="10.0.1"></a>
+## [10.0.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v10.0.0...v10.0.1) (2017-10-22)
+
+- update doc
+- update dependencies
+
+
 <a name="10.0.0"></a>
 # [10.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v9.0.2...v10.0.0) (2017-08-15)
 
