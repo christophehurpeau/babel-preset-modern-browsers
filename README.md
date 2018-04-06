@@ -17,17 +17,17 @@ More info in the compatibility table below
 
 ## Alternatives
 
-- https://github.com/babel/babel-preset-env
+- https://www.npmjs.com/package/@babel/preset-env
 
 ## Modern browsers
 
 - with `edge: true`: ![Edge 15][edge-15] ![Firefox 53][firefox-53] ![Chrome 55][chrome-55] ![Opera 42][opera-42] ![Safari 10.1][safari-10.1]
-- with `edge: false`: ![Firefox 55][firefox-55] ![Chrome 60][chrome-60] ![Opera 47][opera-47] ![Safari 10.1][safari-11.1]
+- with `edge: false`: ![Firefox 57][firefox-57] ![Chrome 63][chrome-63] ![Opera 50][opera-50] ![Safari 10.1][safari-11.1]
 
 ## Installation
 
 ```sh
-npm install --save-dev babel-preset-modern-browsers
+npm install --save-dev babel-preset-modern-browsers@next @babel/core
 ```
 
 ## Usage
@@ -44,8 +44,8 @@ Add the following line to your `.babelrc` file:
 
 - `loose`: Enable “loose” transformations for any plugins in this preset that allow them (Disabled by default).
 - `modules` - Enable transformation of ES6 module syntax to another module type (Enabled by default to "commonjs"). Can be false to not transform modules, or "commonjs"
-- `es2017` - Enable es2017 features (Enabled by default)
 - `es2018` - Enable es2018 features (Enabled by default)
+- `shippedProposals` - Enable features in stages but already available in browsers (Enabled by default)
 - `edge` - Support Edge (Enabled by default)
 
 ```js
@@ -65,17 +65,6 @@ Add the following line to your `.babelrc` file:
 }
 ```
 
-#### Note: to support proposals, you can add babel preset `stage-X` or the stage you want:
-
-```js
-{
-  "presets": [
-    "modern-browsers",
-    "stage-1"
-  ]
-}
-```
-
 #### Edge
 
 Missing features added for `edge` option:
@@ -85,15 +74,21 @@ Missing features added for `edge` option:
 
 ## Compatibility Table
 
+Note: most unused plugins are babel 6 plugins, I didn't update them for the documentation.
+
 
 | Feature | Edge | Firefox | Chrome | Opera | Safari |
 | ------- | ---- | ------- | ------ | ----- | ------ |
-| <h3>ESNEXT</h3> ||||||
-| [Dynamic import](https://github.com/tc39/proposal-dynamic-import) | - | - | - | - | - |
-| ↳ [babel-plugin-syntax-dynamic-import](https://babeljs.io/docs/plugins/babel-plugin-syntax-dynamic-import) ||||||
+| <h3>Shipped Proposals</h3> ||||||
+| [Optional catch binding](https://kangax.github.io/compat-table/esnext/#test-optional_catch_binding) | ![Edge None][edge-none] | ![Firefox 58][firefox-58] | ![Chrome 66][chrome-66] | ![Opera 53][opera-53] | ![Safari 11.1][safari-11.1] |
+| ↳ (used) [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding) ||||||
 | <h3>ES2018</h3> ||||||
 | [Object Rest/Spread Properties](https://kangax.github.io/compat-table/es2016plus/#test-object_rest/spread_properties) | ![Edge None][edge-none] | ![Firefox 55][firefox-55] | ![Chrome 60][chrome-60] | ![Opera 47][opera-47] | ![Safari 11.1][safari-11.1] |
-| ↳ `edge`: [transform-object-rest-spread](https://babeljs.io/docs/plugins/transform-object-rest-spread)<br>else [syntax-object-rest-spread](https://babeljs.io/docs/plugins/syntax-object-rest-spread) ||||||
+| ↳ `edge`: [proposal-object-rest-spread](https://www.npmjs.com/package/@babel/plugin-proposal-object-rest-spread)<br>else [syntax-object-rest-spread](https://www.npmjs.com/package/@babel/plugin-syntax-object-rest-spread) ||||||
+| [RegExp Unicode Property Escapes](https://kangax.github.io/compat-table/es2016plus/#test-RegExp_Unicode_Property_Escapes) | ![Edge None][edge-none] | ![Firefox None][firefox-none] | ![Chrome 64][chrome-64] | ![Opera 51][opera-51] | ![Safari None][safari-none] |
+| ↳ (used) [proposal-unicode-property-regex](https://www.npmjs.com/package/@babel/proposal-unicode-property-regex) ||||||
+| [Asynchronous Iterators](https://kangax.github.io/compat-table/es2016plus/#test-Asynchronous_Iterators) | ![Edge None][edge-none] | ![Firefox 57][firefox-57] | ![Chrome 63][chrome-63] | ![Opera 50][opera-50] | ![Safari 11.1][safari-11.1] |
+| ↳ `edge`: [plugin-proposal-async-generator-functions](https://www.npmjs.com/package/@babel/plugin-proposal-async-generator-functions)<br>else [syntax-async-generators](https://www.npmjs.com/package/@babel/plugin-syntax-async-generators) ||||||
 | <h3>ES2017</h3> ||||||
 | [trailing commas in function](http://kangax.github.io/compat-table/es2016plus/#test-trailing_commas_in_function_syntax) | ![Edge 14][edge-14] | ![Firefox 52][firefox-52] | ![Chrome 58][chrome-58] | ![Opera 45][opera-45] | ![Safari 10][safari-10] |
 | ↳ (used) [syntax-trailing-function-commas](https://babeljs.io/docs/plugins/syntax-trailing-function-commas) ||||||
@@ -246,6 +241,7 @@ Missing features added for `edge` option:
 [firefox-62]: https://img.shields.io/badge/Firefox-62-red.svg?style=flat-square
 [firefox-63]: https://img.shields.io/badge/Firefox-63-red.svg?style=flat-square
 [firefox-64]: https://img.shields.io/badge/Firefox-64-red.svg?style=flat-square
+[firefox-none]: https://img.shields.io/badge/Firefox-None-red.svg?style=flat-square
 
 [chrome-38]: https://img.shields.io/badge/Chrome-38-green.svg?style=flat-square
 [chrome-39]: https://img.shields.io/badge/Chrome-39-green.svg?style=flat-square

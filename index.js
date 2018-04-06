@@ -6,18 +6,6 @@ module.exports = function preset(context, opts) {
   opts = opts || {}; // support node 4
   const modules = opts.modules !== undefined ? opts.modules : 'commonjs';
 
-  const edge = opts.edge !== undefined ? opts.edge : true;
-  const loose = opts.loose !== undefined ? opts.loose : false;
-  const es2017 = opts.es2017 !== undefined ? opts.es2017 : true;
-  const es2018 = opts.es2018 !== undefined ? opts.es2018 : true;
-
-  if (modules !== false && modules !== 'commonjs') {
-    throw new Error(
-      "Preset modern-browsers 'modules' option must be 'false' to indicate no modules\n" +
-        "or 'commonjs' (default)"
-    );
-  }
-
   [
     'safari10',
     'edge',
@@ -26,12 +14,23 @@ module.exports = function preset(context, opts) {
     'es2017',
     'es2018',
     'shippedProposals',
-    'esnext',
   ].forEach(optionName => {
     if (opts[optionName] !== undefined && typeof opts[optionName] !== 'boolean') {
       throw new Error(`Preset modern-browsers '${optionName}' option must be a boolean.`);
     }
   });
+
+  if (modules !== false && modules !== 'commonjs') {
+    throw new Error(
+      "Preset modern-browsers 'modules' option must be 'false' to indicate no modules\n" +
+        "or 'commonjs' (default)"
+    );
+  }
+
+  const edge = opts.edge !== undefined ? opts.edge : true;
+  const loose = opts.loose !== undefined ? opts.loose : false;
+  const es2018 = opts.es2018 !== undefined ? opts.es2018 : true;
+  const shippedProposals = opts.shippedProposals !== undefined ? opts.shippedProposals : true;
 
   if (opts.esnext !== undefined) {
     throw new Error("Preset modern-browsers 'esnext' option was removed");
@@ -42,24 +41,30 @@ module.exports = function preset(context, opts) {
   return {
     plugins: [
       /* es2015 */
-      require('babel-plugin-check-es2015-constants'),
+      modules === 'commonjs' && [require('@babel/plugin-transform-modules-commonjs'), optsLoose],
 
-      edge && require('babel-plugin-transform-es2015-arrow-functions'), // needed for function-name
-      edge && require('babel-plugin-transform-es2015-function-name'),
+      edge && require('@babel/plugin-transform-arrow-functions'), // needed for function-name
+      edge && require('@babel/plugin-transform-function-name'),
 
-      modules === 'commonjs' && [
-        require('babel-plugin-transform-es2015-modules-commonjs'),
-        optsLoose,
-      ],
-
-      /* es2017 */
-      es2017 && require('babel-plugin-syntax-trailing-function-commas'),
-
-      /* esnext */
+      /* es2018 */
       es2018 &&
         (edge
-          ? require('babel-plugin-transform-object-rest-spread')
-          : require('babel-plugin-syntax-object-rest-spread')),
+          ? [require('@babel/plugin-proposal-object-rest-spread'), { loose, useBuiltIns: true }]
+          : require('@babel/plugin-syntax-object-rest-spread')),
+
+      es2018 && [
+        require('@babel/plugin-proposal-unicode-property-regex'),
+        { useUnicodeFlag: true },
+      ],
+
+      es2018 && edge
+        ? require('@babel/plugin-proposal-async-generator-functions')
+        : require('@babel/plugin-syntax-async-generators'),
+
+      /* shippedProposals */
+      shippedProposals &&
+        shippedProposals &&
+        require('@babel/plugin-syntax-optional-catch-binding'),
     ].filter(Boolean),
   };
 };

@@ -27,13 +27,15 @@
     "version": "pob-version"
   },
   "dependencies": {
-    "babel-plugin-check-es2015-constants": "^6.22.0",
-    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
-    "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
-    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
-    "babel-plugin-transform-es2015-function-name": "^6.24.1",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0"
+    "@babel/plugin-proposal-async-generator-functions": "^7.0.0-beta.44",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.44",
+    "@babel/plugin-proposal-unicode-property-regex": "^7.0.0-beta.44",
+    "@babel/plugin-syntax-async-generators": "^7.0.0-beta.44",
+    "@babel/plugin-syntax-object-rest-spread": "^7.0.0-beta.44",
+    "@babel/plugin-syntax-optional-catch-binding": "^7.0.0-beta.44",
+    "@babel/plugin-transform-arrow-functions": "^7.0.0-beta.44",
+    "@babel/plugin-transform-function-name": "^7.0.0-beta.44",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0-beta.44"
   },
   "devDependencies": {
     "eslint": "^4.9.0",
