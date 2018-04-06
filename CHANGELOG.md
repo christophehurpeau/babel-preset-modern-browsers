@@ -1,3 +1,17 @@
+<a name="11.0.0"></a>
+# [11.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v10.0.1...v11.0.0) (2018-04-06)
+
+
+### Features
+
+* option es2018, remove option esnext and safari 10 ([e5836f5](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/e5836f5))
+
+
+### BREAKING CHANGES
+
+* option esnext and safari 10 removed
+
+
 <a name="10.0.1"></a>
 ## [10.0.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v10.0.0...v10.0.1) (2017-10-22)
 
