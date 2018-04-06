@@ -2,7 +2,7 @@
 
 'use strict';
 
-function preset(context, opts) {
+module.exports = function preset(context, opts) {
   opts = opts || {}; // support node 4
   const modules = opts.modules !== undefined ? opts.modules : 'commonjs';
 
@@ -62,13 +62,4 @@ function preset(context, opts) {
           : require('babel-plugin-syntax-object-rest-spread')),
     ].filter(Boolean),
   };
-}
-
-module.exports = preset({});
-
-Object.defineProperty(module.exports, 'buildPreset', {
-  configurable: true,
-  writable: true,
-  enumerable: false,
-  value: preset,
-});
+};
