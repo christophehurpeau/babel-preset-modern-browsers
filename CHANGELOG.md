@@ -1,3 +1,12 @@
+<a name="12.0.0-beta.0"></a>
+# [12.0.0-beta.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v11.0.1...v12.0.0-beta.0) (2018-04-06)
+
+
+### Features
+
+* babel 7 and shipped proposals ([1dda800](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/1dda800))
+
+
 <a name="11.0.1"></a>
 ## [11.0.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v11.0.0...v11.0.1) (2018-04-06)
 
