@@ -60,7 +60,7 @@ Add the following line to your `.babelrc` file:
 ```js
 {
   presets: [
-    [require("babel-preset-modern-browsers").buildPreset, { "loose": true }]
+    [require("babel-preset-modern-browsers"), { "loose": true }]
   ]
 }
 ```
