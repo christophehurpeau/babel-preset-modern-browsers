@@ -1,3 +1,7 @@
+<a name="11.0.1"></a>
+## [11.0.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v11.0.0...v11.0.1) (2018-04-06)
+
+
 <a name="11.0.0"></a>
 # [11.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v10.0.1...v11.0.0) (2018-04-06)
 
