@@ -11,7 +11,7 @@ Babel presets for modern browsers
 * [Compatibility Table](#compatibility-table)
 * [Release Dates](#release-dates)
 
-This preset covers `es2015`, `es2016` and `es2017`.
+This preset covers `es2015`, `es2016`, `es2017` and `es2018`.
 
 More info in the compatibility table below
 
@@ -22,8 +22,7 @@ More info in the compatibility table below
 ## Modern browsers
 
 - with `edge: true`: ![Edge 15][edge-15] ![Firefox 53][firefox-53] ![Chrome 55][chrome-55] ![Opera 42][opera-42] ![Safari 10.1][safari-10.1]
-- with `safari10: true`: ![Edge 15][edge-15] ![Firefox 53][firefox-53] ![Chrome 55][chrome-55] ![Opera 42][opera-42] ![Safari 10.1][safari-10.1]
-- with `edge: false` and `safari10: false`: ![Firefox 55][firefox-55] ![Chrome 60][chrome-60] ![Opera 47][opera-47]
+- with `edge: false`: ![Firefox 55][firefox-55] ![Chrome 60][chrome-60] ![Opera 47][opera-47] ![Safari 10.1][safari-11.1]
 
 ## Installation
 
@@ -45,11 +44,9 @@ Add the following line to your `.babelrc` file:
 
 - `loose`: Enable “loose” transformations for any plugins in this preset that allow them (Disabled by default).
 - `modules` - Enable transformation of ES6 module syntax to another module type (Enabled by default to "commonjs"). Can be false to not transform modules, or "commonjs"
-- `es2016` - Enable es2016 features (Enabled by default)
 - `es2017` - Enable es2017 features (Enabled by default)
-- `esnext` - Enable esnext features (Enabled by default)
+- `es2018` - Enable es2018 features (Enabled by default)
 - `edge` - Support Edge (Enabled by default)
-- `safari 10` - Support Safari 10 (Enabled by default)
 
 ```js
 {
@@ -92,10 +89,11 @@ Missing features added for `edge` option:
 | Feature | Edge | Firefox | Chrome | Opera | Safari |
 | ------- | ---- | ------- | ------ | ----- | ------ |
 | <h3>ESNEXT</h3> ||||||
-| [Dynamic import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) | - | - | - | - | - |
+| [Dynamic import](https://github.com/tc39/proposal-dynamic-import) | - | - | - | - | - |
 | ↳ [babel-plugin-syntax-dynamic-import](https://babeljs.io/docs/plugins/babel-plugin-syntax-dynamic-import) ||||||
-| [Object Rest/Spread Properties](https://kangax.github.io/compat-table/esnext/#test-object_rest/spread_properties) | ![Edge None][edge-none] | ![Firefox 55][firefox-55] | ![Chrome 60][chrome-60] | ![Opera 47][opera-47] | ![Safari None][safari-none] |
-| ↳ `edge` or `safari10`: [transform-object-rest-spread](https://babeljs.io/docs/plugins/transform-object-rest-spread)<br>else [syntax-object-rest-spread](https://babeljs.io/docs/plugins/syntax-object-rest-spread) ||||||
+| <h3>ES2018</h3> ||||||
+| [Object Rest/Spread Properties](https://kangax.github.io/compat-table/es2016plus/#test-object_rest/spread_properties) | ![Edge None][edge-none] | ![Firefox 55][firefox-55] | ![Chrome 60][chrome-60] | ![Opera 47][opera-47] | ![Safari 11.1][safari-11.1] |
+| ↳ `edge`: [transform-object-rest-spread](https://babeljs.io/docs/plugins/transform-object-rest-spread)<br>else [syntax-object-rest-spread](https://babeljs.io/docs/plugins/syntax-object-rest-spread) ||||||
 | <h3>ES2017</h3> ||||||
 | [trailing commas in function](http://kangax.github.io/compat-table/es2016plus/#test-trailing_commas_in_function_syntax) | ![Edge 14][edge-14] | ![Firefox 52][firefox-52] | ![Chrome 58][chrome-58] | ![Opera 45][opera-45] | ![Safari 10][safari-10] |
 | ↳ (used) [syntax-trailing-function-commas](https://babeljs.io/docs/plugins/syntax-trailing-function-commas) ||||||
