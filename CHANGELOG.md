@@ -1,3 +1,9 @@
+<a name="12.0.0-beta.1"></a>
+# [12.0.0-beta.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v12.0.0-beta.0...v12.0.0-beta.1) (2018-04-27)
+
+drop node 4 support
+
+
 <a name="12.0.0-beta.0"></a>
 # [12.0.0-beta.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v11.0.1...v12.0.0-beta.0) (2018-04-06)
 

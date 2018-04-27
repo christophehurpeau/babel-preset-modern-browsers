@@ -1,14 +1,18 @@
 {
   "name": "babel-preset-modern-browsers",
-  "version": "12.0.0-beta.0",
+  "version": "12.0.0-beta.1",
   "description": "Babel presets for modern browsers",
   "keywords": ["babel", "preset", "modern", "browser", "browsers"],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
   "license": "ISC",
   "repository": "git@github.com:christophehurpeau/babel-preset-modern-browsers.git",
   "homepage": "https://github.com/christophehurpeau/babel-preset-modern-browsers",
-  "bugs": { "url": "https://github.com/christophehurpeau/babel-preset-modern-browsers/issues" },
-  "engines": { "node": ">=6.5.0" },
+  "bugs": {
+    "url": "https://github.com/christophehurpeau/babel-preset-modern-browsers/issues"
+  },
+  "engines": {
+    "node": ">=6.5.0"
+  },
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rm -Rf docs dist",
@@ -27,8 +31,14 @@
     "lib/**/*.json": ["prettier --write", "git add"],
     "lib/**/*.js": ["eslint --fix --quiet", "git add"]
   },
-  "prettier": { "trailingComma": "es5", "singleQuote": true, "printWidth": 100 },
-  "commitlint": { "extends": ["@commitlint/config-conventional"] },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 100
+  },
+  "commitlint": {
+    "extends": ["@commitlint/config-conventional"]
+  },
   "dependencies": {
     "@babel/plugin-proposal-async-generator-functions": "^7.0.0-beta.46",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.46",
