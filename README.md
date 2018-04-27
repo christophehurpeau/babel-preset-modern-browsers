@@ -1,9 +1,16 @@
-# babel-preset-modern-browsers [![NPM version][npm-image]][npm-url]
+<h3 align="center">
+  babel-preset-modern-browsers
+</h3>
 
-Babel presets for modern browsers
+<p align="center">
+  Babel presets for modern browsers
+</p>
 
-[![Dependency ci Status][dependencyci-image]][dependencyci-url]
-[![Dependency Status][daviddm-image]][daviddm-url]
+<p align="center">
+  <a href="https://npmjs.org/package/babel-preset-modern-browsers"><img src="https://img.shields.io/npm/v/babel-preset-modern-browsers.svg?style=flat-square"></a>
+  <a href="https://david-dm.org/christophehurpeau/babel-preset-modern-browsers"><img src="https://david-dm.org/christophehurpeau/babel-preset-modern-browsers.svg?style=flat-square"></a>
+  <a href="https://dependencyci.com/github/christophehurpeau/babel-preset-modern-browsers"><img src="https://dependencyci.com/github/christophehurpeau/babel-preset-modern-browsers/badge?style=flat-square"></a>
+</p>
 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -293,10 +300,3 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [safari-11]: https://img.shields.io/badge/Safari-11-green.svg?style=flat-square
 [safari-11.1]: https://img.shields.io/badge/Safari-11.1-green.svg?style=flat-square
 [safari-none]: https://img.shields.io/badge/Safari-None-red.svg?style=flat-square
-
-[npm-image]: https://img.shields.io/npm/v/babel-preset-modern-browsers.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/babel-preset-modern-browsers
-[daviddm-image]: https://david-dm.org/christophehurpeau/babel-preset-modern-browsers.svg?style=flat-square
-[daviddm-url]: https://david-dm.org/christophehurpeau/babel-preset-modern-browsers
-[dependencyci-image]: https://dependencyci.com/github/christophehurpeau/babel-preset-modern-browsers/badge?style=flat-square
-[dependencyci-url]: https://dependencyci.com/github/christophehurpeau/babel-preset-modern-browsers

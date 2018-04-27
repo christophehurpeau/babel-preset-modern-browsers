@@ -1,5 +1,0 @@
-#!/bin/bash
-
-if [[ `git diff HEAD@{1} --stat -- package.json` != "" ]]; then
-  yarn
-fi

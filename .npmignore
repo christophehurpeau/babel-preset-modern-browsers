@@ -1,14 +1,15 @@
-/git-hooks
-/examples
-/samples
-/docs
-/coverage
+/.circleci
 /build
+/docs
+/examples
+/git-hooks
+/samples
 /test
-/.pob.json
-circle.yml
+/tsconfig.json
+/tsconfig.build.json
+.babelrc
 .codeclimate.yml
-jsdoc.config.json
+.yo-rc.json
 
 /.settings
 /.project
