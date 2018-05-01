@@ -273,9 +273,9 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [chrome-63]: https://img.shields.io/badge/Chrome-63-green.svg?style=flat-square
 [chrome-64]: https://img.shields.io/badge/Chrome-64-green.svg?style=flat-square
 [chrome-65]: https://img.shields.io/badge/Chrome-65-green.svg?style=flat-square
-[chrome-66]: https://img.shields.io/badge/Chrome%20Beta-66-red.svg?style=flat-square
-[chrome-67]: https://img.shields.io/badge/Chrome%20Canary-67-red.svg?style=flat-square
-[chrome-68]: https://img.shields.io/badge/Chrome-68-red.svg?style=flat-square
+[chrome-66]: https://img.shields.io/badge/Chrome-66-green.svg?style=flat-square
+[chrome-67]: https://img.shields.io/badge/Chrome%20Beta-67-red.svg?style=flat-square
+[chrome-68]: https://img.shields.io/badge/Chrome%20Canary-68-red.svg?style=flat-square
 [chrome-69]: https://img.shields.io/badge/Chrome-69-red.svg?style=flat-square
 [chrome-70]: https://img.shields.io/badge/Chrome-70-red.svg?style=flat-square
 
@@ -292,6 +292,9 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [opera-42]: https://img.shields.io/badge/Opera-42-green.svg?style=flat-square
 [opera-45]: https://img.shields.io/badge/Opera-45-green.svg?style=flat-square
 [opera-47]: https://img.shields.io/badge/Opera-47-green.svg?style=flat-square
+[opera-50]: https://img.shields.io/badge/Opera-50-green.svg?style=flat-square
+[opera-51]: https://img.shields.io/badge/Opera-51-green.svg?style=flat-square
+[opera-53]: https://img.shields.io/badge/Opera-53%20Beta-red.svg?style=flat-square
 
 [safari-7.1]: https://img.shields.io/badge/Safari-7.1-green.svg?style=flat-square
 [safari-9]: https://img.shields.io/badge/Safari-9-green.svg?style=flat-square
