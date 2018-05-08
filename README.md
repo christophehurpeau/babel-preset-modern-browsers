@@ -206,6 +206,7 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 
 | Date       | Version |
 | ---------- | ------- |
+| 2018-04-30 | [![Edge 17][edge-17]](https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/desktop/17134/?compareWith=16299) |
 | 2017-09-26 | [![Edge 16][edge-16]](https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/desktop/16299/?compareWith=15063) |
 | 2017-03-20 | [![Edge 15][edge-15]](https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/desktop/15063/?compareWith=14393) |
 
@@ -219,6 +220,7 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [edge-14]: https://img.shields.io/badge/Edge-14-green.svg?style=flat-square
 [edge-15]: https://img.shields.io/badge/Edge-15-green.svg?style=flat-square
 [edge-16]: https://img.shields.io/badge/Edge-16-green.svg?style=flat-square
+[edge-17]: https://img.shields.io/badge/Edge-17-green.svg?style=flat-square
 [edge-partial]: https://img.shields.io/badge/Edge-Partial-red.svg?style=flat-square
 [edge-none]: https://img.shields.io/badge/Edge-None-red.svg?style=flat-square
 
