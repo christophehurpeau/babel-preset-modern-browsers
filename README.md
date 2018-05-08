@@ -197,7 +197,7 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 
 | Date       | Version |
 | ---------- | ------- |
-| 2012-03-29 | [![Safari 11.1][safari-11.1]](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_11_1.html#//apple_ref/doc/uid/TP40014305-CH14-SW1) |
+| 2018-03-29 | [![Safari 11.1][safari-11.1]](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_11_1.html#//apple_ref/doc/uid/TP40014305-CH14-SW1) |
 | 2017-09-19 | [![Safari 11.0][safari-11]](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Safari_11_0/Safari_11_0.html) |
 | 2017-03-27 | [![Safari 10.1][safari-10.1]](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_1.html) |
 | 2016-09-20 | [![Safari 10.0][safari-10]](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_0.html) |
