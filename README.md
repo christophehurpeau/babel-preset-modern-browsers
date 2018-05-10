@@ -296,7 +296,8 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [opera-47]: https://img.shields.io/badge/Opera-47-green.svg?style=flat-square
 [opera-50]: https://img.shields.io/badge/Opera-50-green.svg?style=flat-square
 [opera-51]: https://img.shields.io/badge/Opera-51-green.svg?style=flat-square
-[opera-53]: https://img.shields.io/badge/Opera-53%20Beta-red.svg?style=flat-square
+[opera-52]: https://img.shields.io/badge/Opera-52-green.svg?style=flat-square
+[opera-53]: https://img.shields.io/badge/Opera-53-green.svg?style=flat-square
 
 [safari-7.1]: https://img.shields.io/badge/Safari-7.1-green.svg?style=flat-square
 [safari-9]: https://img.shields.io/badge/Safari-9-green.svg?style=flat-square
