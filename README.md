@@ -158,20 +158,13 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 
 | Date       | Version | ESR |
 | ---------- | ------- | --- |
-| 2018-11-27 | ![Firefox 64][firefox-63] ||
-| 2018-10-16 | ![Firefox 63][firefox-63] ||
-| 2018-08-21 | ![Firefox 62][firefox-62] ||
+| 2018-12-11 | ![Firefox 64][firefox-64] ||
+| 2018-10-23 | ![Firefox 63][firefox-63] ||
+| 2018-09-05 | ![Firefox 62][firefox-62] ||
 | 2018-06-26 | ![Firefox 61][firefox-61] ||
 | 2018-05-09 | ![Firefox 60][firefox-60] | ESR |
 | 2018-03-13 | ![Firefox 59][firefox-59] ||
 | 2018-01-16 | ![Firefox 58][firefox-58] ||
-| 2017-11-14 | ![Firefox 57][firefox-57] ||
-| 2017-09-28 | ![Firefox 56][firefox-56] ||
-| 2017-08-08 | ![Firefox 55][firefox-55] ||
-| 2017-06-13 | ![Firefox 54][firefox-54] ||
-| 2017-04-19 | ![Firefox 53][firefox-53] ||
-| 2017-03-07 | ![Firefox 52][firefox-52] | ESR |
-| 2017-01-24 | ![Firefox 51][firefox-51] ||
 
 ### [Chrome (Desktop release date)](https://www.chromium.org/developers/calendar)  ([Version History](https://en.wikipedia.org/wiki/Google_Chrome_version_history))
 
@@ -184,14 +177,6 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 | 2018-04-17 | ![Chrome 66][chrome-66] |
 | 2018-03-06 | ![Chrome 65][chrome-65] |
 | 2018-01-23 | ![Chrome 64][chrome-64] |
-| 2017-12-05 | ![Chrome 63][chrome-63] |
-| 2017-10-17 | ![Chrome 62][chrome-62] |
-| 2017-09-05 | ![Chrome 61][chrome-61] |
-| 2017-07-25 | ![Chrome 60][chrome-60] |
-| 2017-06-05 | ![Chrome 59][chrome-59] |
-| 2017-04-19 | ![Chrome 58][chrome-58] |
-| 2017-03-09 | ![Chrome 57][chrome-57] |
-| 2017-01-25 | ![Chrome 56][chrome-56] |
 
 ### [Safari](https://developer.apple.com/safari/) ([Version History](https://en.wikipedia.org/wiki/Safari_version_history))
 
@@ -245,10 +230,10 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [firefox-57]: https://img.shields.io/badge/Firefox-57-green.svg?style=flat-square
 [firefox-58]: https://img.shields.io/badge/Firefox-58-green.svg?style=flat-square
 [firefox-59]: https://img.shields.io/badge/Firefox-59-green.svg?style=flat-square
-[firefox-60]: https://img.shields.io/badge/Firefox%20Beta-60-red.svg?style=flat-square
-[firefox-61]: https://img.shields.io/badge/Firefox%20central-61-red.svg?style=flat-square
-[firefox-62]: https://img.shields.io/badge/Firefox-62-red.svg?style=flat-square
-[firefox-63]: https://img.shields.io/badge/Firefox-63-red.svg?style=flat-square
+[firefox-60]: https://img.shields.io/badge/Firefox-60-green.svg?style=flat-square
+[firefox-61]: https://img.shields.io/badge/Firefox-61-green.svg?style=flat-square
+[firefox-62]: https://img.shields.io/badge/Firefox%20Beta-62-red.svg?style=flat-square
+[firefox-63]: https://img.shields.io/badge/Firefox%20Central-63-red.svg?style=flat-square
 [firefox-64]: https://img.shields.io/badge/Firefox-64-red.svg?style=flat-square
 [firefox-none]: https://img.shields.io/badge/Firefox-None-red.svg?style=flat-square
 
@@ -276,10 +261,10 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [chrome-64]: https://img.shields.io/badge/Chrome-64-green.svg?style=flat-square
 [chrome-65]: https://img.shields.io/badge/Chrome-65-green.svg?style=flat-square
 [chrome-66]: https://img.shields.io/badge/Chrome-66-green.svg?style=flat-square
-[chrome-67]: https://img.shields.io/badge/Chrome%20Beta-67-red.svg?style=flat-square
-[chrome-68]: https://img.shields.io/badge/Chrome%20Canary-68-red.svg?style=flat-square
-[chrome-69]: https://img.shields.io/badge/Chrome-69-red.svg?style=flat-square
-[chrome-70]: https://img.shields.io/badge/Chrome-70-red.svg?style=flat-square
+[chrome-67]: https://img.shields.io/badge/Chrome-67-green.svg?style=flat-square
+[chrome-68]: https://img.shields.io/badge/Chrome-68-green.svg?style=flat-square
+[chrome-69]: https://img.shields.io/badge/Chrome%20Beta-69-red.svg?style=flat-square
+[chrome-70]: https://img.shields.io/badge/Chrome%20Canary-70-red.svg?style=flat-square
 
 [opera-25]: https://img.shields.io/badge/Opera-25-green.svg?style=flat-square
 [opera-26]: https://img.shields.io/badge/Opera-26-green.svg?style=flat-square
