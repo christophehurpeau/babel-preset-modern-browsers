@@ -39,16 +39,19 @@
   "commitlint": {
     "extends": ["@commitlint/config-conventional"]
   },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0"
+  },
   "dependencies": {
-    "@babel/plugin-proposal-async-generator-functions": "^7.0.0-beta.46",
-    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.46",
-    "@babel/plugin-proposal-unicode-property-regex": "^7.0.0-beta.46",
-    "@babel/plugin-syntax-async-generators": "^7.0.0-beta.46",
-    "@babel/plugin-syntax-object-rest-spread": "^7.0.0-beta.46",
-    "@babel/plugin-syntax-optional-catch-binding": "^7.0.0-beta.46",
-    "@babel/plugin-transform-arrow-functions": "^7.0.0-beta.46",
-    "@babel/plugin-transform-function-name": "^7.0.0-beta.46",
-    "@babel/plugin-transform-modules-commonjs": "^7.0.0-beta.46"
+    "@babel/plugin-proposal-async-generator-functions": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-proposal-unicode-property-regex": "^7.0.0",
+    "@babel/plugin-syntax-async-generators": "^7.0.0",
+    "@babel/plugin-syntax-object-rest-spread": "^7.0.0",
+    "@babel/plugin-syntax-optional-catch-binding": "^7.0.0",
+    "@babel/plugin-transform-arrow-functions": "^7.0.0",
+    "@babel/plugin-transform-function-name": "^7.0.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^6.1.3",
