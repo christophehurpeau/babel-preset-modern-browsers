@@ -24,7 +24,7 @@ More info in the compatibility table below
 
 # babel 7
 
-Since v12, this package requires `@babel/core@&7.0.0`. If you use babel 6, you can still use the version "11.0.1" of this package. If you want to migrate, you can read the [announcement](https://babeljs.io/blog/2018/08/27/7.0.0) and the [official migration guide](https://babeljs.io/docs/en/v7-migration).
+Since v12, this package requires `@babel/core@7.0.0`. If you use babel 6, you can still use the version "11.0.1" of this package. If you want to migrate, you can read the [announcement](https://babeljs.io/blog/2018/08/27/7.0.0) and the [official migration guide](https://babeljs.io/docs/en/v7-migration).
 
 ## Alternatives
 
