@@ -91,7 +91,7 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 | Feature | Edge | Firefox | Chrome | Opera | Safari |
 | ------- | ---- | ------- | ------ | ----- | ------ |
 | <h3>Shipped Proposals</h3> ||||||
-| [Optional catch binding](https://kangax.github.io/compat-table/esnext/#test-optional_catch_binding) | ![Edge None][edge-none] | ![Firefox 58][firefox-58] | ![Chrome 66][chrome-66] | ![Opera 53][opera-53] | ![Safari 11.1][safari-11.1] |
+| [Optional catch binding](http://kangax.github.io/compat-table/es2016plus/#test-optional_catch_binding) | ![Edge None][edge-none] | ![Firefox 58][firefox-58] | ![Chrome 66][chrome-66] | ![Opera 53][opera-53] | ![Safari 11.1][safari-11.1] |
 | ↳ (used) [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding) ||||||
 | <h3>ES2018</h3> ||||||
 | [Object Rest/Spread Properties](https://kangax.github.io/compat-table/es2016plus/#test-object_rest/spread_properties) | ![Edge None][edge-none] | ![Firefox 55][firefox-55] | ![Chrome 60][chrome-60] | ![Opera 47][opera-47] | ![Safari 11.1][safari-11.1] |
