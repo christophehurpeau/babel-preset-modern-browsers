@@ -1,3 +1,9 @@
+<a name="12.0.0"></a>
+# [12.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v12.0.0-beta.1...v12.0.0) (2018-08-28)
+
+babel 7
+
+
 <a name="12.0.0-beta.1"></a>
 # [12.0.0-beta.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v12.0.0-beta.0...v12.0.0-beta.1) (2018-04-27)
 
