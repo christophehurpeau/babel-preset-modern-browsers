@@ -236,9 +236,9 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [firefox-59]: https://img.shields.io/badge/Firefox-59-green.svg?style=flat-square
 [firefox-60]: https://img.shields.io/badge/Firefox-60-green.svg?style=flat-square
 [firefox-61]: https://img.shields.io/badge/Firefox-61-green.svg?style=flat-square
-[firefox-62]: https://img.shields.io/badge/Firefox%20Beta-62-red.svg?style=flat-square
-[firefox-63]: https://img.shields.io/badge/Firefox%20Central-63-red.svg?style=flat-square
-[firefox-64]: https://img.shields.io/badge/Firefox-64-red.svg?style=flat-square
+[firefox-62]: https://img.shields.io/badge/Firefox-62-red.svg?style=flat-square
+[firefox-63]: https://img.shields.io/badge/Firefox%20Beta-63-red.svg?style=flat-square
+[firefox-64]: https://img.shields.io/badge/Firefox%20Central-64-red.svg?style=flat-square
 [firefox-none]: https://img.shields.io/badge/Firefox-None-red.svg?style=flat-square
 
 [chrome-38]: https://img.shields.io/badge/Chrome-38-green.svg?style=flat-square
