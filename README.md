@@ -186,6 +186,7 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 
 | Date       | Version |
 | ---------- | ------- |
+| 2018-09-17 | [![Safari 12][safari-12]](https://developer.apple.com/safari/whats-new/) |
 | 2018-03-29 | [![Safari 11.1][safari-11.1]](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_11_1.html#//apple_ref/doc/uid/TP40014305-CH14-SW1) |
 | 2017-09-19 | [![Safari 11.0][safari-11]](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Safari_11_0/Safari_11_0.html) |
 | 2017-03-27 | [![Safari 10.1][safari-10.1]](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_1.html) |
@@ -294,4 +295,5 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [safari-10.1]: https://img.shields.io/badge/Safari-10.1-green.svg?style=flat-square
 [safari-11]: https://img.shields.io/badge/Safari-11-green.svg?style=flat-square
 [safari-11.1]: https://img.shields.io/badge/Safari-11.1-green.svg?style=flat-square
+[safari-12]: https://img.shields.io/badge/Safari-12-green.svg?style=flat-square
 [safari-none]: https://img.shields.io/badge/Safari-None-red.svg?style=flat-square
