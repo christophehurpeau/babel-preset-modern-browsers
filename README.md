@@ -162,6 +162,7 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 
 | Date       | Version | ESR |
 | ---------- | ------- | --- |
+| 2019-01-29 | ![Firefox 65][firefox-65] ||
 | 2018-12-11 | ![Firefox 64][firefox-64] ||
 | 2018-10-23 | ![Firefox 63][firefox-63] ||
 | 2018-09-05 | ![Firefox 62][firefox-62] ||
@@ -174,6 +175,8 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 
 | Date       | Version |
 | ---------- | ------- |
+| 2019-01-29 | ![Chrome 72][chrome-72] |
+| 2018-12-04 | ![Chrome 71][chrome-71] |
 | 2018-10-16 | ![Chrome 70][chrome-70] |
 | 2018-09-04 | ![Chrome 69][chrome-69] |
 | 2018-07-24 | ![Chrome 68][chrome-68] |
@@ -196,9 +199,10 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 
 | Date       | Version |
 | ---------- | ------- |
-| 2018-04-30 | [![Edge 17][edge-17]](https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/desktop/17134/?compareWith=16299) |
-| 2017-09-26 | [![Edge 16][edge-16]](https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/desktop/16299/?compareWith=15063) |
-| 2017-03-20 | [![Edge 15][edge-15]](https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/desktop/15063/?compareWith=14393) |
+| 2018-11-13 | [![Edge 18][edge-18]](https://aka.ms/devguide_edgehtml_18) |
+| 2018-04-30 | [![Edge 17][edge-17]](https://aka.ms/devguide_edgehtml_17) |
+| 2017-09-26 | [![Edge 16][edge-16]](https://aka.ms/devguide_edgehtml_16) |
+| 2017-03-20 | [![Edge 15][edge-15]](https://aka.ms/devguide_edgehtml_15) |
 
 ## Thanks
 
@@ -211,6 +215,7 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [edge-15]: https://img.shields.io/badge/Edge-15-green.svg?style=flat-square
 [edge-16]: https://img.shields.io/badge/Edge-16-green.svg?style=flat-square
 [edge-17]: https://img.shields.io/badge/Edge-17-green.svg?style=flat-square
+[edge-18]: https://img.shields.io/badge/Edge-18-green.svg?style=flat-square
 [edge-partial]: https://img.shields.io/badge/Edge-Partial-red.svg?style=flat-square
 [edge-none]: https://img.shields.io/badge/Edge-None-red.svg?style=flat-square
 
@@ -237,9 +242,10 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [firefox-59]: https://img.shields.io/badge/Firefox-59-green.svg?style=flat-square
 [firefox-60]: https://img.shields.io/badge/Firefox-60-green.svg?style=flat-square
 [firefox-61]: https://img.shields.io/badge/Firefox-61-green.svg?style=flat-square
-[firefox-62]: https://img.shields.io/badge/Firefox-62-red.svg?style=flat-square
-[firefox-63]: https://img.shields.io/badge/Firefox%20Beta-63-red.svg?style=flat-square
-[firefox-64]: https://img.shields.io/badge/Firefox%20Central-64-red.svg?style=flat-square
+[firefox-62]: https://img.shields.io/badge/Firefox-62-green.svg?style=flat-square
+[firefox-63]: https://img.shields.io/badge/Firefox-63-green.svg?style=flat-square
+[firefox-64]: https://img.shields.io/badge/Firefox%20Beta-64-red.svg?style=flat-square
+[firefox-65]: https://img.shields.io/badge/Firefox%20Central-65-red.svg?style=flat-square
 [firefox-none]: https://img.shields.io/badge/Firefox-None-red.svg?style=flat-square
 
 [chrome-38]: https://img.shields.io/badge/Chrome-38-green.svg?style=flat-square
@@ -268,8 +274,10 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [chrome-66]: https://img.shields.io/badge/Chrome-66-green.svg?style=flat-square
 [chrome-67]: https://img.shields.io/badge/Chrome-67-green.svg?style=flat-square
 [chrome-68]: https://img.shields.io/badge/Chrome-68-green.svg?style=flat-square
-[chrome-69]: https://img.shields.io/badge/Chrome%20Beta-69-red.svg?style=flat-square
-[chrome-70]: https://img.shields.io/badge/Chrome%20Canary-70-red.svg?style=flat-square
+[chrome-69]: https://img.shields.io/badge/Chrome-69-green.svg?style=flat-square
+[chrome-70]: https://img.shields.io/badge/Chrome-70-green.svg?style=flat-square
+[chrome-71]: https://img.shields.io/badge/Chrome%20Beta-71-red.svg?style=flat-square
+[chrome-72]: https://img.shields.io/badge/Chrome%20Canary-72-red.svg?style=flat-square
 
 [opera-25]: https://img.shields.io/badge/Opera-25-green.svg?style=flat-square
 [opera-26]: https://img.shields.io/badge/Opera-26-green.svg?style=flat-square
