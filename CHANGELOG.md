@@ -1,3 +1,18 @@
+<a name="13.0.0"></a>
+# [13.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v12.0.0...v13.0.0) (2018-11-24)
+
+
+### Features
+
+* add supportVariablesFunctionName ([5064f23](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/5064f23))
+* pass optional catch binding in modern browsers ([c9b6af5](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/c9b6af5))
+
+
+### BREAKING CHANGES
+
+* when edge:false, modern browsers are now: firefox 58, chrome 66, opera 53, safari 11.1
+
+
 <a name="12.0.0"></a>
 # [12.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v12.0.0-beta.1...v12.0.0) (2018-08-28)
 
