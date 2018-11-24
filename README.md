@@ -94,17 +94,16 @@ return foo.name === "foo" && bar.name === "baz";
 
 ## Browserlist
 
-[with `edge: true`](https://browserl.ist/?q=firefox+%3E%3D+58%2C+FirefoxAndroid++%3E%3D+58%2C+chrome+%3E%3D+66%2C+ChromeAndroid+%3E%3D+66%2C+safari+%3E%3D+11.1%2C+iOS+%3E%3D+11.1):
+[with `edge: true`](https://browserl.ist/?q=Edge+%3E%3D+15%2C+Firefox+%3E%3D+53%2C+FirefoxAndroid++%3E%3D+53%2C+Chrome+%3E%3D+55%2C+ChromeAndroid+%3E%3D+55%2C+Opera+%3E%3D+42%2C+OperaMobile+%3E%3D+42%2C+Safari+%3E%3D+10.1%2C+iOS+%3E%3D+10.1):
 
 ```
-firefox >= 58, FirefoxAndroid  >= 58, chrome >= 66, ChromeAndroid >= 66, safari >= 11.1, iOS >= 11.1
+Edge >= 15, Firefox >= 53, FirefoxAndroid  >= 53, Chrome >= 55, ChromeAndroid >= 55, Opera >= 42, OperaMobile >= 42, Safari >= 10.1, iOS >= 10.1
 ```
 
-
-[with `edge: true`](https://browserl.ist/?q=edge+%3E%3D+15%2C+firefox+%3E%3D+53%2C+FirefoxAndroid++%3E%3D+53%2C+chrome+%3E%3D+55%2C+ChromeAndroid+%3E%3D+55%2C+safari+%3E%3D+10.1%2C+iOS+%3E%3D+10.1):
+[with `edge: false`](https://browserl.ist/?q=Firefox+%3E%3D+58%2C+FirefoxAndroid++%3E%3D+58%2C+Chrome+%3E%3D+66%2C+ChromeAndroid+%3E%3D+66%2C+Opera+%3E%3D+53%2C+OperaMobile+%3E%3D+53%2C+Safari+%3E%3D+11.1%2C+iOS+%3E%3D+11.1):
 
 ```
-edge >= 15, firefox >= 53, FirefoxAndroid  >= 53, chrome >= 55, ChromeAndroid >= 55, safari >= 10.1, iOS >= 10.1
+Firefox >= 58, FirefoxAndroid  >= 58, Chrome >= 66, ChromeAndroid >= 66, Opera >= 53, OperaMobile >= 53, Safari >= 11.1, iOS >= 11.1
 ```
 
 
