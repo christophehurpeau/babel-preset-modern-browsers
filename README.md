@@ -58,6 +58,7 @@ Add the following line to your `.babelrc` file:
 - `es2018` - Enable es2018 features (Enabled by default)
 - `shippedProposals` - Enable features in stages but already available in browsers (Enabled by default)
 - `edge` - Support Edge (Enabled by default)
+- `supportVariablesFunctionName` - Support variables function name (Enabled by default)
 
 ```js
 {
@@ -80,8 +81,17 @@ Add the following line to your `.babelrc` file:
 
 Missing features added for `edge` option:
 
-- function-name
+- optional catch binding
 - object rest/spread properties
+- asynchronous iterators
+- function-name (if `supportVariablesFunctionName`)
+
+```js
+var foo = function() {};
+var bar = function baz() {};
+return foo.name === "foo" && bar.name === "baz";
+```
+
 
 ## Compatibility Table
 
@@ -108,7 +118,7 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 | <h3>ES2016</h3> ||||||
 | [exponentiation operator](http://kangax.github.io/compat-table/es2016plus/#test-exponentiation_(**)_operator) | ![Edge 14][edge-14] | ![Firefox 52][firefox-52] | ![Chrome 52][chrome-52] | ![Opera 39][opera-39] | ![Safari 10][safari-10] |
 | ↳ (unused) [transform-exponentiation-operator](https://babeljs.io/docs/plugins/transform-exponentiation-operator) ||||||
-| <h3>ES2015</h3> | ![Edge Partial][edge-partial] | ![Firefox 53][firefox-53] | ![Chrome 52][chrome-52] | ![Opera 39][opera-39] | ![Safari 10][safari-10] |
+| <h3>ES2015</h3> | ![Edge 15][edge-15] (except variables function name) | ![Firefox 53][firefox-53] | ![Chrome 52][chrome-52] | ![Opera 39][opera-39] | ![Safari 10][safari-10] |
 | <h4>Syntax</h4> ||||||
 | [default parameters](https://kangax.github.io/compat-table/es6/#test-default_function_parameters) | ![Edge 14][edge-14] | ![Firefox 53][firefox-53] | ![Chrome 49][chrome-49] | ![Opera 36][opera-36] | ![Safari 10][safari-10] |
 | ↳ (unused) [transform-es2015-parameters](https://babeljs.io/docs/plugins/transform-es2015-parameters) ||||||
@@ -152,8 +162,8 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 | [typeof Symbol](https://kangax.github.io/compat-table/es6/#test-Symbol_typeof_support) | ![Edge 12][edge-12] | ![Firefox 36][firefox-36] | ![Chrome 38][chrome-38] | ![Opera 25][opera-25] | ![Safari 9][safari-9] |
 | ↳ (unused) [transform-es2015-typeof-symbol](https://babeljs.io/docs/plugins/transform-es2015-typeof-symbol) ||||||
 | <h4>Built-in extensions</h4> ||||||
-| [function name](https://kangax.github.io/compat-table/es6/#test-function_name_property) | ![Edge Partial][edge-partial] | ![Firefox 53][firefox-53] | ![Chrome 52][chrome-52] | ![Opera 39][opera-39] | ![Safari 10][safari-10] |
-| ↳ (used with `edge`) [transform-es2015-function-name](https://babeljs.io/docs/plugins/transform-es2015-function-name) ||||||
+| [function name](https://kangax.github.io/compat-table/es6/#test-function_name_property) | ![Edge 15][edge-15] (except variables: ![Edge None][edge-none]) | ![Firefox 53][firefox-53] | ![Chrome 52][chrome-52] | ![Opera 39][opera-39] | ![Safari 10][safari-10] |
+| ↳ (`edge` and `supportVariablesFunctionName`) [transform-es2015-function-name](https://babeljs.io/docs/plugins/transform-es2015-function-name) ||||||
 
 
 ## Release Dates
