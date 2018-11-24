@@ -66,6 +66,7 @@
   "dependencies": {
     "@babel/plugin-proposal-async-generator-functions": "^7.0.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-proposal-optional-catch-binding": "^7.0.0",
     "@babel/plugin-proposal-unicode-property-regex": "^7.0.0",
     "@babel/plugin-syntax-async-generators": "^7.0.0",
     "@babel/plugin-syntax-object-rest-spread": "^7.0.0",

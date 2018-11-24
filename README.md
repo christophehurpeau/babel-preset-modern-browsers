@@ -33,7 +33,7 @@ Since v12, this package requires `@babel/core@7.0.0`. If you use babel 6, you ca
 ## Modern browsers
 
 - with `edge: true`: ![Edge 15][edge-15] ![Firefox 53][firefox-53] ![Chrome 55][chrome-55] ![Opera 42][opera-42] ![Safari 10.1][safari-10.1]
-- with `edge: false`: ![Firefox 57][firefox-57] ![Chrome 63][chrome-63] ![Opera 50][opera-50] ![Safari 10.1][safari-11.1]
+- with `edge: false`: ![Firefox 58][firefox-58] ![Chrome 66][chrome-66] ![Opera 53][opera-53] ![Safari 11.1][safari-11.1]
 
 ## Installation
 
@@ -92,7 +92,7 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 | ------- | ---- | ------- | ------ | ----- | ------ |
 | <h3>Shipped Proposals</h3> ||||||
 | [Optional catch binding](http://kangax.github.io/compat-table/es2016plus/#test-optional_catch_binding) | ![Edge None][edge-none] | ![Firefox 58][firefox-58] | ![Chrome 66][chrome-66] | ![Opera 53][opera-53] | ![Safari 11.1][safari-11.1] |
-| ↳ (used) [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding) ||||||
+| ↳ `edge` [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding) ||||||
 | <h3>ES2018</h3> ||||||
 | [Object Rest/Spread Properties](https://kangax.github.io/compat-table/es2016plus/#test-object_rest/spread_properties) | ![Edge None][edge-none] | ![Firefox 55][firefox-55] | ![Chrome 60][chrome-60] | ![Opera 47][opera-47] | ![Safari 11.1][safari-11.1] |
 | ↳ `edge`: [proposal-object-rest-spread](https://www.npmjs.com/package/@babel/plugin-proposal-object-rest-spread)<br>else [syntax-object-rest-spread](https://www.npmjs.com/package/@babel/plugin-syntax-object-rest-spread) ||||||
