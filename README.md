@@ -92,6 +92,21 @@ var bar = function baz() {};
 return foo.name === "foo" && bar.name === "baz";
 ```
 
+## Browserlist
+
+[with `edge: true`](https://browserl.ist/?q=firefox+%3E%3D+58%2C+FirefoxAndroid++%3E%3D+58%2C+chrome+%3E%3D+66%2C+ChromeAndroid+%3E%3D+66%2C+safari+%3E%3D+11.1%2C+iOS+%3E%3D+11.1):
+
+```
+firefox >= 58, FirefoxAndroid  >= 58, chrome >= 66, ChromeAndroid >= 66, safari >= 11.1, iOS >= 11.1
+```
+
+
+[with `edge: true`](https://browserl.ist/?q=edge+%3E%3D+15%2C+firefox+%3E%3D+53%2C+FirefoxAndroid++%3E%3D+53%2C+chrome+%3E%3D+55%2C+ChromeAndroid+%3E%3D+55%2C+safari+%3E%3D+10.1%2C+iOS+%3E%3D+10.1):
+
+```
+edge >= 15, firefox >= 53, FirefoxAndroid  >= 53, chrome >= 55, ChromeAndroid >= 55, safari >= 10.1, iOS >= 10.1
+```
+
 
 ## Compatibility Table
 
