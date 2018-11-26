@@ -10,10 +10,13 @@
 .babelrc
 .codeclimate.yml
 .yo-rc.json
+/yarn.lock
+/renovate.json
 
 /.settings
 /.project
 /.idea
+/.vscode
 *.sublime-project
 *.sublime-workspace
 
