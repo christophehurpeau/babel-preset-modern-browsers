@@ -2,7 +2,6 @@
 /build
 /docs
 /examples
-/git-hooks
 /samples
 /test
 /tsconfig.json

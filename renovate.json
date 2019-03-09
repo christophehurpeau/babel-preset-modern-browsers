@@ -1,5 +1,6 @@
 {
   "extends": [
-    "config:js-lib"
+    "config:js-lib",
+    "@pob"
   ]
 }

@@ -1,3 +1,4 @@
 {
-  "extends": ["pob", "pob/node"]
+  "root": true,
+  "extends": ["@pob/eslint-config", "@pob/eslint-config-node"]
 }

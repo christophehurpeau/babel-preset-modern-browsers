@@ -7,6 +7,14 @@
       "entries": [
         "index"
       ]
+    },
+    "renovate": {
+      "enable": true
+    }
+  },
+  "babel-preset-modern-browsers": {
+    "type": {
+      "type": "lib"
     }
   }
 }

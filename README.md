@@ -9,7 +9,6 @@
 <p align="center">
   <a href="https://npmjs.org/package/babel-preset-modern-browsers"><img src="https://img.shields.io/npm/v/babel-preset-modern-browsers.svg?style=flat-square"></a>
   <a href="https://david-dm.org/christophehurpeau/babel-preset-modern-browsers"><img src="https://david-dm.org/christophehurpeau/babel-preset-modern-browsers.svg?style=flat-square"></a>
-  <a href="https://dependencyci.com/github/christophehurpeau/babel-preset-modern-browsers"><img src="https://dependencyci.com/github/christophehurpeau/babel-preset-modern-browsers/badge?style=flat-square"></a>
 </p>
 
 * [Installation](#installation)
