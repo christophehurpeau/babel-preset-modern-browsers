@@ -32,7 +32,7 @@ Since v12, this package requires `@babel/core@7.0.0`. If you use babel 6, you ca
 ## Modern browsers
 
 - with `edge: true`: ![Edge 15][edge-15] ![Firefox 53][firefox-53] ![Chrome 55][chrome-55] ![Opera 42][opera-42] ![Safari 10.1][safari-10.1]
-- with `edge: false`: ![Firefox 58][firefox-58] ![Chrome 66][chrome-66] ![Opera 53][opera-53] ![Safari 11.1][safari-11.1]
+- with `edge: false`: ![Firefox 58][firefox-58] ![Chrome 66][chrome-66] ![Opera 53][opera-53] ![Safari 12][safari-12]
 
 ## Installation
 
@@ -121,7 +121,7 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 | ↳ `edge`: [proposal-object-rest-spread](https://www.npmjs.com/package/@babel/plugin-proposal-object-rest-spread)<br>else [syntax-object-rest-spread](https://www.npmjs.com/package/@babel/plugin-syntax-object-rest-spread) ||||||
 | [RegExp Unicode Property Escapes](https://kangax.github.io/compat-table/es2016plus/#test-RegExp_Unicode_Property_Escapes) | ![Edge None][edge-none] | ![Firefox None][firefox-none] | ![Chrome 64][chrome-64] | ![Opera 51][opera-51] | ![Safari 11.1][safari-11.1] |
 | ↳ (used) [proposal-unicode-property-regex](https://www.npmjs.com/package/@babel/proposal-unicode-property-regex) ||||||
-| [Asynchronous Iterators](https://kangax.github.io/compat-table/es2016plus/#test-Asynchronous_Iterators) | ![Edge None][edge-none] | ![Firefox 57][firefox-57] | ![Chrome 63][chrome-63] | ![Opera 50][opera-50] | ![Safari 11.1][safari-11.1] |
+| [Asynchronous Iterators](https://kangax.github.io/compat-table/es2016plus/#test-Asynchronous_Iterators) | ![Edge None][edge-none] | ![Firefox 57][firefox-57] | ![Chrome 63][chrome-63] | ![Opera 50][opera-50] | ![Safari 12][safari-12] |
 | ↳ `edge`: [plugin-proposal-async-generator-functions](https://www.npmjs.com/package/@babel/plugin-proposal-async-generator-functions)<br>else [syntax-async-generators](https://www.npmjs.com/package/@babel/plugin-syntax-async-generators) ||||||
 | <h3>ES2017</h3> ||||||
 | [trailing commas in function](http://kangax.github.io/compat-table/es2016plus/#test-trailing_commas_in_function_syntax) | ![Edge 14][edge-14] | ![Firefox 52][firefox-52] | ![Chrome 58][chrome-58] | ![Opera 45][opera-45] | ![Safari 10][safari-10] |
@@ -267,8 +267,10 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [firefox-61]: https://img.shields.io/badge/Firefox-61-green.svg?style=flat-square
 [firefox-62]: https://img.shields.io/badge/Firefox-62-green.svg?style=flat-square
 [firefox-63]: https://img.shields.io/badge/Firefox-63-green.svg?style=flat-square
-[firefox-64]: https://img.shields.io/badge/Firefox%20Beta-64-red.svg?style=flat-square
-[firefox-65]: https://img.shields.io/badge/Firefox%20Central-65-red.svg?style=flat-square
+[firefox-64]: https://img.shields.io/badge/Firefox-64-green.svg?style=flat-square
+[firefox-65]: https://img.shields.io/badge/Firefox-65-green.svg?style=flat-square
+[firefox-Beta]: https://img.shields.io/badge/Firefox%20Beta-64-red.svg?style=flat-square
+[firefox-Central]: https://img.shields.io/badge/Firefox%20Central-65-red.svg?style=flat-square
 [firefox-none]: https://img.shields.io/badge/Firefox-None-red.svg?style=flat-square
 
 [chrome-38]: https://img.shields.io/badge/Chrome-38-green.svg?style=flat-square
@@ -299,8 +301,10 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [chrome-68]: https://img.shields.io/badge/Chrome-68-green.svg?style=flat-square
 [chrome-69]: https://img.shields.io/badge/Chrome-69-green.svg?style=flat-square
 [chrome-70]: https://img.shields.io/badge/Chrome-70-green.svg?style=flat-square
-[chrome-71]: https://img.shields.io/badge/Chrome%20Beta-71-red.svg?style=flat-square
-[chrome-72]: https://img.shields.io/badge/Chrome%20Canary-72-red.svg?style=flat-square
+[chrome-71]: https://img.shields.io/badge/Chrome-71-green.svg?style=flat-square
+[chrome-72]: https://img.shields.io/badge/Chrome-72-green.svg?style=flat-square    
+[chrome-Beta]: https://img.shields.io/badge/Chrome%20Beta-71-red.svg?style=flat-square
+[chrome-Canary]: https://img.shields.io/badge/Chrome%20Canary-72-red.svg?style=flat-square
 
 [opera-25]: https://img.shields.io/badge/Opera-25-green.svg?style=flat-square
 [opera-26]: https://img.shields.io/badge/Opera-26-green.svg?style=flat-square
