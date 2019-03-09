@@ -1,10 +1,21 @@
-<a name="13.0.1"></a>
+# [13.1.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v13.0.1...v13.1.0) (2019-03-09)
+
+
+### Bug Fixes
+
+* asynchronous Iterators safari 12 ([e5f4ff8](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/e5f4ff8))
+
+
+### Features
+
+* update dependencies ([9345d02](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/9345d02))
+
+
+
 ## [13.0.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v13.0.0...v13.0.1) (2018-11-24)
 
-doc
 
 
-<a name="13.0.0"></a>
 # [13.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v12.0.0...v13.0.0) (2018-11-24)
 
 
@@ -19,19 +30,25 @@ doc
 * when edge:false, modern browsers are now: firefox 58, chrome 66, opera 53, safari 11.1
 
 
-<a name="12.0.0"></a>
+
 # [12.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v12.0.0-beta.1...v12.0.0) (2018-08-28)
 
-babel 7
 
 
-<a name="12.0.0-beta.1"></a>
 # [12.0.0-beta.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v12.0.0-beta.0...v12.0.0-beta.1) (2018-04-27)
 
-drop node 4 support
+
+### chore
+
+* update dependencies ([94b08a5](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/94b08a5))
 
 
-<a name="12.0.0-beta.0"></a>
+### BREAKING CHANGES
+
+* drop node 4
+
+
+
 # [12.0.0-beta.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v11.0.1...v12.0.0-beta.0) (2018-04-06)
 
 
@@ -40,12 +57,17 @@ drop node 4 support
 * babel 7 and shipped proposals ([1dda800](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/1dda800))
 
 
-<a name="11.0.1"></a>
+
 ## [11.0.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v11.0.0...v11.0.1) (2018-04-06)
 
 
-<a name="11.0.0"></a>
+
 # [11.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v10.0.1...v11.0.0) (2018-04-06)
+
+
+### Code Refactoring
+
+* remove buildPreset compatibility ([9a7b01e](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/9a7b01e))
 
 
 ### Features
@@ -55,17 +77,15 @@ drop node 4 support
 
 ### BREAKING CHANGES
 
+* removed buildPreset
 * option esnext and safari 10 removed
 
 
-<a name="10.0.1"></a>
+
 ## [10.0.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v10.0.0...v10.0.1) (2017-10-22)
 
-- update doc
-- update dependencies
 
 
-<a name="10.0.0"></a>
 # [10.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v9.0.2...v10.0.0) (2017-08-15)
 
 
@@ -77,11 +97,11 @@ drop node 4 support
 * firefox 53, safari 10.1 and edge 15 ([b66b6cd](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/b66b6cd))
 
 
-<a name="9.0.2"></a>
+
 ## [9.0.2](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v9.0.1...v9.0.2) (2017-03-09)
 
 
-<a name="9.0.1"></a>
+
 ## [9.0.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v9.0.0...v9.0.1) (2017-03-09)
 
 
@@ -90,7 +110,7 @@ drop node 4 support
 * reenable transform-async-to-generator ([7b26e8f](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/7b26e8f))
 
 
-<a name="9.0.0"></a>
+
 # [9.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v8.1.2...v9.0.0) (2017-03-08)
 
 
@@ -104,13 +124,11 @@ drop node 4 support
 * drop support firefox < 42, chrome < 55, opera < 42, safari < 10.1, option `safari10`
 
 
-<a name="8.1.2"></a>
+
 ## [8.1.2](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v8.1.1...v8.1.2) (2017-03-03)
 
-support node 4
 
 
-<a name="8.1.1"></a>
 ## [8.1.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v8.1.0...v8.1.1) (2017-02-27)
 
 
@@ -119,7 +137,7 @@ support node 4
 * missing dependencies ([f925a55](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/f925a55)), closes [#16](https://github.com/christophehurpeau/babel-preset-modern-browsers/issues/16)
 
 
-<a name="8.1.0"></a>
+
 # [8.1.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v8.0.0...v8.1.0) (2017-02-25)
 
 
@@ -128,45 +146,52 @@ support node 4
 * add es2017 plugins and es2016, es2017 option ([ade31a8](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/ade31a8))
 
 
-## 8.0
 
-- Firefox 51 release   
-Firefox 50 is no longer supported (removed `babel-plugin-transform-es2015-block-scoping`)
- 
- 
-## 7.0
-
-- remove object-rest (now supported in [babel 6.19](https://babeljs.io/blog/2016/11/16/6.19.0))
-- add babel-plugin-transform-es2015-arrow-functions
-
-## 6.0
-
-- drop safari 9 support
-- preset options
-
-## 5.1
-
-- added object-rest
-
-## 5.0
-
-- removed stage1, see #4 for discussion
-- updated compatibility table
-
-## 4.0
-
-- uglify fixed issue https://github.com/mishoo/UglifyJS2/issues/1098L remove uglifyjs special preset
-- add full-support preset: parameters, for...of and destructuring (see readme for details)
-- Breaking: firefox 46 and edge 13 are no longer supported (upgrade to edge 14 and Firefox 47)
-
-## 3.0
-
-Webpack fixed https://github.com/webpack/webpack/issues/2522 and https://github.com/webpack/webpack/issues/2523
-For preset `webpack2` and `webpack2-uglifyjs`, plugins `babel-plugin-transform-es2015-modules-commonjs` and `babel-plugin-transform-es2015-shorthand-properties` are removed.
-Requires webpack `v2.1.0-beta.9`
+# [8.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v7.0.0...v8.0.0) (2017-01-24)
 
 
-## 2.0
 
-Firefox 46 release
-Firefox 45 is no longer supported
+# [7.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v6.0.0...v7.0.0) (2016-11-17)
+
+
+
+# [6.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v5.1.0...v6.0.0) (2016-10-10)
+
+
+
+# [5.1.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v5.0.2...v5.1.0) (2016-08-01)
+
+
+
+## [5.0.2](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v5.0.0...v5.0.2) (2016-06-27)
+
+
+
+# [5.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v4.1.0...v5.0.0) (2016-06-27)
+
+
+
+# [4.1.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v3.0.0...v4.1.0) (2016-06-23)
+
+
+
+# [3.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v2.1.1...v3.0.0) (2016-06-11)
+
+
+
+## [2.1.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v2.1.0...v2.1.1) (2016-06-03)
+
+
+
+# [2.1.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v2.0.1...v2.1.0) (2016-05-26)
+
+
+
+## [2.0.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v2.0.0...v2.0.1) (2016-05-20)
+
+
+
+# 2.0.0 (2016-04-26)
+
+
+
