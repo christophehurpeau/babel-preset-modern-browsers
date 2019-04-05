@@ -1,3 +1,17 @@
+# [14.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v13.1.0...v14.0.0) (2019-04-05)
+
+
+### Features
+
+* es2019 and json strings ([78345b2](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/78345b2))
+
+
+### BREAKING CHANGES
+
+* when edge: false, requires firefox 62 and safari 12
+
+
+
 # [13.1.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v13.0.1...v13.1.0) (2019-03-09)
 
 
