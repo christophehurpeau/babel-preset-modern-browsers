@@ -32,7 +32,7 @@ Since v12, this package requires `@babel/core@7.0.0`. If you use babel 6, you ca
 ## Modern browsers
 
 - with `edge: true`: ![Edge 15][edge-15] ![Firefox 53][firefox-53] ![Chrome 55][chrome-55] ![Opera 42][opera-42] ![Safari 10.1][safari-10.1]
-- with `edge: false`: ![Firefox 58][firefox-58] ![Chrome 66][chrome-66] ![Opera 53][opera-53] ![Safari 12][safari-12]
+- with `edge: false`: ![Firefox 62][firefox-62] ![Chrome 66][chrome-66] ![Opera 53][opera-53] ![Safari 12][safari-12]
 
 ## Installation
 
@@ -99,10 +99,10 @@ return foo.name === "foo" && bar.name === "baz";
 Edge >= 15, Firefox >= 53, FirefoxAndroid  >= 53, Chrome >= 55, ChromeAndroid >= 55, Opera >= 42, OperaMobile >= 42, Safari >= 10.1, iOS >= 10.1
 ```
 
-[with `edge: false`](https://browserl.ist/?q=Firefox+%3E%3D+58%2C+FirefoxAndroid++%3E%3D+58%2C+Chrome+%3E%3D+66%2C+ChromeAndroid+%3E%3D+66%2C+Opera+%3E%3D+53%2C+OperaMobile+%3E%3D+53%2C+Safari+%3E%3D+11.1%2C+iOS+%3E%3D+11.1):
+[with `edge: false`](https://browserl.ist/?q=Firefox+%3E%3D+62%2C+FirefoxAndroid++%3E%3D+62%2C+Chrome+%3E%3D+66%2C+ChromeAndroid+%3E%3D+66%2C+Opera+%3E%3D+53%2C+OperaMobile+%3E%3D+53%2C+Safari+%3E%3D+12%2C+iOS+%3E%3D+12):
 
 ```
-Firefox >= 58, FirefoxAndroid  >= 58, Chrome >= 66, ChromeAndroid >= 66, Opera >= 53, OperaMobile >= 53, Safari >= 11.1, iOS >= 11.1
+Firefox >= 62, FirefoxAndroid  >= 62, Chrome >= 66, ChromeAndroid >= 66, Opera >= 53, OperaMobile >= 53, Safari >= 12, iOS >= 12
 ```
 
 
@@ -114,6 +114,9 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 | Feature | Edge | Firefox | Chrome | Opera | Safari |
 | ------- | ---- | ------- | ------ | ----- | ------ |
 | <h3>Shipped Proposals</h3> ||||||
+| [JSON strings](https://node.green/#ES2019-misc-JSON-superset) | ![Edge None][edge-none] | ![Firefox 62][firefox-62] | ![Chrome 66][chrome-66] | ![Opera 53][opera-53] | ![Safari 12][safari-12] |
+| ↳ `edge` [syntax-json-strings](https://www.npmjs.com/package/@babel/plugin-syntax-json-strings) ||||||
+| <h3>ES2019</h3> ||||||
 | [Optional catch binding](http://kangax.github.io/compat-table/es2016plus/#test-optional_catch_binding) | ![Edge None][edge-none] | ![Firefox 58][firefox-58] | ![Chrome 66][chrome-66] | ![Opera 53][opera-53] | ![Safari 11.1][safari-11.1] |
 | ↳ `edge` [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding) ||||||
 | <h3>ES2018</h3> ||||||
