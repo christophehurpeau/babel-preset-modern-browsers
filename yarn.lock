@@ -3961,10 +3961,10 @@ yarn-update-lock@0.3.4:
   dependencies:
     yarn-deduplicate "^1.1.1"
 
-yarnhook@0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/yarnhook/-/yarnhook-0.4.0.tgz#767b22f4ad446553c6eb86090c326d6e32ad0fe2"
-  integrity sha512-ERMvT3SEVPg9eaGEczd/lY4o3ZpNeMx5aQj7WCA00/i0o02DmcXrsmO5rg/fqR3S+/JkXNYdnoFXR1rGVpNy5A==
+yarnhook@0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/yarnhook/-/yarnhook-0.4.3.tgz#d80443f86596f72cf58ddf16f69d9b8f9584f056"
+  integrity sha512-GIAWEJ/iBv5ywDGmEJp1qHPydof7pysgAyU8UYM5Z0Izm2mJAbJPbT4PIXFCh2e2ia1TYSUy+uwbD80mtBuK8w==
   dependencies:
     execa "^0.8.0"
     find-parent-dir "^0.3.0"
