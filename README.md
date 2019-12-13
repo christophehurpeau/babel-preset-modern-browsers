@@ -114,7 +114,7 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 | Feature | Edge | Firefox | Chrome | Opera | Safari |
 | ------- | ---- | ------- | ------ | ----- | ------ |
 | <h3>Shipped Proposals</h3> ||||||
-| [JSON strings](https://node.green/#ES2019-misc-JSON-superset) | ![Edge None][edge-none] | ![Firefox 62][firefox-62] | ![Chrome 66][chrome-66] | ![Opera 53][opera-53] | ![Safari 12][safari-12] |
+| [JSON strings](http://kangax.github.io/compat-table/es2016plus/#test-JSON_superset) | ![Edge None][edge-none] | ![Firefox 62][firefox-62] | ![Chrome 66][chrome-66] | ![Opera 53][opera-53] | ![Safari 12][safari-12] |
 | ↳ `edge` [syntax-json-strings](https://www.npmjs.com/package/@babel/plugin-syntax-json-strings) ||||||
 | <h3>ES2019</h3> ||||||
 | [Optional catch binding](http://kangax.github.io/compat-table/es2016plus/#test-optional_catch_binding) | ![Edge None][edge-none] | ![Firefox 58][firefox-58] | ![Chrome 66][chrome-66] | ![Opera 53][opera-53] | ![Safari 11.1][safari-11.1] |
