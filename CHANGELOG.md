@@ -1,3 +1,12 @@
+# [14.1.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v14.0.0...v14.1.0) (2019-12-13)
+
+
+### Features
+
+* add optional chaining and nullish coalescing operator ([df79b4b](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/df79b4b))
+
+
+
 # [14.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v13.1.0...v14.0.0) (2019-04-05)
 
 
