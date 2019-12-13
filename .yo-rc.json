@@ -1,12 +1,8 @@
 {
   "pob": {
     "pob-config": {
-      "envs": [],
       "documentation": false,
-      "testing": false,
-      "entries": [
-        "index"
-      ]
+      "testing": false
     },
     "renovate": {
       "enable": true

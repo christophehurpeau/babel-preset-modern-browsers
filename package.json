@@ -11,32 +11,14 @@
     "url": "https://github.com/christophehurpeau/babel-preset-modern-browsers/issues"
   },
   "engines": {
-    "node": ">=6.5.0"
+    "node": ">=8.9.0"
   },
   "main": "./lib/index.js",
   "scripts": {
-    "lint": "eslint lib/",
+    "lint": "eslint --quiet lib",
     "preversion": "yarn run lint && repository-check-dirty",
     "release": "repository-check-dirty && pob-release",
     "version": "pob-version"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
-      "post-checkout": "yarnhook",
-      "post-merge": "yarnhook",
-      "post-rewrite": "yarnhook",
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "yarn.lock": ["yarn-update-lock", "git add"],
-    "{package.json,.eslintrc.json}": [
-      "prettier --parser json --write",
-      "git add"
-    ],
-    "lib/**/*.json": ["prettier --parser json --write", "git add"],
-    "lib/**/*.js": ["eslint --fix --quiet", "git add"]
   },
   "prettier": {
     "trailingComma": "es5",
@@ -46,6 +28,7 @@
   "commitlint": {
     "extends": ["@commitlint/config-conventional"]
   },
+  "pob": {},
   "peerDependencies": {
     "@babel/core": "^7.0.0"
   },
@@ -64,17 +47,14 @@
     "@babel/plugin-transform-modules-commonjs": "^7.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "7.6.1",
-    "@commitlint/config-conventional": "7.6.0",
-    "@pob/eslint-config": "29.1.0",
-    "@pob/eslint-config-node": "29.1.0",
-    "eslint": "5.16.0",
-    "husky": "1.3.1",
-    "lint-staged": "8.1.5",
-    "pob-release": "4.9.1",
-    "prettier": "1.16.4",
-    "repository-check-dirty": "1.0.2",
-    "yarn-update-lock": "0.3.4",
-    "yarnhook": "0.4.0"
+    "@pob/eslint-config": "32.1.0",
+    "@pob/eslint-config-node": "32.1.0",
+    "@pob/repo-config": "1.0.2",
+    "@pob/version": "4.33.4",
+    "eslint": "6.7.2",
+    "husky": "3.1.0",
+    "pob-release": "4.15.2",
+    "prettier": "1.19.1",
+    "repository-check-dirty": "1.0.2"
   }
 }
