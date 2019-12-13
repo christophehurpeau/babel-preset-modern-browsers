@@ -111,11 +111,19 @@ Firefox >= 62, FirefoxAndroid  >= 62, Chrome >= 66, ChromeAndroid >= 66, Opera >
 Note: most unused plugins are babel 6 plugins, I didn't update them for the documentation.
 
 
-| Feature | Edge | Firefox | Chrome | Opera | Safari |
-| ------- | ---- | ------- | ------ | ----- | ------ |
-| <h3>Shipped Proposals</h3> ||||||
-| [JSON strings](http://kangax.github.io/compat-table/es2016plus/#test-JSON_superset) | ![Edge None][edge-none] | ![Firefox 62][firefox-62] | ![Chrome 66][chrome-66] | ![Opera 53][opera-53] | ![Safari 12][safari-12] |
-| ↳ `edge` [syntax-json-strings](https://www.npmjs.com/package/@babel/plugin-syntax-json-strings) ||||||
+| Feature                                                                                           | Edge                    | Firefox                   | Chrome                  | Opera                 | Safari                  |
+| ------------------------------------------------------------------------------------------------- | ----------------------- | ------------------------- | ----------------------- | --------------------- | ----------------------- |
+| <h3>Shipped Proposals</h3>                                                                        |                         |                           |                         |                       |                         |
+| [JSON strings](http://kangax.github.io/compat-table/es2016plus/#test-JSON_superset)               | ![Edge None][edge-none] | ![Firefox 62][firefox-62] | ![Chrome 66][chrome-66] | ![Opera 53][opera-53] | ![Safari 12][safari-12] |
+| ↳ `edge` [syntax-json-strings](https://www.npmjs.com/package/@babel/plugin-proposal-json-strings) |                         |                           |                         |                       |                         |
+
+| [Optional chaining (`?.`)](http://kangax.github.io/compat-table/es2016plus/#test-optional_chaining_operator_(?.)) | ![Edge None][edge-none] | ![Firefox None][firefox-none] | ![Chrome 80][chrome-80] | ![Opera 67][opera-67] | ![Safari None][safari-none] |
+| ↳ (used) [proposal-optional-chaining](https://www.npmjs.com/package/@babel/plugin-proposal-optional-chaining) ||||||
+
+| [Nullish Coalescing operator (`??`)](http://kangax.github.io/compat-table/es2016plus/#test-JSON_superset) | ![Edge None][edge-none] | ![Firefox 72][firefox-72] | ![Chrome 80][chrome-80] | ![Opera 67][opera-67] | ![Safari None][safari-none] |
+| ↳ (used) [proposal-nullish-coalescing-operator](https://www.npmjs.com/package/@babel/plugin-proposal-nullish-coalescing-operator) ||||||
+
+
 | <h3>ES2019</h3> ||||||
 | [Optional catch binding](http://kangax.github.io/compat-table/es2016plus/#test-optional_catch_binding) | ![Edge None][edge-none] | ![Firefox 58][firefox-58] | ![Chrome 66][chrome-66] | ![Opera 53][opera-53] | ![Safari 11.1][safari-11.1] |
 | ↳ `edge` [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding) ||||||
@@ -184,51 +192,10 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 
 ## Release Dates
 
-### [Firefox](https://wiki.mozilla.org/RapidRelease/Calendar)
-
-| Date       | Version | ESR |
-| ---------- | ------- | --- |
-| 2019-01-29 | ![Firefox 65][firefox-65] ||
-| 2018-12-11 | ![Firefox 64][firefox-64] ||
-| 2018-10-23 | ![Firefox 63][firefox-63] ||
-| 2018-09-05 | ![Firefox 62][firefox-62] ||
-| 2018-06-26 | ![Firefox 61][firefox-61] ||
-| 2018-05-09 | ![Firefox 60][firefox-60] | ESR |
-| 2018-03-13 | ![Firefox 59][firefox-59] ||
-| 2018-01-16 | ![Firefox 58][firefox-58] ||
-
-### [Chrome (Desktop release date)](https://www.chromium.org/developers/calendar)  ([Version History](https://en.wikipedia.org/wiki/Google_Chrome_version_history))
-
-| Date       | Version |
-| ---------- | ------- |
-| 2019-01-29 | ![Chrome 72][chrome-72] |
-| 2018-12-04 | ![Chrome 71][chrome-71] |
-| 2018-10-16 | ![Chrome 70][chrome-70] |
-| 2018-09-04 | ![Chrome 69][chrome-69] |
-| 2018-07-24 | ![Chrome 68][chrome-68] |
-| 2018-05-29 | ![Chrome 67][chrome-67] |
-| 2018-04-17 | ![Chrome 66][chrome-66] |
-| 2018-03-06 | ![Chrome 65][chrome-65] |
-| 2018-01-23 | ![Chrome 64][chrome-64] |
-
-### [Safari](https://developer.apple.com/safari/) ([Version History](https://en.wikipedia.org/wiki/Safari_version_history))
-
-| Date       | Version |
-| ---------- | ------- |
-| 2018-09-17 | [![Safari 12][safari-12]](https://developer.apple.com/safari/whats-new/) |
-| 2018-03-29 | [![Safari 11.1][safari-11.1]](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_11_1.html#//apple_ref/doc/uid/TP40014305-CH14-SW1) |
-| 2017-09-19 | [![Safari 11.0][safari-11]](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Safari_11_0/Safari_11_0.html) |
-| 2017-03-27 | [![Safari 10.1][safari-10.1]](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_1.html) |
-| 2016-09-20 | [![Safari 10.0][safari-10]](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_0.html) |
-
-### [Edge](https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/) ([Version History](https://en.wikipedia.org/wiki/Microsoft_Edge#Release_history))
-
-| Date       | Version |
-| ---------- | ------- |
-| 2018-11-13 | [![Edge 18][edge-18]](https://aka.ms/devguide_edgehtml_18) |
-| 2018-04-30 | [![Edge 17][edge-17]](https://aka.ms/devguide_edgehtml_17) |
-| 2017-09-26 | [![Edge 16][edge-16]](https://aka.ms/devguide_edgehtml_16) |
-| 2017-03-20 | [![Edge 15][edge-15]](https://aka.ms/devguide_edgehtml_15) |
+- Firefox: https://wiki.mozilla.org/RapidRelease/Calendar
+- Chrome: https://www.chromium.org/developers/calendar  ([Version History](https://en.wikipedia.org/wiki/Google_Chrome_version_history))
+- Safari: https://developer.apple.com/safari/ ([Version History](https://en.wikipedia.org/wiki/Safari_version_history))
+- Edge: https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/ ([Version History](https://en.wikipedia.org/wiki/Microsoft_Edge#Release_history))
 
 ## Thanks
 
@@ -272,6 +239,7 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [firefox-63]: https://img.shields.io/badge/Firefox-63-green.svg?style=flat-square
 [firefox-64]: https://img.shields.io/badge/Firefox-64-green.svg?style=flat-square
 [firefox-65]: https://img.shields.io/badge/Firefox-65-green.svg?style=flat-square
+[firefox-72]: https://img.shields.io/badge/Firefox%20Beta-72-red.svg?style=flat-square
 [firefox-Beta]: https://img.shields.io/badge/Firefox%20Beta-64-red.svg?style=flat-square
 [firefox-Central]: https://img.shields.io/badge/Firefox%20Central-65-red.svg?style=flat-square
 [firefox-none]: https://img.shields.io/badge/Firefox-None-red.svg?style=flat-square
@@ -305,7 +273,8 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 [chrome-69]: https://img.shields.io/badge/Chrome-69-green.svg?style=flat-square
 [chrome-70]: https://img.shields.io/badge/Chrome-70-green.svg?style=flat-square
 [chrome-71]: https://img.shields.io/badge/Chrome-71-green.svg?style=flat-square
-[chrome-72]: https://img.shields.io/badge/Chrome-72-green.svg?style=flat-square    
+[chrome-72]: https://img.shields.io/badge/Chrome-72-green.svg?style=flat-square
+[chrome-80]: https://img.shields.io/badge/Chrome%20Beta-80-red.svg?style=flat-square
 [chrome-Beta]: https://img.shields.io/badge/Chrome%20Beta-71-red.svg?style=flat-square
 [chrome-Canary]: https://img.shields.io/badge/Chrome%20Canary-72-red.svg?style=flat-square
 
