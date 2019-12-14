@@ -117,14 +117,10 @@ Note: most unused plugins are babel 6 plugins, I didn't update them for the docu
 | <h3>Shipped Proposals</h3>                                                                        |                         |                           |                         |                       |                         |
 | [JSON strings](http://kangax.github.io/compat-table/es2016plus/#test-JSON_superset)               | ![Edge None][edge-none] | ![Firefox 62][firefox-62] | ![Chrome 66][chrome-66] | ![Opera 53][opera-53] | ![Safari 12][safari-12] |
 | ↳ `edge` [syntax-json-strings](https://www.npmjs.com/package/@babel/plugin-proposal-json-strings) |                         |                           |                         |                       |                         |
-
 | [Optional chaining (`?.`)](http://kangax.github.io/compat-table/es2016plus/#test-optional_chaining_operator_(?.)) | ![Edge None][edge-none] | ![Firefox None][firefox-none] | ![Chrome 80][chrome-80] | ![Opera 67][opera-67] | ![Safari None][safari-none] |
 | ↳ (used) [proposal-optional-chaining](https://www.npmjs.com/package/@babel/plugin-proposal-optional-chaining) ||||||
-
 | [Nullish Coalescing operator (`??`)](http://kangax.github.io/compat-table/es2016plus/#test-JSON_superset) | ![Edge None][edge-none] | ![Firefox 72][firefox-72] | ![Chrome 80][chrome-80] | ![Opera 67][opera-67] | ![Safari None][safari-none] |
 | ↳ (used) [proposal-nullish-coalescing-operator](https://www.npmjs.com/package/@babel/plugin-proposal-nullish-coalescing-operator) ||||||
-
-
 | <h3>ES2019</h3> ||||||
 | [Optional catch binding](http://kangax.github.io/compat-table/es2016plus/#test-optional_catch_binding) | ![Edge None][edge-none] | ![Firefox 58][firefox-58] | ![Chrome 66][chrome-66] | ![Opera 53][opera-53] | ![Safari 11.1][safari-11.1] |
 | ↳ `edge` [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding) ||||||
