@@ -1,3 +1,12 @@
+## [14.1.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v14.1.0...v14.1.1) (2019-12-14)
+
+
+### Bug Fixes
+
+* require default in both added plugins ([b75a8a7](https://github.com/christophehurpeau/babel-preset-modern-browsers/commit/b75a8a7))
+
+
+
 # [14.1.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v14.0.0...v14.1.0) (2019-12-13)
 
 
