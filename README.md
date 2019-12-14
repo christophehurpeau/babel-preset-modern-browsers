@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://npmjs.org/package/babel-preset-modern-browsers"><img src="https://img.shields.io/npm/v/babel-preset-modern-browsers.svg?style=flat-square"></a>
+  <a href="https://circleci.com/gh/christophehurpeau/babel-preset-modern-browsers"><img src="https://img.shields.io/circleci/project/christophehurpeau/babel-preset-modern-browsers/master.svg?style=flat-square"></a>
   <a href="https://david-dm.org/christophehurpeau/babel-preset-modern-browsers"><img src="https://david-dm.org/christophehurpeau/babel-preset-modern-browsers.svg?style=flat-square"></a>
 </p>
 

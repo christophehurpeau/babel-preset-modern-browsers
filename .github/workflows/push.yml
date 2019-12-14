@@ -1,0 +1,44 @@
+name: Node CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x, 13.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Cache node modules
+      uses: actions/cache@v1
+      with:
+        path: node_modules
+        key: dependencies--${{ matrix.node-version }}-${{ runner.OS }}-${{ hashFiles('yarn.lock') }}
+        restore-keys: |
+          dependencies--${{ matrix.node-version }}-${{ runner.OS }}-
+          dependencies--${{ matrix.node-version }}-
+
+    - name: Install Dependencies
+      run: yarn install --prefer-offline --pure-lockfile
+
+    - name: Lint
+      run: yarn run lint
+      if: startsWith(matrix.node-version, '12.')
+
+    - name: Test
+      run: yarn run test
+      env:
+        CI: true
+
+
+    - name: Check nothing was forget before commit
+      if: startsWith(matrix.node-version, '12.')
+      run: yarn run repository-check-dirty

@@ -2,7 +2,10 @@
   "pob": {
     "pob-config": {
       "documentation": false,
-      "testing": false
+      "testing": {
+        "circleci": true,
+        "codecov": false
+      }
     },
     "renovate": {
       "enable": true

@@ -11,13 +11,16 @@
     "url": "https://github.com/christophehurpeau/babel-preset-modern-browsers/issues"
   },
   "engines": {
-    "node": ">=8.9.0"
+    "node": ">=10.13.0"
   },
   "main": "./lib/index.js",
   "scripts": {
+    "generate:test-coverage": "rm -Rf docs/coverage/ ; NODE_ENV=production BABEL_ENV=test jest --coverage --coverageReporters=pob-lcov-reporter --coverageDirectory=docs/coverage/",
     "lint": "eslint --quiet lib",
     "preversion": "yarn run lint && repository-check-dirty",
     "release": "repository-check-dirty && pob-release",
+    "test": "jest",
+    "test:watch": "jest",
     "version": "pob-version"
   },
   "prettier": {
@@ -27,6 +30,15 @@
   },
   "commitlint": {
     "extends": ["@commitlint/config-conventional"]
+  },
+  "jest": {
+    "cacheDirectory": "./node_modules/.cache/jest",
+    "testMatch": [
+      "<rootDir>/lib/**/__tests__/**/*.js",
+      "<rootDir>/lib/**/*.test.js"
+    ],
+    "collectCoverageFrom": ["lib/**/*.js"],
+    "moduleFileExtensions": ["js"]
   },
   "pob": {},
   "peerDependencies": {
@@ -49,12 +61,16 @@
     "@babel/plugin-transform-modules-commonjs": "^7.2.0"
   },
   "devDependencies": {
-    "@pob/eslint-config": "32.1.0",
-    "@pob/eslint-config-node": "32.1.0",
+    "@pob/eslint-config": "33.0.8",
+    "@pob/eslint-config-node": "33.0.0",
     "@pob/repo-config": "1.0.2",
     "@pob/version": "4.33.4",
+    "@types/jest": "24.0.23",
     "eslint": "6.7.2",
     "husky": "3.1.0",
+    "jest": "24.9.0",
+    "jest-junit-reporter": "1.1.0",
+    "pob-lcov-reporter": "1.2.3",
     "pob-release": "4.15.2",
     "prettier": "1.19.1",
     "repository-check-dirty": "1.0.2"
