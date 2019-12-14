@@ -63,7 +63,7 @@
   "devDependencies": {
     "@pob/eslint-config": "33.0.8",
     "@pob/eslint-config-node": "33.0.0",
-    "@pob/repo-config": "1.0.2",
+    "@pob/repo-config": "1.0.3",
     "@pob/version": "4.33.4",
     "@types/jest": "24.0.23",
     "eslint": "6.7.2",
