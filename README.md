@@ -38,7 +38,7 @@ Since v12, this package requires `@babel/core@7.0.0`. If you use babel 6, you ca
 ## Installation
 
 ```sh
-npm install --save-dev babel-preset-modern-browsers@next @babel/core
+npm install --save-dev babel-preset-modern-browsers @babel/core
 ```
 
 ## Usage
