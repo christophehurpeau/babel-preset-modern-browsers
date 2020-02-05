@@ -630,10 +630,10 @@
     eslint-plugin-prettier "^3.1.1"
     eslint-plugin-unicorn "^14.0.0"
 
-"@pob/repo-config@1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@pob/repo-config/-/repo-config-1.1.3.tgz#2ecd7c09ac11b7f1f788f88e139eeb88080e01a3"
-  integrity sha512-rfJHHPrLamBhFxuZ24gv7vkKcKVt+9AShTIgI3s+FLVa0TlokJqAM7EL9vYR5sDqB4kZsq5r84AiWyHocTJ6Fg==
+"@pob/repo-config@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@pob/repo-config/-/repo-config-1.2.0.tgz#6d6650b885cf79ffdef18239a01fb42c27b24cca"
+  integrity sha512-nUKC02WQIxwdJ147kpOQTqLqdKHDLTf8nQLk8+wcpEyEcRsst4kbZL1s4iNA34CJzfSqTq8XlvSaIvrCFhWvIA==
   dependencies:
     "@commitlint/cli" "8.3.5"
     "@commitlint/config-conventional" "8.3.4"
