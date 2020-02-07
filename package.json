@@ -64,7 +64,7 @@
     "@pob/eslint-config": "33.0.8",
     "@pob/eslint-config-node": "33.0.0",
     "@pob/repo-config": "1.2.0",
-    "@pob/version": "5.0.0",
+    "@pob/version": "5.2.0",
     "@types/jest": "24.0.24",
     "eslint": "6.7.2",
     "husky": "3.1.0",
