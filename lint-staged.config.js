@@ -1,5 +1,5 @@
 'use strict';
 
-const createLintStagedConfig = require('@pob/repo-config/createLintStagedConfig');
+const createLintStagedConfig = require('@pob/root/createLintStagedConfig');
 
 module.exports = createLintStagedConfig();

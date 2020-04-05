@@ -12,8 +12,9 @@
     }
   },
   "babel-preset-modern-browsers": {
-    "type": {
-      "type": "lib"
+    "project": {
+      "type": "lib",
+      "yarn2": true
     }
   }
 }
