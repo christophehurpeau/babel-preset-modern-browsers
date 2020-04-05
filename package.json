@@ -61,18 +61,18 @@
     "@babel/plugin-transform-modules-commonjs": "^7.2.0"
   },
   "devDependencies": {
-    "@pob/eslint-config": "33.0.8",
-    "@pob/eslint-config-node": "33.0.0",
+    "@pob/eslint-config": "37.0.0",
+    "@pob/eslint-config-node": "37.0.0",
     "@pob/repo-config": "1.2.0",
     "@pob/version": "5.0.0",
-    "@types/jest": "24.0.24",
+    "@types/jest": "25.2.1",
     "eslint": "6.7.2",
     "husky": "4.2.3",
-    "jest": "24.9.0",
+    "jest": "25.2.7",
     "jest-junit-reporter": "1.1.0",
     "pob-lcov-reporter": "2.0.0",
     "pob-release": "5.1.0",
-    "prettier": "1.19.1",
+    "prettier": "2.0.2",
     "repository-check-dirty": "1.0.3"
   }
 }
