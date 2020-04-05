@@ -1771,6 +1771,7 @@ __metadata:
     "@types/jest": 25.2.0
     "@yarnpkg/pnpify": 2.0.0-rc.20
     eslint: 6.8.0
+    eslint-import-resolver-node: ^0.3.3
     eslint-plugin-import: 2.20.2
     eslint-plugin-node: 11.1.0
     eslint-plugin-prettier: 3.1.2
@@ -2917,6 +2918,16 @@ __metadata:
     debug: ^2.6.9
     resolve: ^1.5.0
   checksum: 2/ef9fa32d22ca4c08c83a2f8f827cd5323a9662ddfe082bf72ee0c483402c9abd29b355d81d3e276d80d97db32de8079b26b3502f9ecb4d2f0e42a91632c85994
+  languageName: node
+  linkType: hard
+
+"eslint-import-resolver-node@npm:^0.3.3":
+  version: 0.3.3
+  resolution: "eslint-import-resolver-node@npm:0.3.3"
+  dependencies:
+    debug: ^2.6.9
+    resolve: ^1.13.1
+  checksum: 2/05700934524b9ea1fea24b5de61fe7c3ae61070b67d5a42da5df3f11d8b0c3e21eff5be92a324d4ba813c16b0d0701bb99e7ca9385d5dd9788d3823c127b41bd
   languageName: node
   linkType: hard
 
@@ -7023,7 +7034,7 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-resolve@^1.15.1:
+"resolve@^1.13.1, resolve@^1.15.1":
   version: 1.15.1
   resolution: "resolve@npm:1.15.1"
   dependencies:
@@ -7048,7 +7059,7 @@ resolve@^1.15.1:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@^1.15.1#builtin<compat/resolve>":
+"resolve@patch:resolve@^1.13.1#builtin<compat/resolve>, resolve@patch:resolve@^1.15.1#builtin<compat/resolve>":
   version: 1.15.1
   resolution: "resolve@patch:resolve@npm%3A1.15.1#builtin<compat/resolve>::version=1.15.1&hash=8fccd0"
   dependencies:
