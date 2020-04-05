@@ -9,6 +9,9 @@
 .yo-rc.json
 /yarn.lock
 /renovate.json
+/.yarn
+/.yarnrc.yml
+/.pnp.js
 
 /.settings
 /.project
