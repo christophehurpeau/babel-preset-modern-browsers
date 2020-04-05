@@ -73,6 +73,7 @@
     "@babel/plugin-transform-modules-commonjs": "^7.9.0"
   },
   "devDependencies": {
+    "@babel/core": "7.9.0",
     "@pob/commitlint-config": "1.1.0",
     "@pob/eslint-config": "37.0.0",
     "@pob/eslint-config-node": "37.0.0",
@@ -85,7 +86,7 @@
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-unicorn": "18.0.1",
     "husky": "4.2.3",
-    "jest": "25.2.4",
+    "jest": "25.2.7",
     "jest-junit-reporter": "1.1.0",
     "pob-lcov-reporter": "2.2.0",
     "pob-release": "5.5.2",

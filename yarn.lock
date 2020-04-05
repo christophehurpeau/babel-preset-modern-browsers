@@ -22,29 +22,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.1.0":
-  version: 7.7.5
-  resolution: "@babel/core@npm:7.7.5"
-  dependencies:
-    "@babel/code-frame": ^7.5.5
-    "@babel/generator": ^7.7.4
-    "@babel/helpers": ^7.7.4
-    "@babel/parser": ^7.7.5
-    "@babel/template": ^7.7.4
-    "@babel/traverse": ^7.7.4
-    "@babel/types": ^7.7.4
-    convert-source-map: ^1.7.0
-    debug: ^4.1.0
-    json5: ^2.1.0
-    lodash: ^4.17.13
-    resolve: ^1.3.2
-    semver: ^5.4.1
-    source-map: ^0.5.0
-  checksum: 2/d22a7360f78573f295297a70967f8762595bc9751dd4b597758475ead63e0ffbceedd863c503b0bbf758f4d607843fdcf09618cbd4edc57e2591720e8b03f85d
-  languageName: node
-  linkType: hard
-
-"@babel/core@npm:^7.7.5":
+"@babel/core@npm:7.9.0, @babel/core@npm:^7.7.5":
   version: 7.9.0
   resolution: "@babel/core@npm:7.9.0"
   dependencies:
@@ -65,6 +43,28 @@ __metadata:
     semver: ^5.4.1
     source-map: ^0.5.0
   checksum: 2/969b99c3aa93836cda851b28cd5d254ce197b3c78274c2c0aff4c42682a10d105b2052c2808d526a9d39c5e2d4fc26e78c88f2c33aeeb9c5cfcdb4019fc1c3bd
+  languageName: node
+  linkType: hard
+
+"@babel/core@npm:^7.1.0":
+  version: 7.7.5
+  resolution: "@babel/core@npm:7.7.5"
+  dependencies:
+    "@babel/code-frame": ^7.5.5
+    "@babel/generator": ^7.7.4
+    "@babel/helpers": ^7.7.4
+    "@babel/parser": ^7.7.5
+    "@babel/template": ^7.7.4
+    "@babel/traverse": ^7.7.4
+    "@babel/types": ^7.7.4
+    convert-source-map: ^1.7.0
+    debug: ^4.1.0
+    json5: ^2.1.0
+    lodash: ^4.17.13
+    resolve: ^1.3.2
+    semver: ^5.4.1
+    source-map: ^0.5.0
+  checksum: 2/d22a7360f78573f295297a70967f8762595bc9751dd4b597758475ead63e0ffbceedd863c503b0bbf758f4d607843fdcf09618cbd4edc57e2591720e8b03f85d
   languageName: node
   linkType: hard
 
@@ -862,7 +862,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/core@npm:^25.2.4, @jest/core@npm:^25.2.7":
+"@jest/core@npm:^25.2.7":
   version: 25.2.7
   resolution: "@jest/core@npm:25.2.7"
   dependencies:
@@ -1749,6 +1749,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "babel-preset-modern-browsers@workspace:."
   dependencies:
+    "@babel/core": 7.9.0
     "@babel/plugin-proposal-async-generator-functions": ^7.8.3
     "@babel/plugin-proposal-json-strings": ^7.8.3
     "@babel/plugin-proposal-nullish-coalescing-operator": ^7.8.3
@@ -1775,7 +1776,7 @@ __metadata:
     eslint-plugin-prettier: 3.1.2
     eslint-plugin-unicorn: 18.0.1
     husky: 4.2.3
-    jest: 25.2.4
+    jest: 25.2.7
     jest-junit-reporter: 1.1.0
     pob-lcov-reporter: 2.2.0
     pob-release: 5.5.2
@@ -4567,7 +4568,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest-cli@npm:^25.2.4":
+"jest-cli@npm:^25.2.7":
   version: 25.2.7
   resolution: "jest-cli@npm:25.2.7"
   dependencies:
@@ -4973,16 +4974,16 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest@npm:25.2.4":
-  version: 25.2.4
-  resolution: "jest@npm:25.2.4"
+"jest@npm:25.2.7":
+  version: 25.2.7
+  resolution: "jest@npm:25.2.7"
   dependencies:
-    "@jest/core": ^25.2.4
+    "@jest/core": ^25.2.7
     import-local: ^3.0.2
-    jest-cli: ^25.2.4
+    jest-cli: ^25.2.7
   bin:
     jest: bin/jest.js
-  checksum: 2/a41dd598dc7e06c2e25d6091f98f1b2b052d66759aa35822c52825ad3fc5e50bf9ccbe27bb5ca76fe7413dfeda18c1047d5f9cbd539aeab8837ea2b2f7f7ca6f
+  checksum: 2/ff292486a5f8a79db43b456987aa05c32099db83b696cbb40b48da6e4b2af915873adfd7dc5f42fd5655fcd234d372b2837968c9f0ef5ea2003d5b4672fe0ef5
   languageName: node
   linkType: hard
 
