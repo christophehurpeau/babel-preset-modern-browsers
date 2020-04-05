@@ -1039,12 +1039,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/commitlint-config@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@pob/commitlint-config@npm:1.1.0"
+"@pob/commitlint-config@npm:1.1.1":
+  version: 1.1.1
+  resolution: "@pob/commitlint-config@npm:1.1.1"
   dependencies:
     "@commitlint/config-conventional": ^8.3.4
-  checksum: 2/fd9563aec2d3a61437a41963eaa1029d766271da2ecfad4015b591b9b499dfaa877a22e02232f5652e1dcd8133c3d3935236e4fb8b43068e547757cf3c9f7421
+  checksum: 2/a921578741f421f433810792b3fa65958f643744fdcc935b5dd7271994edf0395e559c285e7f0c14a469c2bd224aac42c807dd922f03b18ba248b509bb76d513
   languageName: node
   linkType: hard
 
@@ -1089,17 +1089,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/root@npm:1.3.4":
-  version: 1.3.4
-  resolution: "@pob/root@npm:1.3.4"
+"@pob/root@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@pob/root@npm:1.4.0"
   dependencies:
     "@commitlint/cli": 8.3.5
     cross-env: ^7.0.0
-    lint-staged: 10.0.7
+    lint-staged: 10.1.2
     repository-check-dirty: ^1.2.1
     semver: ^7.1.2
     which-pm-runs: 1.0.0
-    yarn-deduplicate: 1.1.1
+    yarn-deduplicate: 2.0.0
     yarnhook: ^0.4.3
   peerDependencies:
     husky: ^3.0.4 || ^4.2.3
@@ -1107,7 +1107,7 @@ __metadata:
     commitlint: ./bin/commitlint.js
     lint-staged: ./bin/lint-staged.js
     repository-check-dirty: ./bin/repository-check-dirty.js
-  checksum: 2/5207a9ce03b7e2c813b7c406b1a4f1b95a18531a06b986fe8dbde40b67a38a31422e1162626d3e44348e3cae90cbf8c9de89716027ec5a0537999251591cc5d3
+  checksum: 2/cdcc6d229dc8edea0c9e669a394a30d82652eb791039e4860fb80c147ef59a45f85d64bb63a14c2594f92ac6c75c9c8e380d562f57bda5a2c98877160384b38b
   languageName: node
   linkType: hard
 
@@ -1764,10 +1764,10 @@ __metadata:
     "@babel/plugin-transform-arrow-functions": ^7.8.3
     "@babel/plugin-transform-function-name": ^7.8.3
     "@babel/plugin-transform-modules-commonjs": ^7.9.0
-    "@pob/commitlint-config": 1.1.0
+    "@pob/commitlint-config": 1.1.1
     "@pob/eslint-config": 37.0.0
     "@pob/eslint-config-node": 37.0.0
-    "@pob/root": 1.3.4
+    "@pob/root": 1.4.0
     "@types/jest": 25.2.0
     "@yarnpkg/pnpify": 2.0.0-rc.20
     eslint: 6.8.0
@@ -1779,7 +1779,7 @@ __metadata:
     jest: 25.2.7
     jest-junit-reporter: 1.1.0
     pob-lcov-reporter: 2.2.0
-    pob-release: 5.5.2
+    pob-release: 5.5.4
     prettier: 2.0.2
   peerDependencies:
     "@babel/core": ^7.0.0
@@ -2197,17 +2197,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^2.10.0":
-  version: 2.20.3
-  resolution: "commander@npm:2.20.3"
-  checksum: 2/b73428e97de7624323f81ba13f8ed9271de487017432d18b4da3f07cfc528ad754bbd199004bd5d14e0ccd67d1fdfe0ec8dbbd4c438b401df3c4cc387bfd1daa
-  languageName: node
-  linkType: hard
-
 "commander@npm:^4.0.1":
   version: 4.1.0
   resolution: "commander@npm:4.1.0"
   checksum: 2/90e7ae2735d850e3b33986e26fdc44dcaf0aacc464aba9b7c38f10aa28f2379f6984266bcb5e23cc04baf6945b10cfc0829f0bb58339783d805d37408bac1dde
+  languageName: node
+  linkType: hard
+
+"commander@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "commander@npm:4.1.1"
+  checksum: 2/448585071bf8fb4c0bf9dd52abaee43dea086f801334caec2c8e8c9f456f8abc224c1614ccbbdbf7da5ac2524d230f13cf1fc86c233cf8a041ebecea7df106e9
   languageName: node
   linkType: hard
 
@@ -5209,9 +5209,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:10.0.7":
-  version: 10.0.7
-  resolution: "lint-staged@npm:10.0.7"
+"lint-staged@npm:10.1.2":
+  version: 10.1.2
+  resolution: "lint-staged@npm:10.1.2"
   dependencies:
     chalk: ^3.0.0
     commander: ^4.0.1
@@ -5228,7 +5228,7 @@ fsevents@^2.1.2:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 2/dbab471dd41c2cc0bdfb612bdbfbf6a4fb0b4e2d4924024326e4610c88887b14e3586e24afb19d777f6b80161f0f3523c7e1482e3a8d6184871703ea494dcdf8
+  checksum: 2/3548e35efcbce5f327ac9f3d2f78c53200b3a6bae0dd9cc7dc2ca594ffd46d20243255409eccf861f2ce032168aac7436233037dd86e03d486287095626b6ff2
   languageName: node
   linkType: hard
 
@@ -6446,10 +6446,11 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"pob-release@npm:5.5.2":
-  version: 5.5.2
-  resolution: "pob-release@npm:5.5.2"
+"pob-release@npm:5.5.4":
+  version: 5.5.4
+  resolution: "pob-release@npm:5.5.4"
   dependencies:
+    conventional-changelog-angular: ^5.0.6
     conventional-recommended-bump: ^6.0.5
     inquirer: ^7.0.4
     minimist-argv: ^1.1.0
@@ -6460,7 +6461,7 @@ fsevents@^2.1.2:
     pob-release: ./lib/index.js
     pob-version: ./lib/version.js
     standard-changelog: ./standard-changelog
-  checksum: 2/2eaa48227ceef10be8f3babe1fc8951e0ce4012e83560c38252dae590d70952a6c2065e71b56f51ea3b457845c70f7112cbf291f3b209d5285a554b234f588f1
+  checksum: 2/69a9cfcaabad383643d40711bc4e0f128bb494c975e26e52a9de2dfe0e20f76773d8cd99763c34330efd29fac08f5c952602b79c8b8958d2cacfea7b55cfec1a
   languageName: node
   linkType: hard
 
@@ -7231,7 +7232,7 @@ resolve@^1.15.1:
   languageName: node
   linkType: hard
 
-"semver@npm:2 || 3 || 4 || 5, semver@npm:^5.3.0, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.7.1":
+"semver@npm:2 || 3 || 4 || 5, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.7.1":
   version: 5.7.1
   resolution: "semver@npm:5.7.1"
   bin:
@@ -7249,21 +7250,21 @@ resolve@^1.15.1:
   languageName: node
   linkType: hard
 
+"semver@npm:7.1.3, semver@npm:^7.1.3":
+  version: 7.1.3
+  resolution: "semver@npm:7.1.3"
+  bin:
+    semver: bin/semver.js
+  checksum: 2/a3e1074182f6acb79aba09ac0547000b6bdc12bf793b47236bdf00dbb1b13d4b574c8f1bc55d89b149a19fbb77351e93f9f254082732d41a959acbe99b1a42b9
+  languageName: node
+  linkType: hard
+
 "semver@npm:^7.1.2":
   version: 7.1.2
   resolution: "semver@npm:7.1.2"
   bin:
     semver: bin/semver.js
   checksum: 2/16ab13f3e12cad85a2c0afa5456cf54a38abd337a8cc986d1eaa1a267386598855ecaf688225070b21b1887771a51664fd2576821d93b4addc340e314f0e5afe
-  languageName: node
-  linkType: hard
-
-"semver@npm:^7.1.3":
-  version: 7.1.3
-  resolution: "semver@npm:7.1.3"
-  bin:
-    semver: bin/semver.js
-  checksum: 2/a3e1074182f6acb79aba09ac0547000b6bdc12bf793b47236bdf00dbb1b13d4b574c8f1bc55d89b149a19fbb77351e93f9f254082732d41a959acbe99b1a42b9
   languageName: node
   linkType: hard
 
@@ -8568,16 +8569,16 @@ resolve@^1.15.1:
   languageName: node
   linkType: hard
 
-"yarn-deduplicate@npm:1.1.1":
-  version: 1.1.1
-  resolution: "yarn-deduplicate@npm:1.1.1"
+"yarn-deduplicate@npm:2.0.0":
+  version: 2.0.0
+  resolution: "yarn-deduplicate@npm:2.0.0"
   dependencies:
     "@yarnpkg/lockfile": ^1.1.0
-    commander: ^2.10.0
-    semver: ^5.3.0
+    commander: ^4.1.1
+    semver: 7.1.3
   bin:
-    yarn-deduplicate: ./cli.js
-  checksum: 2/cbed123ea21b36d94c126e01e950ff8dfc0c0413595f4baba6e9adef6a9670aaaad0e80e9c534b6e85d1ff8c109a72fd8319f2dd187cc1ec7425901c3b003b9b
+    yarn-deduplicate: cli.js
+  checksum: 2/14aad820f96cba5a15d17fadc162f5b31b08fb912875c9720778e6493d5de54f5aa6157e194328c045a9c95c8a3392ffba2d2f0cbd13d18d6cdbda98022fd8d4
   languageName: node
   linkType: hard
 
