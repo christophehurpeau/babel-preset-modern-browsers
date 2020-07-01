@@ -73,24 +73,24 @@
     "@babel/plugin-transform-modules-commonjs": "^7.9.0"
   },
   "devDependencies": {
-    "@babel/core": "7.9.0",
-    "@pob/commitlint-config": "1.1.1",
-    "@pob/eslint-config": "37.0.0",
-    "@pob/eslint-config-node": "37.0.0",
+    "@babel/core": "7.10.4",
+    "@pob/commitlint-config": "1.1.2",
+    "@pob/eslint-config": "37.2.0",
+    "@pob/eslint-config-node": "37.2.0",
     "@pob/root": "1.4.0",
-    "@types/jest": "25.2.0",
+    "@types/jest": "25.2.3",
     "@yarnpkg/pnpify": "2.0.0-rc.20",
     "eslint": "6.8.0",
-    "eslint-import-resolver-node": "0.3.3",
-    "eslint-plugin-import": "2.20.2",
+    "eslint-import-resolver-node": "0.3.4",
+    "eslint-plugin-import": "2.22.0",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-prettier": "3.1.4",
     "eslint-plugin-unicorn": "18.0.1",
     "husky": "4.2.3",
-    "jest": "25.2.7",
+    "jest": "25.5.4",
     "jest-junit-reporter": "1.1.0",
-    "pob-lcov-reporter": "2.2.0",
-    "pob-release": "5.5.4",
-    "prettier": "2.0.2"
+    "pob-lcov-reporter": "2.4.0",
+    "pob-release": "5.6.2",
+    "prettier": "2.0.5"
   }
 }
