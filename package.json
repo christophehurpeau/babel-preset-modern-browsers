@@ -77,7 +77,7 @@
     "@pob/commitlint-config": "1.1.1",
     "@pob/eslint-config": "37.0.0",
     "@pob/eslint-config-node": "37.0.0",
-    "@pob/root": "1.4.0",
+    "@pob/root": "2.2.2",
     "@types/jest": "25.2.0",
     "@yarnpkg/pnpify": "2.0.0-rc.20",
     "eslint": "6.8.0",
