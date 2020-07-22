@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 13.x]
+        node-version: [10.x, 12.x, 14.x]
 
     steps:
       - uses: actions/checkout@v2
@@ -18,14 +18,17 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Cache node modules
+      - name: Cache dependencies
         uses: actions/cache@v1
         with:
-          path: node_modules
-          key: dependencies--${{ matrix.node-version }}-${{ runner.OS }}-${{ hashFiles('yarn.lock') }}
+          path: |
+            .yarn/unplugged
+            .yarn/build-state.yml
+            .yarn/install-state.gz
+          key: v2-dependencies--${{ matrix.node-version }}-${{ runner.OS }}-${{ hashFiles('yarn.lock') }}
           restore-keys: |
-            dependencies--${{ matrix.node-version }}-${{ runner.OS }}-
-            dependencies--${{ matrix.node-version }}-
+            v2-dependencies--${{ matrix.node-version }}-${{ runner.OS }}-
+            v2-dependencies--${{ matrix.node-version }}-
 
       - name: Check Dependencies
         run: yarn install --immutable
@@ -38,3 +41,7 @@ jobs:
         run: yarn run test
         env:
           CI: true
+
+      - name: Check nothing was forgotten before commit
+        if: startsWith(matrix.node-version, '12.')
+        run: yarn run repository-check-dirty
