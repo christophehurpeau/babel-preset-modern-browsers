@@ -3,15 +3,13 @@
     "pob-config": {
       "documentation": false,
       "testing": {
-        "circleci": true,
-        "codecov": false
+        "codecov": false,
+        "ci": true
       }
     },
     "renovate": {
       "enable": true
-    }
-  },
-  "babel-preset-modern-browsers": {
+    },
     "project": {
       "type": "lib",
       "yarn2": true
