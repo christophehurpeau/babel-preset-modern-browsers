@@ -63,20 +63,21 @@
   "devDependencies": {
     "@babel/core": "7.10.5",
     "@pob/commitlint-config": "1.1.2",
-    "@pob/eslint-config": "38.2.0",
-    "@pob/eslint-config-node": "38.2.0",
+    "@pob/eslint-config": "39.0.0",
+    "@pob/eslint-config-node": "39.0.0",
     "@pob/root": "2.2.2",
     "@types/jest": "25.2.3",
-    "eslint": "6.8.0",
+    "eslint": "7.5.0",
     "eslint-import-resolver-node": "0.3.4",
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-prettier": "3.1.3",
-    "eslint-plugin-unicorn": "18.0.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-unicorn": "21.0.0",
     "husky": "4.2.5",
     "jest": "26.1.0",
     "pob-lcov-reporter": "2.4.0",
     "pob-release": "5.6.2",
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "yarn-berry-deduplicate": "^2.0.0"
   }
 }

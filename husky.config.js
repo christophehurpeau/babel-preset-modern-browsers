@@ -8,7 +8,7 @@ let createHuskyConfig;
 
 try {
   createHuskyConfig = require('@pob/root/createHuskyConfig');
-} catch (err) {
+} catch {
   spawnSync('yarn', ['install'], { stdio: 'inherit' });
   createHuskyConfig = require('@pob/root/createHuskyConfig');
 }
