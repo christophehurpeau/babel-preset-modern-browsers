@@ -24,7 +24,7 @@
     "generate:test-coverage": "rm -Rf docs/coverage/ ; NODE_ENV=production BABEL_ENV=test jest --coverage --coverageReporters=pob-lcov-reporter --coverageDirectory=docs/coverage/",
     "lint": "eslint --quiet *.js lib",
     "preversion": "yarn run lint && repository-check-dirty",
-    "release": "repository-check-dirty && pob-release",
+    "release": "repository-check-dirty && standard-version -a -m 'chore(release): %s [skip ci]' && git push --follow-tags origin master && npm publish",
     "test": "jest",
     "test:watch": "jest",
     "version": "pob-version"
@@ -77,7 +77,7 @@
     "husky": "4.3.0",
     "jest": "26.4.2",
     "pob-lcov-reporter": "2.4.0",
-    "pob-release": "5.6.3",
-    "prettier": "2.1.2"
+    "prettier": "2.1.2",
+    "standard-version": "9.0.0"
   }
 }
