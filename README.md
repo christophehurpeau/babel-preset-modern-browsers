@@ -138,7 +138,7 @@ Edge >= 83, Firefox >= 78, FirefoxAndroid  >= 78, Chrome >= 80, ChromeAndroid >=
 - Firefox: https://wiki.mozilla.org/RapidRelease/Calendar
 - Chrome: https://www.chromium.org/developers/calendar ([Version History](https://en.wikipedia.org/wiki/Google_Chrome_version_history))
 - Safari: https://developer.apple.com/safari/ ([Version History](https://en.wikipedia.org/wiki/Safari_version_history))
-- Edge: https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/ ([Version History](https://en.wikipedia.org/wiki/Microsoft_Edge#Release_history))
+- Edge: https://developer.microsoft.com/en-us/microsoft-edge/ ([Version History](https://en.wikipedia.org/wiki/Microsoft_Edge#Release_history))
 
 ## Thanks
 
