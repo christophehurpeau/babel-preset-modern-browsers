@@ -4,6 +4,7 @@
 /examples
 /samples
 /test
+/*.config.js
 .codeclimate.yml
 .yo-rc.json
 /yarn.lock
@@ -11,6 +12,8 @@
 /.yarn
 /.yarnrc.yml
 /.pnp.js
+/lib/index.test.js
+/lib/__tests_fixtures__
 
 /.settings
 /.project
