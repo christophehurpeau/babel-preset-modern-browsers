@@ -1,3 +1,9 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [15.0.2](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v15.0.1...v15.0.2) (2020-09-19)
+
 ## [15.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v14.1.1...v15.0.0) (2020-09-19)
 
 Support new Edge browser, updated babel plugins. Modern browsers are now: Edge >= 83, Firefox >= 78, Chrome >= 80, Opera >= 67, Safari >= 13.1, iOS >= 13.4
@@ -229,6 +235,3 @@ Support new Edge browser, updated babel plugins. Modern browsers are now: Edge >
 
 
 # 2.0.0 (2016-04-26)
-
-
-
