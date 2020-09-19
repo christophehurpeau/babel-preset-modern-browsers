@@ -322,15 +322,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.6.3":
-  version: 7.8.4
-  resolution: "@babel/runtime@npm:7.8.4"
-  dependencies:
-    regenerator-runtime: ^0.13.2
-  checksum: e81c601fd206a3909bacd5b41bc2044dc9e0a4dfd9b7cc3479b920b2e3bc5a3cefbd4dc9543218b659735ce771a9bc9bf77e3fcf814bfced26829403daaa096e
-  languageName: node
-  linkType: hard
-
 "@babel/template@npm:^7.10.4, @babel/template@npm:^7.3.3":
   version: 7.10.4
   resolution: "@babel/template@npm:7.10.4"
@@ -813,20 +804,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/eslint-config@npm:39.0.0":
-  version: 39.0.0
-  resolution: "@pob/eslint-config@npm:39.0.0"
+"@pob/eslint-config@npm:40.0.0":
+  version: 40.0.0
+  resolution: "@pob/eslint-config@npm:40.0.0"
   dependencies:
-    "@pob/use-eslint-plugin": ^39.0.0
+    "@pob/use-eslint-plugin": ^40.0.0
     eslint-config-airbnb-base: ^14.2.0
     eslint-config-prettier: ^6.11.0
     eslint-plugin-prettier: ^3.1.4
-    eslint-plugin-unicorn: ^21.0.0
+    eslint-plugin-unicorn: ^22.0.0
   peerDependencies:
     eslint: ^7.5.0
     eslint-plugin-import: ^2.22.0
     eslint-plugin-prettier: ^3.1.4
-    eslint-plugin-unicorn: ^21.0.0
+    eslint-plugin-unicorn: ^22.0.0
     prettier: ^2.0.5
   peerDependenciesMeta:
     eslint-plugin-import:
@@ -835,7 +826,7 @@ __metadata:
       optional: true
     eslint-plugin-unicorn:
       optional: true
-  checksum: 0c627a15cfaca897292e5a9be389ee5242c822ac892ec1001b085ca25a639ceaeb7828afacff1dd70d9ca4d4bc636b3984bf457231f01b435288e404860b7ba2
+  checksum: c58d1dab457d785e8c2f7ec6c447c3ad247e36c887973fbf6b02d571e95caa9372c8b79573d0a06351933b8f11a3ef291f15aa57ee862f52627e258606bdb4e0
   languageName: node
   linkType: hard
 
@@ -865,6 +856,13 @@ __metadata:
   version: 39.0.0
   resolution: "@pob/use-eslint-plugin@npm:39.0.0"
   checksum: bc7436e3ae4135ebb5a21faa293e493d1ab0df6d3f94303d83a5ae5e7cbaf44cda4dc1a7ffd207bc8d88ca9d756999a5d39a8f57e61d061305e569e177ebb183
+  languageName: node
+  linkType: hard
+
+"@pob/use-eslint-plugin@npm:^40.0.0":
+  version: 40.0.0
+  resolution: "@pob/use-eslint-plugin@npm:40.0.0"
+  checksum: 29fb95ada8c461d1bd10e6c4695e395997542578eb77c36a1ffcb3cc58db6b31307ac562a2d7635edf79b27a26347b172c6fd8641bc988d592adb95997a92578
   languageName: node
   linkType: hard
 
@@ -1523,7 +1521,7 @@ __metadata:
     "@babel/plugin-syntax-numeric-separator": ^7.10.4
     "@babel/plugin-transform-modules-commonjs": ^7.10.4
     "@pob/commitlint-config": 1.1.2
-    "@pob/eslint-config": 39.0.0
+    "@pob/eslint-config": 40.0.0
     "@pob/eslint-config-node": 39.0.0
     "@pob/root": 2.2.2
     "@types/jest": 26.0.14
@@ -2805,7 +2803,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:21.0.0, eslint-plugin-unicorn@npm:^21.0.0":
+"eslint-plugin-unicorn@npm:21.0.0":
   version: 21.0.0
   resolution: "eslint-plugin-unicorn@npm:21.0.0"
   dependencies:
@@ -2828,6 +2826,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-unicorn@npm:^22.0.0":
+  version: 22.0.0
+  resolution: "eslint-plugin-unicorn@npm:22.0.0"
+  dependencies:
+    ci-info: ^2.0.0
+    clean-regexp: ^1.0.0
+    eslint-ast-utils: ^1.1.0
+    eslint-template-visitor: ^2.2.1
+    eslint-utils: ^2.1.0
+    import-modules: ^2.0.0
+    lodash: ^4.17.20
+    pluralize: ^8.0.0
+    read-pkg-up: ^7.0.1
+    regexp-tree: ^0.1.21
+    reserved-words: ^0.1.2
+    safe-regex: ^2.1.1
+    semver: ^7.3.2
+  peerDependencies:
+    eslint: ">=7.8.0"
+  checksum: bed800d74970f7666e7a82d7a516c21a649cd14be7af3dd10323970f510515ee6341275a2671733ed9e24bd0236f8da22949ee42edfecc509e41199763fcb638
+  languageName: node
+  linkType: hard
+
 "eslint-scope@npm:^5.1.0":
   version: 5.1.0
   resolution: "eslint-scope@npm:5.1.0"
@@ -2838,7 +2859,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-template-visitor@npm:^2.0.0":
+"eslint-template-visitor@npm:^2.0.0, eslint-template-visitor@npm:^2.2.1":
   version: 2.2.1
   resolution: "eslint-template-visitor@npm:2.2.1"
   dependencies:
@@ -5178,10 +5199,17 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lodash@npm:4.17.15, lodash@npm:^4.17.11, lodash@npm:^4.17.15, lodash@npm:^4.17.16, lodash@npm:^4.17.19, lodash@npm:^4.2.1":
+"lodash@npm:4.17.15":
   version: 4.17.19
   resolution: "lodash@npm:4.17.19"
   checksum: ff2b7a95f0129dba9101e346d44e0eda0f159d76bbbf23721eec1969b87a32bde3de0cfef0733218c64620e9be08040a973278d46a686540233b356115f3527c
+  languageName: node
+  linkType: hard
+
+"lodash@npm:^4.17.11, lodash@npm:^4.17.15, lodash@npm:^4.17.16, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.2.1":
+  version: 4.17.20
+  resolution: "lodash@npm:4.17.20"
+  checksum: c62101d2500c383b5f174a7e9e6fe8098149ddd6e9ccfa85f36d4789446195f5c4afd3cfba433026bcaf3da271256566b04a2bf2618e5a39f6e67f8c12030cb6
   languageName: node
   linkType: hard
 
@@ -6555,13 +6583,6 @@ fsevents@^2.1.2:
   version: 0.11.1
   resolution: "regenerator-runtime@npm:0.11.1"
   checksum: d98d44b9f5c9c3c670dcb615c5f5374931f937f3075dc8338126f45231643aa8c47ed2bfdef6ae593e311be54ca02d25d943971ca86a3dc1fa99068c2e1b88b2
-  languageName: node
-  linkType: hard
-
-"regenerator-runtime@npm:^0.13.2":
-  version: 0.13.3
-  resolution: "regenerator-runtime@npm:0.13.3"
-  checksum: fc026f997801876927d8b11bd94b1d445c01fb1b112dcc35b1c4e83490b87954d26d8164c50098cdebaa8edc3cbfaa0e474758a57e28efc25930972148274b7a
   languageName: node
   linkType: hard
 
@@ -8239,19 +8260,10 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"yaml@npm:^1.10.0":
+"yaml@npm:^1.10.0, yaml@npm:^1.7.2":
   version: 1.10.0
   resolution: "yaml@npm:1.10.0"
   checksum: d4cc9f9724f8d0aebc2cf52e4e6aa7059f12d50deb54b5225d103462fb2af36e5c0bb419101ca4b1f0cd3b4db9e4139cf2c690e863ac6227648d39d6f4e2522c
-  languageName: node
-  linkType: hard
-
-"yaml@npm:^1.7.2":
-  version: 1.7.2
-  resolution: "yaml@npm:1.7.2"
-  dependencies:
-    "@babel/runtime": ^7.6.3
-  checksum: 8b5d70dfff792ef1fa4728a86052d2fa63698535b90bf3cf7c7d56412f08e351c2bb91e20b395225595f9b68ec67f83aaa18d0441a9e771d8a23ff67db44cee4
   languageName: node
   linkType: hard
 
