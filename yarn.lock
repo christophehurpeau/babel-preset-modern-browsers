@@ -3,7 +3,7 @@
 
 __metadata:
   version: 4
-  cacheKey: 5
+  cacheKey: 6
 
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.10.4":
   version: 7.10.4
@@ -1046,16 +1046,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/parsers@npm:^2.0.0-rc.10":
-  version: 2.1.0
-  resolution: "@yarnpkg/parsers@npm:2.1.0"
-  dependencies:
-    js-yaml: ^3.10.0
-    tslib: ^1.13.0
-  checksum: 3cd4e354358ec1562c07872a1132c6eb2817ec3521c89043071b0b2d3fc03946176815f31e930ae24a689321584bf204c7a0fe3a347dc17d359a34062ade6774
-  languageName: node
-  linkType: hard
-
 "JSONStream@npm:^1.0.4":
   version: 1.3.5
   resolution: "JSONStream@npm:1.3.5"
@@ -1534,7 +1524,6 @@ __metadata:
     pob-lcov-reporter: 2.4.0
     pob-release: 5.6.2
     prettier: 2.0.5
-    yarn-berry-deduplicate: ^2.0.0
   peerDependencies:
     "@babel/core": ^7.10.5
   languageName: unknown
@@ -3317,10 +3306,10 @@ fsevents@^2.1.2:
 
 "fsevents@patch:fsevents@^2.1.2#builtin<compat/fsevents>":
   version: 2.1.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.1.2#builtin<compat/fsevents>::version=2.1.2&hash=495457"
+  resolution: "fsevents@patch:fsevents@npm%3A2.1.2#builtin<compat/fsevents>::version=2.1.2&hash=87eb42"
   dependencies:
     node-gyp: latest
-  checksum: 1d1501fde92a2c1ff0a134fe2db97a10916ed83321c8604998441a2cab4f5343040cd60ba64a6a06e3e321778139178c4b4a565eaa05b9cf7e16b511cdf9dcab
+  checksum: 28fbb58d43f2949e9f7097b460bf594efc6cba5b4d4326158de82a116b01a1c059efee445b1c60b85acba408087e22d1e23a0595358d5d538ceb6a35bf5ae16a
   languageName: node
   linkType: hard
 
@@ -4776,7 +4765,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^3.10.0, js-yaml@npm:^3.13.1":
+"js-yaml@npm:^3.13.1":
   version: 3.13.1
   resolution: "js-yaml@npm:3.13.1"
   dependencies:
@@ -6716,7 +6705,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"resolve@^1.1.6, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.17.0":
+"resolve@^1.1.6, resolve@^1.10.0, resolve@^1.10.1, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.17.0, resolve@^1.3.2":
   version: 1.17.0
   resolution: "resolve@npm:1.17.0"
   dependencies:
@@ -6725,30 +6714,12 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"resolve@^1.10.0, resolve@^1.10.1, resolve@^1.3.2":
-  version: 1.13.1
-  resolution: "resolve@npm:1.13.1"
-  dependencies:
-    path-parse: ^1.0.6
-  checksum: 96be02d7336a1bf4e849db4b31066a68c25e3cf7064190d64db6e55d926b7db6d056d234ac529fff9fbfae72daf6f01946ac00dc52ae4696deb0338079016249
-  languageName: node
-  linkType: hard
-
-"resolve@patch:resolve@^1.1.6#builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#builtin<compat/resolve>, resolve@patch:resolve@^1.13.1#builtin<compat/resolve>, resolve@patch:resolve@^1.17.0#builtin<compat/resolve>":
+"resolve@patch:resolve@^1.1.6#builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#builtin<compat/resolve>, resolve@patch:resolve@^1.10.1#builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#builtin<compat/resolve>, resolve@patch:resolve@^1.13.1#builtin<compat/resolve>, resolve@patch:resolve@^1.17.0#builtin<compat/resolve>, resolve@patch:resolve@^1.3.2#builtin<compat/resolve>":
   version: 1.17.0
   resolution: "resolve@patch:resolve@npm%3A1.17.0#builtin<compat/resolve>::version=1.17.0&hash=3388aa"
   dependencies:
     path-parse: ^1.0.6
   checksum: 4bcfb568860d0c361fd16c26b6fce429711138ff0de7dd353bdd73fcb5c7eede2f4602d40ccfa08ff45ec7ef9830845eab2021a46036af0a6e5b58bab1ff6399
-  languageName: node
-  linkType: hard
-
-"resolve@patch:resolve@^1.10.0#builtin<compat/resolve>, resolve@patch:resolve@^1.10.1#builtin<compat/resolve>, resolve@patch:resolve@^1.3.2#builtin<compat/resolve>":
-  version: 1.13.1
-  resolution: "resolve@patch:resolve@npm%3A1.13.1#builtin<compat/resolve>::version=1.13.1&hash=3388aa"
-  dependencies:
-    path-parse: ^1.0.6
-  checksum: d0bd5b8e55a5876480b4313cda7179652ff72f95af2678e8267ff4e0590b6bce18d763c28b45e6db80ec7a14384c1c2a8861d7797099410e8e181e888a4d1cfc
   languageName: node
   linkType: hard
 
@@ -7795,7 +7766,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"tslib@npm:^1.13.0, tslib@npm:^1.9.0":
+"tslib@npm:^1.9.0":
   version: 1.13.0
   resolution: "tslib@npm:1.13.0"
   checksum: 5dc3bdaea3b67c76ef4a14c28fcb2171da7bcf292fd9c59a260098729626b1ce766c52b588f08e324ed9a0c52ea8a93a815920f980d75981abc9d850fbf310fb
@@ -8268,19 +8239,6 @@ fsevents@^2.1.2:
     y18n: ^4.0.0
     yargs-parser: ^18.1.1
   checksum: 6504a0bb4e6f5933ebaaa52307943a9cdb44da6200cd1ca8794aaa1d18b70f0acd2f49f46630b07bd4d2aa12cb1fe666b186d367c36fa1b4998f7ce8bdc9ffdf
-  languageName: node
-  linkType: hard
-
-"yarn-berry-deduplicate@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "yarn-berry-deduplicate@npm:2.0.0"
-  dependencies:
-    "@yarnpkg/parsers": ^2.0.0-rc.10
-    commander: ^4.1.1
-    semver: 7.1.3
-  bin:
-    yarn-berry-deduplicate: cli.js
-  checksum: f1787e5746fe4f733c9876e4f20f1d56d14bf4940930b08d33d169595bae645bb9282c154cfbcdfe1454e3b421bf1fc69d83f67dadc83458e1e4a60169727986
   languageName: node
   linkType: hard
 
