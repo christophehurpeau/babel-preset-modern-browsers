@@ -1,3 +1,8 @@
+## [15.0.0](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v14.1.1...v15.0.0) (2020-09-19)
+
+Support new Edge browser, updated babel plugins. Modern browsers are now: Edge >= 83, Firefox >= 78, Chrome >= 80, Opera >= 67, Safari >= 13.1, iOS >= 13.4
+
+
 ## [14.1.1](https://github.com/christophehurpeau/babel-preset-modern-browsers/compare/v14.1.0...v14.1.1) (2019-12-14)
 
 
