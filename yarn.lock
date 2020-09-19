@@ -322,15 +322,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.6.3":
-  version: 7.8.4
-  resolution: "@babel/runtime@npm:7.8.4"
-  dependencies:
-    regenerator-runtime: ^0.13.2
-  checksum: e81c601fd206a3909bacd5b41bc2044dc9e0a4dfd9b7cc3479b920b2e3bc5a3cefbd4dc9543218b659735ce771a9bc9bf77e3fcf814bfced26829403daaa096e
-  languageName: node
-  linkType: hard
-
 "@babel/template@npm:^7.10.4, @babel/template@npm:^7.3.3":
   version: 7.10.4
   resolution: "@babel/template@npm:7.10.4"
@@ -548,6 +539,24 @@ __metadata:
   dependencies:
     find-up: ^4.0.0
   checksum: c3a34beac65ffa904f3d5b5bc5fd1503166ab828d9d54f2412e30b0b78fa5a4cd9c61673e176c12692484fe8c88b54d791681350c6ad67a143c0472bb9881133
+  languageName: node
+  linkType: hard
+
+"@eslint/eslintrc@npm:^0.1.3":
+  version: 0.1.3
+  resolution: "@eslint/eslintrc@npm:0.1.3"
+  dependencies:
+    ajv: ^6.12.4
+    debug: ^4.1.1
+    espree: ^7.3.0
+    globals: ^12.1.0
+    ignore: ^4.0.6
+    import-fresh: ^3.2.1
+    js-yaml: ^3.13.1
+    lodash: ^4.17.19
+    minimatch: ^3.0.4
+    strip-json-comments: ^3.1.1
+  checksum: e9c5eaa5e706bcedbba6e7e1a2bc85faa7e3a9edbe71375e07240d1b6540fbb88d907bd5e5841b42c2a7a9683dcf031ea052c447c3c9d81ba4d0b74f0dd67e5f
   languageName: node
   linkType: hard
 
@@ -1112,12 +1121,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^7.1.1, acorn@npm:^7.3.1":
-  version: 7.3.1
-  resolution: "acorn@npm:7.3.1"
+"acorn@npm:^7.1.1, acorn@npm:^7.4.0":
+  version: 7.4.0
+  resolution: "acorn@npm:7.4.0"
   bin:
     acorn: bin/acorn
-  checksum: 3fa70393843c3fd4af691f449563e983e064c5c3f655fd943f5f77fb767257623f8afc0a2454b0037aa0c4dd95374c75a9e0e6c54a5f497fc63e63449ad6327c
+  checksum: a25b12d9e803df49593e983f05abd8084be883df23f78a3ceb49bfb9c453fdc43d51b3ce268b6acd7694c34d9cde1707acb1cdcbc5303bde47bee43ffc131491
   languageName: node
   linkType: hard
 
@@ -1138,15 +1147,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv@npm:^6.10.0, ajv@npm:^6.5.5, ajv@npm:^6.9.1":
-  version: 6.10.2
-  resolution: "ajv@npm:6.10.2"
+"ajv@npm:^6.10.0, ajv@npm:^6.12.4, ajv@npm:^6.5.5, ajv@npm:^6.9.1":
+  version: 6.12.5
+  resolution: "ajv@npm:6.12.5"
   dependencies:
-    fast-deep-equal: ^2.0.1
+    fast-deep-equal: ^3.1.1
     fast-json-stable-stringify: ^2.0.0
     json-schema-traverse: ^0.4.1
     uri-js: ^4.2.2
-  checksum: e6170c10b6448432220ec8979a2e56f85d1e1a4d9c03d8b45a98cdbf6a03e24873e244777637f1af2ad68888323473807343873fa6f69644474ef63f843be556
+  checksum: d9ec559bd71be2479b91d293a5b14c96d60ba89f471d8b3369443830b6c72954bdc38f480194413f45f46fc250c8bd769275584ffde033aeb3c56cc218868d95
   languageName: node
   linkType: hard
 
@@ -1527,7 +1536,7 @@ __metadata:
     "@pob/eslint-config-node": 39.0.0
     "@pob/root": 2.2.2
     "@types/jest": 26.0.14
-    eslint: 7.5.0
+    eslint: 7.9.0
     eslint-import-resolver-node: 0.3.4
     eslint-plugin-import: 2.22.0
     eslint-plugin-node: 11.1.0
@@ -2868,11 +2877,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:7.5.0":
-  version: 7.5.0
-  resolution: "eslint@npm:7.5.0"
+"eslint@npm:7.9.0":
+  version: 7.9.0
+  resolution: "eslint@npm:7.9.0"
   dependencies:
     "@babel/code-frame": ^7.0.0
+    "@eslint/eslintrc": ^0.1.3
     ajv: ^6.10.0
     chalk: ^4.0.0
     cross-spawn: ^7.0.2
@@ -2882,7 +2892,7 @@ __metadata:
     eslint-scope: ^5.1.0
     eslint-utils: ^2.1.0
     eslint-visitor-keys: ^1.3.0
-    espree: ^7.2.0
+    espree: ^7.3.0
     esquery: ^1.2.0
     esutils: ^2.0.2
     file-entry-cache: ^5.0.1
@@ -2910,18 +2920,18 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: 5a65f133db997f39e48082636496e11db168c7385839111b2ecbb9d4fa16d9eaeae9a88f0317ddcc5118fe388c2907ab0f302c752fb36e56ace6e3660070ea42
+  checksum: 295fe8c442b9e9cc677fa03c88a873ad74c1d06620f4600745de83e5d4d10d53898cd1e15276e3420c976f00469d1ea8bbc5a4157c1f198753cece98f8903f5c
   languageName: node
   linkType: hard
 
-"espree@npm:^7.2.0":
-  version: 7.2.0
-  resolution: "espree@npm:7.2.0"
+"espree@npm:^7.3.0":
+  version: 7.3.0
+  resolution: "espree@npm:7.3.0"
   dependencies:
-    acorn: ^7.3.1
+    acorn: ^7.4.0
     acorn-jsx: ^5.2.0
     eslint-visitor-keys: ^1.3.0
-  checksum: 51bdb836f47a360ea4fd1a28cf7df1974f2be93abd5cf707cfbedcb15fb6591d26f6dc345d3cb07c4b1df7c5435e50d4b2fdf2a0ed4d63175da8b2c83f06057b
+  checksum: dd2543c293e091532f3d6eda4a09ae49039ac65e69bc072aec952a5db6eb23eeee7617e99cde11414367104208c2dec13f709bbede0528d4f6854ce5cb734960
   languageName: node
   linkType: hard
 
@@ -3131,10 +3141,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-deep-equal@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "fast-deep-equal@npm:2.0.1"
-  checksum: ad315b79abe335f25271821447bdbbca5d7a6e5930da498fbb2628d28399e958a679adddbb665f5b2943bfd83d9dd375ac5fb45e9004c9516177008ebb7efc16
+"fast-deep-equal@npm:^3.1.1":
+  version: 3.1.3
+  resolution: "fast-deep-equal@npm:3.1.3"
+  checksum: 451526766b219503131d11e823eaadd1533080b0be4860e316670b039dcaf31cd1007c2fe036a9b922abba7c040dfad5e942ed79d21f2ff849e50049f36e0fb7
   languageName: node
   linkType: hard
 
@@ -6558,13 +6568,6 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"regenerator-runtime@npm:^0.13.2":
-  version: 0.13.3
-  resolution: "regenerator-runtime@npm:0.13.3"
-  checksum: fc026f997801876927d8b11bd94b1d445c01fb1b112dcc35b1c4e83490b87954d26d8164c50098cdebaa8edc3cbfaa0e474758a57e28efc25930972148274b7a
-  languageName: node
-  linkType: hard
-
 "regex-not@npm:^1.0.0, regex-not@npm:^1.0.2":
   version: 1.0.2
   resolution: "regex-not@npm:1.0.2"
@@ -7523,7 +7526,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"strip-json-comments@npm:^3.1.0":
+"strip-json-comments@npm:^3.1.0, strip-json-comments@npm:^3.1.1":
   version: 3.1.1
   resolution: "strip-json-comments@npm:3.1.1"
   checksum: f16719ce25abc58a55ef82b1c27f541dcfa5d544f17158f62d10be21ff9bd22fde45a53c592b29d80ad3c97ccb67b7451c4833913fdaeadb508a40f5e0a9c206
@@ -8239,19 +8242,10 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"yaml@npm:^1.10.0":
+"yaml@npm:^1.10.0, yaml@npm:^1.7.2":
   version: 1.10.0
   resolution: "yaml@npm:1.10.0"
   checksum: d4cc9f9724f8d0aebc2cf52e4e6aa7059f12d50deb54b5225d103462fb2af36e5c0bb419101ca4b1f0cd3b4db9e4139cf2c690e863ac6227648d39d6f4e2522c
-  languageName: node
-  linkType: hard
-
-"yaml@npm:^1.7.2":
-  version: 1.7.2
-  resolution: "yaml@npm:1.7.2"
-  dependencies:
-    "@babel/runtime": ^7.6.3
-  checksum: 8b5d70dfff792ef1fa4728a86052d2fa63698535b90bf3cf7c7d56412f08e351c2bb91e20b395225595f9b68ec67f83aaa18d0441a9e771d8a23ff67db44cee4
   languageName: node
   linkType: hard
 
