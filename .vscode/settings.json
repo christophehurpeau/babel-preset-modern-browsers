@@ -2,6 +2,10 @@
   // yarn berry
   "eslint.nodePath": ".yarn/sdks",
   "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
   // save config
   "editor.formatOnSave": true,
   "eslint.codeActionsOnSave.mode": "all",
@@ -35,9 +39,5 @@
   "[typescriptreact]": {
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "search.exclude": {
-    "**/.yarn": true,
-    "**/.pnp.*": true
   }
 }
