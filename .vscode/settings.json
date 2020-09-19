@@ -35,5 +35,9 @@
   "[typescriptreact]": {
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
   }
 }
