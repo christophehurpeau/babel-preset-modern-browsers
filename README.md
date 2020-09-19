@@ -16,7 +16,7 @@
 - [Compatibility Table](#compatibility-table)
 - [Release Dates](#release-dates)
 
-This preset covers syntax of `es2015`, `es2016`, `es2017`, `es2018` and `es2019`.
+This preset covers syntax of `es2015`, `es2016`, `es2017`, `es2018`, `es2019` and `es2020`.
 
 More info in the compatibility table below
 
