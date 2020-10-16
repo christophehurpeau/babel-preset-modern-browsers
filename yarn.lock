@@ -1541,7 +1541,7 @@ __metadata:
     eslint-plugin-import: 2.22.0
     eslint-plugin-node: 11.1.0
     eslint-plugin-prettier: 3.1.4
-    eslint-plugin-unicorn: 22.0.0
+    eslint-plugin-unicorn: 23.0.0
     husky: 4.3.0
     jest: 26.4.2
     pob-lcov-reporter: 2.4.0
@@ -2918,7 +2918,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:22.0.0, eslint-plugin-unicorn@npm:^22.0.0":
+"eslint-plugin-unicorn@npm:23.0.0":
+  version: 23.0.0
+  resolution: "eslint-plugin-unicorn@npm:23.0.0"
+  dependencies:
+    ci-info: ^2.0.0
+    clean-regexp: ^1.0.0
+    eslint-ast-utils: ^1.1.0
+    eslint-template-visitor: ^2.2.1
+    eslint-utils: ^2.1.0
+    import-modules: ^2.0.0
+    lodash: ^4.17.20
+    pluralize: ^8.0.0
+    read-pkg-up: ^7.0.1
+    regexp-tree: ^0.1.21
+    reserved-words: ^0.1.2
+    safe-regex: ^2.1.1
+    semver: ^7.3.2
+  peerDependencies:
+    eslint: ">=7.11.0"
+  checksum: 655c90e72f0aa4a7f9dd6250ce95f187ddb85a7e1e3ac46091f21025c1c6c2b308a520a7f5abfb14866b6926fee1023e3ceb7882c5b1fb63a4f0698b25f0d7e6
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-unicorn@npm:^22.0.0":
   version: 22.0.0
   resolution: "eslint-plugin-unicorn@npm:22.0.0"
   dependencies:
