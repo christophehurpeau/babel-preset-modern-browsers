@@ -843,17 +843,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/root@npm:2.4.4":
-  version: 2.4.4
-  resolution: "@pob/root@npm:2.4.4"
+"@pob/root@npm:2.4.5":
+  version: 2.4.5
+  resolution: "@pob/root@npm:2.4.5"
   dependencies:
     "@commitlint/cli": 11.0.0
     cross-env: ^7.0.2
-    lint-staged: 10.4.2
+    lint-staged: 10.5.1
     repository-check-dirty: ^1.2.2
     semver: ^7.1.2
     which-pm-runs: 1.0.0
-    yarn-deduplicate: 3.0.0
+    yarn-deduplicate: 3.1.0
     yarnhook: ^0.4.3
   peerDependencies:
     husky: ^3.0.4 || ^4.2.3
@@ -861,7 +861,7 @@ __metadata:
     commitlint: bin/commitlint.js
     lint-staged: bin/lint-staged.js
     repository-check-dirty: bin/repository-check-dirty.js
-  checksum: 03ed1a4efd10df950461daefad3c7681fad93eecd532dd806e7dafdb71fe33b3ff24aaf7ed83893907e33717de00e1cdf82c10df27ab4f1ca9e61ddb8db6fd02
+  checksum: e0651e5da1c8a1ac086be229261de69f983543b7bd73f52f8908e39628b65d3d337418e513db5300a7cb5acc89f3dce7ab07c1f58b55d6c6e2f2394f8af551b1
   languageName: node
   linkType: hard
 
@@ -1515,7 +1515,7 @@ __metadata:
     "@pob/commitlint-config": 1.1.3
     "@pob/eslint-config": 40.0.0
     "@pob/eslint-config-node": 40.1.0
-    "@pob/root": 2.4.4
+    "@pob/root": 2.4.5
     "@types/jest": 26.0.15
     eslint: 7.12.1
     eslint-import-resolver-node: 0.3.4
@@ -1903,10 +1903,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^6.0.0, commander@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "commander@npm:6.1.0"
-  checksum: ef1e310c3f430b84f8818ec9c6e5ce1b84909616eb2c1b1a79f646bc25fbca156eccf2ecf19f07e77a08dc519728d53d1300f94f3b2ad93de65add66044dfce6
+"commander@npm:^6.1.0, commander@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "commander@npm:6.2.0"
+  checksum: c78501cd98e6ad66839004adc27940f5fc1a0102b306fbbc177965101d586cf6dd2e01bdffd64f99f2d4862101f24e602e3e4baa641b6f6a11c01ec5c900e412
   languageName: node
   linkType: hard
 
@@ -2354,12 +2354,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:^4.0.1, debug@npm:^4.1.0, debug@npm:^4.1.1":
-  version: 4.1.1
-  resolution: "debug@npm:4.1.1"
+"debug@npm:^4.0.1, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.2.0":
+  version: 4.3.0
+  resolution: "debug@npm:4.3.0"
   dependencies:
-    ms: ^2.1.1
-  checksum: 3601a6ce96e4698ed3edf0ee6e67ef0317adfcdae2f66a43b23d1b14e8888b422337429b16dbbcba6801e7bfa6cbb8de3128fbacfb8ae1cd9bd7615ea6baf970
+    ms: 2.1.2
+  peerDependenciesMeta:
+    supports-color:
+      optional: true
+  checksum: 847d2760d1493cfaef53fb67d8943c6afaba30472d7527450c19919d230dde04f2275dd8dd5c2874c7103787c190d3b5d3dbc2ee7596a12d853a2ce35c4b8b1b
   languageName: node
   linkType: hard
 
@@ -2996,9 +2999,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:^4.0.0, execa@npm:^4.0.3":
-  version: 4.0.3
-  resolution: "execa@npm:4.0.3"
+"execa@npm:^4.0.0, execa@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "execa@npm:4.1.0"
   dependencies:
     cross-spawn: ^7.0.0
     get-stream: ^5.0.0
@@ -3009,7 +3012,7 @@ __metadata:
     onetime: ^5.1.0
     signal-exit: ^3.0.2
     strip-final-newline: ^2.0.0
-  checksum: 65b237d178b468045ee57af6aa4e4124807b28aec9573d9b3b16b02a7e41bd65996236e0c5575d053d3888585ffc795cbed38847c6c9669e9c8481fc44ac05e4
+  checksum: 79bd736acd63aa7c0afb32cc99af21cfd70db696580686c7cd56c177857b93b78bc0b9bb2b4410f377f46c71c566c8e723987e71ef0bc9b23791bfbced02f75c
   languageName: node
   linkType: hard
 
@@ -4995,19 +4998,19 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:10.4.2":
-  version: 10.4.2
-  resolution: "lint-staged@npm:10.4.2"
+"lint-staged@npm:10.5.1":
+  version: 10.5.1
+  resolution: "lint-staged@npm:10.5.1"
   dependencies:
     chalk: ^4.1.0
     cli-truncate: ^2.1.0
-    commander: ^6.0.0
+    commander: ^6.2.0
     cosmiconfig: ^7.0.0
-    debug: ^4.1.1
+    debug: ^4.2.0
     dedent: ^0.7.0
     enquirer: ^2.3.6
-    execa: ^4.0.3
-    listr2: ^2.6.0
+    execa: ^4.1.0
+    listr2: ^3.2.2
     log-symbols: ^4.0.0
     micromatch: ^4.0.2
     normalize-path: ^3.0.0
@@ -5016,13 +5019,13 @@ fsevents@^2.1.2:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: bbd94e1dbf3e0eb361c262e7594dd4a4963cec87e8d90d3e2904d11f3b4cd9b14b3e923a97ca17ab76e460540f517d071557091890d4e1d8c54523741e882a28
+  checksum: d22748dde5117c1d63e6829a73cf5755b4b99b5c93adaf53d1842941bf8b415d18577fe58291c4e44d40446e05400fe7cafe88727bcd61ef2837840406b89496
   languageName: node
   linkType: hard
 
-"listr2@npm:^2.6.0":
-  version: 2.6.2
-  resolution: "listr2@npm:2.6.2"
+"listr2@npm:^3.2.2":
+  version: 3.2.2
+  resolution: "listr2@npm:3.2.2"
   dependencies:
     chalk: ^4.1.0
     cli-truncate: ^2.1.0
@@ -5030,11 +5033,11 @@ fsevents@^2.1.2:
     indent-string: ^4.0.0
     log-update: ^4.0.0
     p-map: ^4.0.0
-    rxjs: ^6.6.2
+    rxjs: ^6.6.3
     through: ^2.3.8
   peerDependencies:
     enquirer: ">= 2.3.0 < 3"
-  checksum: 4d5fd1bc8f5ad63a38950bac0462cb35e7b51c8988bb263e63d181eab1572493d0f3d384fbeab69171efa0746bb8ea07038d11097216519c3117d935ce723b38
+  checksum: e4cccac610bc18cf75f1248f599ce6fb9637e481dc8ebca480c84b6a57802f580a2df2915b54acaa4268dfcc42a87bb6c86bd7ec5cee793e4df8ee1c8f0822ff
   languageName: node
   linkType: hard
 
@@ -5509,10 +5512,10 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"ms@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "ms@npm:2.1.1"
-  checksum: 81ad38c74df2473ce9fbed8bb71a00220c3d9e237ebd576306c9f6ca3221b251d602c7d199808944be1a3d7cda5883e72c77adb473734ba30f6e032165e05ebc
+"ms@npm:2.1.2":
+  version: 2.1.2
+  resolution: "ms@npm:2.1.2"
+  checksum: 9b65fb709bc30c0c07289dcbdb61ca032acbb9ea5698b55fa62e2cebb04c5953f1876a1f3f7f4bc2e91d4bf4d86003f3e207c3bc6ee2f716f99827e62389cd0e
   languageName: node
   linkType: hard
 
@@ -6773,7 +6776,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^6.6.2":
+"rxjs@npm:^6.6.3":
   version: 6.6.3
   resolution: "rxjs@npm:6.6.3"
   dependencies:
@@ -8200,16 +8203,16 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"yarn-deduplicate@npm:3.0.0":
-  version: 3.0.0
-  resolution: "yarn-deduplicate@npm:3.0.0"
+"yarn-deduplicate@npm:3.1.0":
+  version: 3.1.0
+  resolution: "yarn-deduplicate@npm:3.1.0"
   dependencies:
     "@yarnpkg/lockfile": ^1.1.0
     commander: ^6.1.0
     semver: ^7.3.2
   bin:
     yarn-deduplicate: cli.js
-  checksum: 8cfd88fda59733e4487c6f2a8aa82bc065be859f51e1687b8a02d5046b88314dbe00bdc3ec32fb6671ef3757cd798494c617132e5c144f3521e7c9f1c7f511b5
+  checksum: 0c764f7c6d4aa9be8f0fb93dfc69dfc79bf94e3bbdb84fc3fa81370635584a2a2e751baacd08a16c9105b8e22714888a090a5f17fe6741143f708010b7f82afa
   languageName: node
   linkType: hard
 
