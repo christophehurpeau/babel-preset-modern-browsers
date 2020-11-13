@@ -76,7 +76,7 @@
     "eslint-plugin-unicorn": "22.0.0",
     "husky": "4.3.0",
     "jest": "26.6.3",
-    "pob-lcov-reporter": "2.4.0",
+    "pob-lcov-reporter": "4.0.0",
     "prettier": "2.1.2",
     "standard-version": "9.0.0"
   }
