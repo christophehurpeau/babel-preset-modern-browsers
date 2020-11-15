@@ -854,14 +854,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/root@npm:3.0.0":
-  version: 3.0.0
-  resolution: "@pob/root@npm:3.0.0"
+"@pob/root@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@pob/root@npm:3.0.1"
   dependencies:
     "@commitlint/cli": 11.0.0
     cross-env: ^7.0.2
     lint-staged: 10.5.1
-    repository-check-dirty: ^2.0.0
+    repository-check-dirty: ^2.0.1
     semver: ^7.1.2
     which-pm-runs: 1.0.0
     yarn-deduplicate: 3.1.0
@@ -872,7 +872,7 @@ __metadata:
     commitlint: bin/commitlint.js
     lint-staged: bin/lint-staged.js
     repository-check-dirty: bin/repository-check-dirty.js
-  checksum: a6f75b699c5ddfeef12393700ded3f66710a82a21d23f18b25d3ddf847629caacfad2b22c75d03a8d20d5d1d95187f636a2004037961e88120921b3839fc200d
+  checksum: 7a234bc183b1f8771dc36593541401ce520df53bc00192c18e1efda6d8c40ace24c894a750ac5ba8a5c3d5f9d6a38366a060ae47f41db3f5a7e2388b5a3dd827
   languageName: node
   linkType: hard
 
@@ -1534,7 +1534,7 @@ __metadata:
     "@pob/commitlint-config": 1.1.3
     "@pob/eslint-config": 40.0.0
     "@pob/eslint-config-node": 41.0.4
-    "@pob/root": 3.0.0
+    "@pob/root": 3.0.1
     "@types/jest": 26.0.15
     eslint: 7.13.0
     eslint-import-resolver-node: 0.3.4
@@ -6598,12 +6598,12 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"repository-check-dirty@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "repository-check-dirty@npm:2.0.0"
+"repository-check-dirty@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "repository-check-dirty@npm:2.0.1"
   bin:
     repository-check-dirty: bin/repository-check-dirty.js
-  checksum: b203e3b9f1d8c516976432e0af8dd850d167fba488e3bd4b30bc652c5e6adf94ba66b25617464cf88f84445f60f81130bf50ce612179a16a921f5ee1f4362628
+  checksum: 31cb215b6934f478fe3bf275db72726e74ceaeec3e363a5e27ffb42d798710d9aa6f5d2d74a3b073b0da884dd3c7ed7bfaf8b544b14fb5c2bcbaf07a1f4ddf21
   languageName: node
   linkType: hard
 
