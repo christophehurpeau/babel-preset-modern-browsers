@@ -803,12 +803,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/commitlint-config@npm:1.1.3":
-  version: 1.1.3
-  resolution: "@pob/commitlint-config@npm:1.1.3"
+"@pob/commitlint-config@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@pob/commitlint-config@npm:2.0.1"
   dependencies:
     "@commitlint/config-conventional": ^11.0.0
-  checksum: 55ca558239aa399fa91ba3ce975c1bd1f9832afe02dbd0319a3a6e32f2ff92b80a6bb0e89f46aab8a37df7305a27db1bda6938709be58605589ab4d35109f677
+  checksum: 8b77d099df2682c63b512383ae800024626786bdbb255945475fc26a57623734504df46cb63fa6ec381084bf5f9d6bc71a231f990bb7c4c2eb2753ead6e2ff80
   languageName: node
   linkType: hard
 
@@ -1531,7 +1531,7 @@ __metadata:
     "@babel/core": 7.12.3
     "@babel/plugin-syntax-numeric-separator": ^7.10.4
     "@babel/plugin-transform-modules-commonjs": ^7.10.4
-    "@pob/commitlint-config": 1.1.3
+    "@pob/commitlint-config": 2.0.1
     "@pob/eslint-config": 40.0.0
     "@pob/eslint-config-node": 41.0.4
     "@pob/root": 3.0.0
