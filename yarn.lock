@@ -854,9 +854,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/root@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@pob/root@npm:3.0.1"
+"@pob/root@npm:3.0.2":
+  version: 3.0.2
+  resolution: "@pob/root@npm:3.0.2"
   dependencies:
     "@commitlint/cli": 11.0.0
     cross-env: ^7.0.2
@@ -865,14 +865,14 @@ __metadata:
     semver: ^7.1.2
     which-pm-runs: 1.0.0
     yarn-deduplicate: 3.1.0
-    yarnhook: ^0.4.3
+    yarnhook: ^0.5.0
   peerDependencies:
     husky: ^4.2.3
   bin:
     commitlint: bin/commitlint.js
     lint-staged: bin/lint-staged.js
     repository-check-dirty: bin/repository-check-dirty.js
-  checksum: 7a234bc183b1f8771dc36593541401ce520df53bc00192c18e1efda6d8c40ace24c894a750ac5ba8a5c3d5f9d6a38366a060ae47f41db3f5a7e2388b5a3dd827
+  checksum: 371451970ad2a360d9bcda0bb24f04a873b00bec426740758bef66cb773b75615b0e0ee1e0b098b429fcb4e99f9a34a80b2258abad6d97272cb000be306a1c8b
   languageName: node
   linkType: hard
 
@@ -1534,7 +1534,7 @@ __metadata:
     "@pob/commitlint-config": 2.0.1
     "@pob/eslint-config": 40.0.0
     "@pob/eslint-config-node": 41.0.4
-    "@pob/root": 3.0.1
+    "@pob/root": 3.0.2
     "@types/jest": 26.0.15
     eslint: 7.13.0
     eslint-import-resolver-node: 0.3.4
@@ -2261,17 +2261,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-spawn@npm:^5.0.1":
-  version: 5.1.0
-  resolution: "cross-spawn@npm:5.1.0"
-  dependencies:
-    lru-cache: ^4.0.1
-    shebang-command: ^1.2.0
-    which: ^1.2.9
-  checksum: 96018c42a94a2f69e27c11688db638c343109e4eda5cc6586a83a1d2f102ef2ef4d184919593036748d386ddb67cc3e66658fefec85a4659958cde792f1a9ddc
-  languageName: node
-  linkType: hard
-
 "cross-spawn@npm:^6.0.0":
   version: 6.0.5
   resolution: "cross-spawn@npm:6.0.5"
@@ -2988,21 +2977,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "execa@npm:0.8.0"
-  dependencies:
-    cross-spawn: ^5.0.1
-    get-stream: ^3.0.0
-    is-stream: ^1.1.0
-    npm-run-path: ^2.0.0
-    p-finally: ^1.0.0
-    signal-exit: ^3.0.0
-    strip-eof: ^1.0.0
-  checksum: 1a5fd2f5702b1c47605ed06836acdd8b7dafa1cdd39c517ef1414fc3e94ccc93f605d285edbafc8ad9e36992b27a386f529bfeb5434509f800d03896be2dd09f
-  languageName: node
-  linkType: hard
-
 "execa@npm:^1.0.0":
   version: 1.0.0
   resolution: "execa@npm:1.0.0"
@@ -3018,7 +2992,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:^4.0.0, execa@npm:^4.1.0":
+"execa@npm:^4.0.0, execa@npm:^4.0.3, execa@npm:^4.1.0":
   version: 4.1.0
   resolution: "execa@npm:4.1.0"
   dependencies:
@@ -3458,13 +3432,6 @@ fsevents@^2.1.2:
   version: 6.0.0
   resolution: "get-stdin@npm:6.0.0"
   checksum: b51d664838aef7f8353dc57371ce59cea54d8d584fec015a9d89d24561e95b97806d5b5ba120bc81574c9ed63cb3e210176ffa0ff9263c7e7ba4d56d0fe54913
-  languageName: node
-  linkType: hard
-
-"get-stream@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "get-stream@npm:3.0.0"
-  checksum: 83ed722c1b43b3889f12cc4530d663b282a6fee915856d0c7122138d4864a3db54d252df2f9de032d1a2bb6b5a807083954992e583180b500013b2351fb5f440
   languageName: node
   linkType: hard
 
@@ -5228,16 +5195,6 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lru-cache@npm:^4.0.1":
-  version: 4.1.5
-  resolution: "lru-cache@npm:4.1.5"
-  dependencies:
-    pseudomap: ^1.0.2
-    yallist: ^2.1.2
-  checksum: 6a098d23629357451d4324e1e4fefccdd6df316df29e25571c6148220ced923258381ebeafdf919f90e28c780b650427390582618c1d5fe097873e656d062511
-  languageName: node
-  linkType: hard
-
 "make-dir@npm:^3.0.0":
   version: 3.0.2
   resolution: "make-dir@npm:3.0.2"
@@ -6315,13 +6272,6 @@ fsevents@^2.1.2:
     kleur: ^3.0.3
     sisteransi: ^1.0.3
   checksum: 8ae77324f19ad7096c313898748e422c2cd11a40ccb174a9c6f6128ce1f3344f96d90e9d6650f8dabda1cc5e4a35fcdc7b34beaaf42270ccb803a3740f1e9e28
-  languageName: node
-  linkType: hard
-
-"pseudomap@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "pseudomap@npm:1.0.2"
-  checksum: 1ad1802645e830d99f9c1db97efc6902d2316b660454633229f636dd59e751d00498dd325d3b18d49f2be990a2c9d28f8bfe6f9b544a8220a5faa2bfb4694bb7
   languageName: node
   linkType: hard
 
@@ -8164,13 +8114,6 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"yallist@npm:^2.1.2":
-  version: 2.1.2
-  resolution: "yallist@npm:2.1.2"
-  checksum: f83e3d18eeba68a0276be2ab09260be3f2a300307e84b1565c620ef71f03f106c3df9bec4c3a91e5fa621a038f8826c19b3786804d3795dd4f999e5b6be66ea3
-  languageName: node
-  linkType: hard
-
 "yallist@npm:^3.0.0, yallist@npm:^3.0.3":
   version: 3.1.1
   resolution: "yallist@npm:3.1.1"
@@ -8236,14 +8179,14 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"yarnhook@npm:^0.4.3":
-  version: 0.4.3
-  resolution: "yarnhook@npm:0.4.3"
+"yarnhook@npm:^0.5.0":
+  version: 0.5.1
+  resolution: "yarnhook@npm:0.5.1"
   dependencies:
-    execa: ^0.8.0
+    execa: ^4.0.3
     find-parent-dir: ^0.3.0
   bin:
     yarnhook: index.js
-  checksum: b2e9913e52d5c1b59c94d4229e7d04c60fb2701c636dca16cda8127aed3c3303b0fe4739e0ad2b9eca446b116fd414f35136faedf8dba24990e82d2601f61e00
+  checksum: 71f4c1136404133813c048538087e35e10da7c703a4e2e2b8ed5d7e8b67e7cb25b21f731075989132138c4b06f6516d021ee02f4e38df4cad08ac5e23018d1a2
   languageName: node
   linkType: hard
