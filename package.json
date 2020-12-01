@@ -62,12 +62,12 @@
     "@babel/plugin-transform-modules-commonjs": "^7.10.4"
   },
   "devDependencies": {
-    "@babel/core": "7.12.3",
+    "@babel/core": "7.12.9",
     "@pob/commitlint-config": "2.0.1",
     "@pob/eslint-config": "40.0.0",
     "@pob/eslint-config-node": "41.0.4",
     "@pob/root": "3.0.2",
-    "@types/jest": "26.0.15",
+    "@types/jest": "26.0.16",
     "eslint": "7.13.0",
     "eslint-import-resolver-node": "0.3.4",
     "eslint-plugin-import": "2.22.1",
@@ -76,7 +76,7 @@
     "eslint-plugin-unicorn": "22.0.0",
     "husky": "4.3.0",
     "jest": "26.6.3",
-    "pob-lcov-reporter": "4.0.0",
+    "pob-lcov-reporter": "4.0.1",
     "prettier": "2.1.2",
     "standard-version": "9.0.0"
   }
