@@ -74,7 +74,7 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-prettier": "3.1.4",
     "eslint-plugin-unicorn": "22.0.0",
-    "husky": "4.3.0",
+    "husky": "4.3.4",
     "jest": "26.6.3",
     "pob-lcov-reporter": "4.0.0",
     "prettier": "2.1.2",
