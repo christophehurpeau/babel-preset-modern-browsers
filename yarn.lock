@@ -853,13 +853,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/root@npm:3.0.2":
-  version: 3.0.2
-  resolution: "@pob/root@npm:3.0.2"
+"@pob/root@npm:3.0.3":
+  version: 3.0.3
+  resolution: "@pob/root@npm:3.0.3"
   dependencies:
     "@commitlint/cli": 11.0.0
     cross-env: ^7.0.2
-    lint-staged: 10.5.1
+    lint-staged: 10.5.3
     repository-check-dirty: ^2.0.1
     semver: ^7.1.2
     which-pm-runs: 1.0.0
@@ -871,7 +871,7 @@ __metadata:
     commitlint: bin/commitlint.js
     lint-staged: bin/lint-staged.js
     repository-check-dirty: bin/repository-check-dirty.js
-  checksum: 371451970ad2a360d9bcda0bb24f04a873b00bec426740758bef66cb773b75615b0e0ee1e0b098b429fcb4e99f9a34a80b2258abad6d97272cb000be306a1c8b
+  checksum: 18829cbb5593a41cfb405d206b111c2448a7ff91887ef80b226a2e3f9f864b60d1d0532cebdd921a7082ae4cf433209af00a9d11db56e6e2268374f9ae75880f
   languageName: node
   linkType: hard
 
@@ -1533,7 +1533,7 @@ __metadata:
     "@pob/commitlint-config": 2.0.1
     "@pob/eslint-config": 40.0.0
     "@pob/eslint-config-node": 41.0.4
-    "@pob/root": 3.0.2
+    "@pob/root": 3.0.3
     "@types/jest": 26.0.16
     eslint: 7.15.0
     eslint-import-resolver-node: 0.3.4
@@ -4986,9 +4986,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:10.5.1":
-  version: 10.5.1
-  resolution: "lint-staged@npm:10.5.1"
+"lint-staged@npm:10.5.3":
+  version: 10.5.3
+  resolution: "lint-staged@npm:10.5.3"
   dependencies:
     chalk: ^4.1.0
     cli-truncate: ^2.1.0
@@ -5007,7 +5007,7 @@ fsevents@^2.1.2:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: d22748dde5117c1d63e6829a73cf5755b4b99b5c93adaf53d1842941bf8b415d18577fe58291c4e44d40446e05400fe7cafe88727bcd61ef2837840406b89496
+  checksum: cd34098f62feac51a8eb6a6abff6a15be292bfcac55d04c3e9f21c3ea8e472b94fac27507e4d087f0c6e159881216cd22bdf02d2b8d21cd8d0ffdf8ed00875b4
   languageName: node
   linkType: hard
 
