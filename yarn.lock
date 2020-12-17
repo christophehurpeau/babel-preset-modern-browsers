@@ -989,13 +989,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:26.0.16":
-  version: 26.0.16
-  resolution: "@types/jest@npm:26.0.16"
+"@types/jest@npm:26.0.19":
+  version: 26.0.19
+  resolution: "@types/jest@npm:26.0.19"
   dependencies:
     jest-diff: ^26.0.0
     pretty-format: ^26.0.0
-  checksum: 0c94186cdff943479d9ca169abc412617042eceb5427fc1394d1e23c18a99b61ba502ce4cf9160e8bc400606e9f36cc1cae91f36e329db85c623201efdc1b8f2
+  checksum: 98c8daaf89ca79823461818c1c22d337354e250a135e0314ba1a49e615620c8e2f54c5b900ba8554bf853919c97538f9a38b5af00cea83fd715ee2e6d75e04b8
   languageName: node
   linkType: hard
 
@@ -1534,7 +1534,7 @@ __metadata:
     "@pob/eslint-config": 40.0.0
     "@pob/eslint-config-node": 41.0.4
     "@pob/root": 3.0.3
-    "@types/jest": 26.0.16
+    "@types/jest": 26.0.19
     eslint: 7.15.0
     eslint-import-resolver-node: 0.3.4
     eslint-plugin-import: 2.22.1
