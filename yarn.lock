@@ -1542,7 +1542,7 @@ __metadata:
     eslint-plugin-node: 11.1.0
     eslint-plugin-prettier: 3.1.4
     eslint-plugin-unicorn: 22.0.0
-    husky: 4.3.0
+    husky: 4.3.6
     jest: 26.6.3
     pob-lcov-reporter: 4.0.1
     prettier: 2.1.2
@@ -3751,9 +3751,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"husky@npm:4.3.0":
-  version: 4.3.0
-  resolution: "husky@npm:4.3.0"
+"husky@npm:4.3.6":
+  version: 4.3.6
+  resolution: "husky@npm:4.3.6"
   dependencies:
     chalk: ^4.0.0
     ci-info: ^2.0.0
@@ -3768,7 +3768,7 @@ fsevents@^2.1.2:
   bin:
     husky-run: bin/run.js
     husky-upgrade: lib/upgrader/bin.js
-  checksum: c212d9732de84cbd7c25d907b874f7844503f85e28c0512518cddbac9854c54f1c569e81c5b70387f1e3c27d35c2b43256c811cf06fdad066565c5fc178f33f7
+  checksum: 3c8708887822c93094c4af22608df00a3bdd74784172d13cd08c5d1ed3e7a602f6016bce9982de206f060661f1ea801362edf5658c18fc4a3866d605c47ecaf9
   languageName: node
   linkType: hard
 
