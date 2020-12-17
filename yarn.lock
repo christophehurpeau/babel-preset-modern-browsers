@@ -811,11 +811,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/eslint-config-node@npm:41.0.4":
-  version: 41.0.4
-  resolution: "@pob/eslint-config-node@npm:41.0.4"
+"@pob/eslint-config-node@npm:41.1.0":
+  version: 41.1.0
+  resolution: "@pob/eslint-config-node@npm:41.1.0"
   dependencies:
-    "@pob/use-eslint-plugin": ^41.0.4
+    "@pob/use-eslint-plugin": ^41.1.0
     eslint-plugin-node: ^11.1.0
   peerDependencies:
     eslint: ^7.5.0
@@ -823,7 +823,7 @@ __metadata:
   peerDependenciesMeta:
     eslint-plugin-node:
       optional: true
-  checksum: 99c9c7b03c1a1128560dee6aa125f273c943ade7f6017dde0da9954258bfb112a1e3a7198b10944f48a67a0edfaf63e21b9f8d282d35be665a4309c1642ac3a7
+  checksum: 8b85767b1e7ea6d32cc296b4c2f1c3d85eae21ee51fa3087c825cb3e00b3123229db8c4806c2413a70c0221880ddffd373d63d2900a09f9edc0b35b1a281492a
   languageName: node
   linkType: hard
 
@@ -882,10 +882,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/use-eslint-plugin@npm:^41.0.4":
-  version: 41.0.4
-  resolution: "@pob/use-eslint-plugin@npm:41.0.4"
-  checksum: 319725f5e275fc8579ad48556e6dcdddd909997d464753467cb44c5abcd7ad88ef721942c938c69ce48284544d747cb97dba6ea8cfb0c4febdb28d3034347d1b
+"@pob/use-eslint-plugin@npm:^41.1.0":
+  version: 41.1.0
+  resolution: "@pob/use-eslint-plugin@npm:41.1.0"
+  checksum: ac3e950bcc4c597edce97dac19f28f75c07067220149bed9e026b34203167fe77431b224e6b19be6ccd7b56fb680a95cbfb2d009663c80a66120ce6678abdef1
   languageName: node
   linkType: hard
 
@@ -1532,7 +1532,7 @@ __metadata:
     "@babel/plugin-transform-modules-commonjs": ^7.10.4
     "@pob/commitlint-config": 2.0.1
     "@pob/eslint-config": 40.0.0
-    "@pob/eslint-config-node": 41.0.4
+    "@pob/eslint-config-node": 41.1.0
     "@pob/root": 3.0.3
     "@types/jest": 26.0.19
     eslint: 7.15.0
