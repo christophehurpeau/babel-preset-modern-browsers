@@ -853,15 +853,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/pretty-eslint-config@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@pob/pretty-eslint-config@npm:1.0.0"
+"@pob/pretty-eslint-config@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@pob/pretty-eslint-config@npm:1.0.1"
   dependencies:
-    "@pob/sort-eslint-config": ^1.0.0
+    "@pob/sort-eslint-config": ^1.0.1
     prettier: ^2.1.2
   bin:
     pretty-eslint-config: bin/pretty-eslint-config.js
-  checksum: 3a625bb20862bd2a9248079b3030cca5d7179f019cd93dda6085276b3cc55cec807a514ba32256770a1da49477beeeb278b4758ed08708870b3775ddb03f0219
+  checksum: 6a19baa134890caa786e215c0537ce84eeb9446e33af00d48e3f0e5e447bfaf2b1190395e66de4d5d0a4218522fb83a750404b0d34f249b8a0cbf489066c77da
   languageName: node
   linkType: hard
 
@@ -877,12 +877,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/root@npm:3.1.0":
-  version: 3.1.0
-  resolution: "@pob/root@npm:3.1.0"
+"@pob/root@npm:3.1.1":
+  version: 3.1.1
+  resolution: "@pob/root@npm:3.1.1"
   dependencies:
     "@commitlint/cli": 11.0.0
-    "@pob/pretty-eslint-config": ^1.0.0
+    "@pob/pretty-eslint-config": ^1.0.1
     "@pob/pretty-pkg": ^2.1.0
     cross-env: ^7.0.2
     lint-staged: 10.5.4
@@ -899,16 +899,16 @@ __metadata:
     pretty-eslint-config: bin/pretty-eslint-config.js
     pretty-pkg: bin/pretty-pkg.js
     repository-check-dirty: bin/repository-check-dirty.js
-  checksum: 5258a81c8333630bbb203a641b099834a4050a146f6b63d2f661f50344b54ab5080c87b43711b2ad7991a8ad616273443362fdeb32ee7b87f9cca3d8c1d671a2
+  checksum: 887e346b9f04f43ba5c5ad0a6fa36fc0ba41f2235199fac995ca1884680c3fb938ad594e448b40f65122e5578c2a20101374b8b0aa9bd14fc3d36d5f5aaefc4b
   languageName: node
   linkType: hard
 
-"@pob/sort-eslint-config@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@pob/sort-eslint-config@npm:1.0.0"
+"@pob/sort-eslint-config@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@pob/sort-eslint-config@npm:1.0.1"
   dependencies:
     "@pob/sort-object": ^2.0.1
-  checksum: b1638b8f83622e029cf674fb05826de0a0e1a93abde32417449dcfe6fc902bbcee86f338e741cf43c12912a366a91bcdab89a6c731a1a862729429734cd79cff
+  checksum: dd95af17a782d76ccf3ef8aa266af6412613107ebbe657d01ed226d2dafafa72f4b0942c80ee4f80d411fff6c915524c5f49bfcd6da6b6fd22cc487e73dd6190
   languageName: node
   linkType: hard
 
@@ -1572,7 +1572,7 @@ __metadata:
     "@pob/commitlint-config": 2.0.1
     "@pob/eslint-config": 40.0.0
     "@pob/eslint-config-node": 41.1.0
-    "@pob/root": 3.1.0
+    "@pob/root": 3.1.1
     "@types/jest": 26.0.20
     eslint: 7.19.0
     eslint-import-resolver-node: 0.3.4
