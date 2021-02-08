@@ -853,13 +853,39 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/root@npm:3.0.3":
-  version: 3.0.3
-  resolution: "@pob/root@npm:3.0.3"
+"@pob/pretty-eslint-config@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@pob/pretty-eslint-config@npm:1.0.0"
+  dependencies:
+    "@pob/sort-eslint-config": ^1.0.0
+    prettier: ^2.1.2
+  bin:
+    pretty-eslint-config: bin/pretty-eslint-config.js
+  checksum: 3a625bb20862bd2a9248079b3030cca5d7179f019cd93dda6085276b3cc55cec807a514ba32256770a1da49477beeeb278b4758ed08708870b3775ddb03f0219
+  languageName: node
+  linkType: hard
+
+"@pob/pretty-pkg@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@pob/pretty-pkg@npm:2.1.0"
+  dependencies:
+    "@pob/sort-pkg": ^2.2.0
+    prettier: ^2.1.2
+  bin:
+    pretty-pkg: bin/pretty-pkg.js
+  checksum: bc0b72c18a29d138ec95bbaab93f532c929ac43021d2fc1789b6fe7abf5280b08cd80a8a1c2e0413911ef963e282c3af383f1f4609b996fede6501046acd5a20
+  languageName: node
+  linkType: hard
+
+"@pob/root@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@pob/root@npm:3.1.0"
   dependencies:
     "@commitlint/cli": 11.0.0
+    "@pob/pretty-eslint-config": ^1.0.0
+    "@pob/pretty-pkg": ^2.1.0
     cross-env: ^7.0.2
-    lint-staged: 10.5.3
+    lint-staged: 10.5.4
     repository-check-dirty: ^2.0.1
     semver: ^7.1.2
     which-pm-runs: 1.0.0
@@ -870,8 +896,35 @@ __metadata:
   bin:
     commitlint: bin/commitlint.js
     lint-staged: bin/lint-staged.js
+    pretty-eslint-config: bin/pretty-eslint-config.js
+    pretty-pkg: bin/pretty-pkg.js
     repository-check-dirty: bin/repository-check-dirty.js
-  checksum: 18829cbb5593a41cfb405d206b111c2448a7ff91887ef80b226a2e3f9f864b60d1d0532cebdd921a7082ae4cf433209af00a9d11db56e6e2268374f9ae75880f
+  checksum: 5258a81c8333630bbb203a641b099834a4050a146f6b63d2f661f50344b54ab5080c87b43711b2ad7991a8ad616273443362fdeb32ee7b87f9cca3d8c1d671a2
+  languageName: node
+  linkType: hard
+
+"@pob/sort-eslint-config@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@pob/sort-eslint-config@npm:1.0.0"
+  dependencies:
+    "@pob/sort-object": ^2.0.1
+  checksum: b1638b8f83622e029cf674fb05826de0a0e1a93abde32417449dcfe6fc902bbcee86f338e741cf43c12912a366a91bcdab89a6c731a1a862729429734cd79cff
+  languageName: node
+  linkType: hard
+
+"@pob/sort-object@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@pob/sort-object@npm:2.0.1"
+  checksum: 487c0ca30d8d63beb3bb3d59989b49a8cbcd361842ca519737a99de5bd372c8cb3f11490eda80ae63fa454f29340f12e6d797ebe8568dea15aa8384b3a4880c5
+  languageName: node
+  linkType: hard
+
+"@pob/sort-pkg@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@pob/sort-pkg@npm:2.2.0"
+  dependencies:
+    "@pob/sort-object": ^2.0.1
+  checksum: 12c500347a5df57b84b58955ac4e63c57ef1bde0891149eb3790ba6260fae980ce495086c29d4ddc268fb09e9f78823a885e936e17dbfdc84cfc7b19199c9fb1
   languageName: node
   linkType: hard
 
@@ -1519,7 +1572,7 @@ __metadata:
     "@pob/commitlint-config": 2.0.1
     "@pob/eslint-config": 40.0.0
     "@pob/eslint-config-node": 41.1.0
-    "@pob/root": 3.0.3
+    "@pob/root": 3.1.0
     "@types/jest": 26.0.20
     eslint: 7.19.0
     eslint-import-resolver-node: 0.3.4
@@ -4965,9 +5018,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:10.5.3":
-  version: 10.5.3
-  resolution: "lint-staged@npm:10.5.3"
+"lint-staged@npm:10.5.4":
+  version: 10.5.4
+  resolution: "lint-staged@npm:10.5.4"
   dependencies:
     chalk: ^4.1.0
     cli-truncate: ^2.1.0
@@ -4986,7 +5039,7 @@ fsevents@^2.1.2:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: cd34098f62feac51a8eb6a6abff6a15be292bfcac55d04c3e9f21c3ea8e472b94fac27507e4d087f0c6e159881216cd22bdf02d2b8d21cd8d0ffdf8ed00875b4
+  checksum: dbcafe3679668379fc03f3aef481c3f710794ec03dd5c3915f26a0de110977fbcb44b55ab6dfcff9e8e5789c568ea5629e92f55944fc43f6f6fa1890ee5b07ba
   languageName: node
   linkType: hard
 
@@ -6210,7 +6263,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.2.1":
+"prettier@npm:2.2.1, prettier@npm:^2.1.2":
   version: 2.2.1
   resolution: "prettier@npm:2.2.1"
   bin:
