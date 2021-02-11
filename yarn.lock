@@ -14,15 +14,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.12.13, @babel/core@npm:^7.1.0, @babel/core@npm:^7.7.5":
-  version: 7.12.13
-  resolution: "@babel/core@npm:7.12.13"
+"@babel/core@npm:7.12.16, @babel/core@npm:^7.1.0, @babel/core@npm:^7.7.5":
+  version: 7.12.16
+  resolution: "@babel/core@npm:7.12.16"
   dependencies:
     "@babel/code-frame": ^7.12.13
-    "@babel/generator": ^7.12.13
+    "@babel/generator": ^7.12.15
     "@babel/helper-module-transforms": ^7.12.13
     "@babel/helpers": ^7.12.13
-    "@babel/parser": ^7.12.13
+    "@babel/parser": ^7.12.16
     "@babel/template": ^7.12.13
     "@babel/traverse": ^7.12.13
     "@babel/types": ^7.12.13
@@ -33,18 +33,18 @@ __metadata:
     lodash: ^4.17.19
     semver: ^5.4.1
     source-map: ^0.5.0
-  checksum: c8cb5712616c6f3c9c593cb8f9a084b33481c656b3dd74eafb6f095de7d5699125131c88cf2ebc4c2ed7887c4ad8d65a43efdc6c0a2edd9c269b2793fdb593d3
+  checksum: 87b621eb25d1c96adb95a4f019659d856aa6c4a45ee3ad234fb8066b1ff40ef9ae0052dcdba549ae92d1505207f1c53203b3e410bdadddedaecd1e45fb1172f7
   languageName: node
   linkType: hard
 
-"@babel/generator@npm:^7.12.13":
-  version: 7.12.13
-  resolution: "@babel/generator@npm:7.12.13"
+"@babel/generator@npm:^7.12.13, @babel/generator@npm:^7.12.15":
+  version: 7.12.15
+  resolution: "@babel/generator@npm:7.12.15"
   dependencies:
     "@babel/types": ^7.12.13
     jsesc: ^2.5.1
     source-map: ^0.5.0
-  checksum: dd5316ff39459de4fe07254336672d9e0efa0791217ae70c0a0ea5b7222966721f2704c3b5b6c4633de10c751f3e5d02779ca75cd0c373ef67e6daaa405ca022
+  checksum: 243c7c8987b9720d7cc8ecec165f69fda4159bb3ab19d3f09a4d5c6d35644d3b62293903aab0ae1f34dda61e39094bfea604d88a035e9f9ec485ffde636a734f
   languageName: node
   linkType: hard
 
@@ -178,12 +178,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.12.13, @babel/parser@npm:^7.7.0":
-  version: 7.12.13
-  resolution: "@babel/parser@npm:7.12.13"
+"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.12.13, @babel/parser@npm:^7.12.16, @babel/parser@npm:^7.7.0":
+  version: 7.12.16
+  resolution: "@babel/parser@npm:7.12.16"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: 177230a5e8cce685f3964632733eab2a243db984cad1746d468696318c2997c2287d8999e82135c7bac94d54fde26b2592f8c697a18833846d389ae2057d811d
+  checksum: 437970f6cfbe5ffbd1bcb316c3550e5ecd0003a525bf16f3c15ceb4105a6a3db22389c84c37a6d2b266e222dc92a05c25cf268bbeb937b496d9a48b8232c273f
   languageName: node
   linkType: hard
 
@@ -1566,7 +1566,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "babel-preset-modern-browsers@workspace:."
   dependencies:
-    "@babel/core": 7.12.13
+    "@babel/core": 7.12.16
     "@babel/plugin-syntax-numeric-separator": ^7.10.4
     "@babel/plugin-transform-modules-commonjs": ^7.10.4
     "@pob/commitlint-config": 2.0.1
