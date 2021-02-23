@@ -30,9 +30,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.13.0, @babel/core@npm:^7.1.0, @babel/core@npm:^7.7.5":
-  version: 7.13.0
-  resolution: "@babel/core@npm:7.13.0"
+"@babel/core@npm:7.13.1, @babel/core@npm:^7.1.0, @babel/core@npm:^7.7.5":
+  version: 7.13.1
+  resolution: "@babel/core@npm:7.13.1"
   dependencies:
     "@babel/code-frame": ^7.12.13
     "@babel/generator": ^7.13.0
@@ -50,7 +50,7 @@ __metadata:
     lodash: ^4.17.19
     semver: 7.0.0
     source-map: ^0.5.0
-  checksum: f187c5738b8c7efc348b9eb29a62d4b2f46dbb500b35d7b5dcfac9cc1947016b5e200170de67828421a6956081354fcd6b0baf8742ca8aa7cccbfcb1c360ae6f
+  checksum: 3adc8e8ce201f7e45a83c6715b11b353e5083339cf32dc84db10bda63b63e4cd785b57ee8d51e0e049a60ebbbf7cd45d594475b6511607b57917076fd5acd888
   languageName: node
   linkType: hard
 
@@ -1604,7 +1604,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "babel-preset-modern-browsers@workspace:."
   dependencies:
-    "@babel/core": 7.13.0
+    "@babel/core": 7.13.1
     "@babel/plugin-syntax-numeric-separator": ^7.10.4
     "@babel/plugin-transform-modules-commonjs": ^7.10.4
     "@pob/commitlint-config": 2.0.1
