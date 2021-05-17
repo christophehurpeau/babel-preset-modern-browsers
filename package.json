@@ -62,7 +62,7 @@
     "@babel/plugin-transform-modules-commonjs": "^7.10.4"
   },
   "devDependencies": {
-    "@babel/core": "7.14.2",
+    "@babel/core": "7.14.3",
     "@pob/commitlint-config": "2.1.0",
     "@pob/eslint-config": "40.0.0",
     "@pob/eslint-config-node": "41.1.0",
