@@ -930,29 +930,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/root@npm:3.3.0":
-  version: 3.3.0
-  resolution: "@pob/root@npm:3.3.0"
+"@pob/root@npm:4.1.0":
+  version: 4.1.0
+  resolution: "@pob/root@npm:4.1.0"
   dependencies:
     "@commitlint/cli": 12.1.4
     "@pob/pretty-eslint-config": ^1.0.1
     "@pob/pretty-pkg": ^2.1.0
-    cross-env: ^7.0.2
+    husky: ^7.0.0
     lint-staged: 11.0.0
     repository-check-dirty: ^2.0.1
     semver: ^7.1.2
     which-pm-runs: 1.0.0
     yarn-deduplicate: 3.1.0
     yarnhook: ^0.5.0
-  peerDependencies:
-    husky: ^4.2.3
   bin:
     commitlint: bin/commitlint.js
     lint-staged: bin/lint-staged.js
+    pob-root-postinstall: bin/pob-root-postinstall.js
     pretty-eslint-config: bin/pretty-eslint-config.js
     pretty-pkg: bin/pretty-pkg.js
     repository-check-dirty: bin/repository-check-dirty.js
-  checksum: a28fc70899fd6b0af242705aa7b512bab78391e534262f5dfaa8c3cec852015175580242cc4022399b323191e469e5e5e0ae6cc4cb9a5b99cdd55707c890d7d1
+  checksum: f3a641549dc0d6c392551a5792a9092149e606abefa99f9cfd87b654f7cecb894e5cf5f6379440ef2dbf301b7b1262090fad562b3688916eb102620294182309
   languageName: node
   linkType: hard
 
@@ -1633,7 +1632,7 @@ __metadata:
     "@pob/commitlint-config": 2.2.0
     "@pob/eslint-config": 40.0.0
     "@pob/eslint-config-node": 41.1.2
-    "@pob/root": 3.3.0
+    "@pob/root": 4.1.0
     "@types/jest": 26.0.24
     eslint: 7.30.0
     eslint-import-resolver-node: 0.3.4
@@ -2373,18 +2372,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-env@npm:^7.0.2":
-  version: 7.0.2
-  resolution: "cross-env@npm:7.0.2"
-  dependencies:
-    cross-spawn: ^7.0.1
-  bin:
-    cross-env: src/bin/cross-env.js
-    cross-env-shell: src/bin/cross-env-shell.js
-  checksum: 624d638db3b4b6b221f32238aeb6785b865365bf41154f01d46a23b6d78f807ca5588a3b32e9af5f17384b866fed3752d0e3ecf8c4a8cfca2935d363d27ba058
-  languageName: node
-  linkType: hard
-
 "cross-spawn@npm:^6.0.0":
   version: 6.0.5
   resolution: "cross-spawn@npm:6.0.5"
@@ -2398,7 +2385,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.1, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
+"cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
   version: 7.0.3
   resolution: "cross-spawn@npm:7.0.3"
   dependencies:
@@ -3961,6 +3948,15 @@ fsevents@^2.1.2:
     husky-run: bin/run.js
     husky-upgrade: lib/upgrader/bin.js
   checksum: 1ac4fb51ffd93547ec861f185d86bdbfbac8ee24ce60417d531dbe5222e33fc754436e87e4e2b37a44dcefdc78c151f9ba4ac57c05773f5c36377cc4eb73732b
+  languageName: node
+  linkType: hard
+
+"husky@npm:^7.0.0":
+  version: 7.0.1
+  resolution: "husky@npm:7.0.1"
+  bin:
+    husky: lib/bin.js
+  checksum: 1f6d87cab4339551615080664347b60168d81f3c3b84b9dc1f888068d3fe946d8b5513db5ea53bc086f235e6cc617b0aba903552e959596a49f2153ffac33cb4
   languageName: node
   linkType: hard
 
