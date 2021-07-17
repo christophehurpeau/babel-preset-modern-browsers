@@ -68,7 +68,7 @@
     "@pob/eslint-config-node": "41.1.2",
     "@pob/root": "3.3.0",
     "@types/jest": "26.0.24",
-    "eslint": "7.30.0",
+    "eslint": "7.31.0",
     "eslint-import-resolver-node": "0.3.4",
     "eslint-plugin-import": "2.23.4",
     "eslint-plugin-node": "11.1.0",
