@@ -1636,7 +1636,7 @@ __metadata:
     "@pob/root": 3.3.0
     "@types/jest": 26.0.24
     eslint: 7.32.0
-    eslint-import-resolver-node: 0.3.5
+    eslint-import-resolver-node: 0.3.6
     eslint-plugin-import: 2.24.0
     eslint-plugin-node: 11.1.0
     eslint-plugin-prettier: 3.4.0
@@ -2859,13 +2859,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:0.3.5, eslint-import-resolver-node@npm:^0.3.5":
-  version: 0.3.5
-  resolution: "eslint-import-resolver-node@npm:0.3.5"
+"eslint-import-resolver-node@npm:0.3.6, eslint-import-resolver-node@npm:^0.3.5":
+  version: 0.3.6
+  resolution: "eslint-import-resolver-node@npm:0.3.6"
   dependencies:
     debug: ^3.2.7
     resolve: ^1.20.0
-  checksum: 4ea679b68449a9bf33a150e1031f7cafb5fdbbf7a1687f291680d083b9a357d18a9dd00a6e61e14dbfa29fc1601831b5ff538ff5a364e75c1535362f315a6f71
+  checksum: 92e394bf0d61ac3bbedda3bf86fc27f662e9e08ce4586572fe0e443f3b784b5068441ae94d0114db82fa6651212d52b3008e36ca8f290a5ccd929af873046071
   languageName: node
   linkType: hard
 
