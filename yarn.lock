@@ -1632,7 +1632,7 @@ __metadata:
     eslint-import-resolver-node: 0.3.6
     eslint-plugin-import: 2.24.1
     eslint-plugin-node: 11.1.0
-    eslint-plugin-prettier: 3.4.0
+    eslint-plugin-prettier: 3.4.1
     eslint-plugin-unicorn: 22.0.0
     husky: 4.3.8
     jest: 26.6.3
@@ -2925,9 +2925,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:3.4.0, eslint-plugin-prettier@npm:^3.1.4":
-  version: 3.4.0
-  resolution: "eslint-plugin-prettier@npm:3.4.0"
+"eslint-plugin-prettier@npm:3.4.1, eslint-plugin-prettier@npm:^3.1.4":
+  version: 3.4.1
+  resolution: "eslint-plugin-prettier@npm:3.4.1"
   dependencies:
     prettier-linter-helpers: ^1.0.0
   peerDependencies:
@@ -2936,7 +2936,7 @@ __metadata:
   peerDependenciesMeta:
     eslint-config-prettier:
       optional: true
-  checksum: 322be1af8c7a6b7f1c718d912090722b65da072fda05bbc0a9d94523e6c3dfda49a7f62fd411126f1909c12bbc63e827ee6459163b2ce3458adb292541decf66
+  checksum: 191173e52fafb168af6ac65a9b882f2fc1b2dc979d7c893cec26637c612c7b62dc69df22faf4e80d4e17e5320ba061fc627b59d29512e5ddb42dedcd72966613
   languageName: node
   linkType: hard
 
