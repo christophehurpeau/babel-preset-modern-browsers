@@ -1637,7 +1637,7 @@ __metadata:
     "@types/jest": 26.0.24
     eslint: 7.32.0
     eslint-import-resolver-node: 0.3.6
-    eslint-plugin-import: 2.25.2
+    eslint-plugin-import: 2.25.3
     eslint-plugin-node: 11.1.0
     eslint-plugin-prettier: 3.4.1
     eslint-plugin-unicorn: 22.0.0
@@ -2873,14 +2873,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-module-utils@npm:^2.7.0":
-  version: 2.7.0
-  resolution: "eslint-module-utils@npm:2.7.0"
+"eslint-module-utils@npm:^2.7.1":
+  version: 2.7.1
+  resolution: "eslint-module-utils@npm:2.7.1"
   dependencies:
     debug: ^3.2.7
     find-up: ^2.1.0
     pkg-dir: ^2.0.0
-  checksum: b93a484e65e87ecd97aa3ea1f377ddd237c2cb0cbf48ea41958d1f77fdd04bc1cdce48a47ecf8e669dd9f9256caf14defe4e0ba1d41b6320e65b7f46f110e547
+  checksum: dfee2a26183e40853c95a1692a6725a4e9c640bc7fe15967588b3fe3a2587810965986215e9125d28117078f45be4badf21ea6997fd3d888e08ee2e5509717c5
   languageName: node
   linkType: hard
 
@@ -2896,18 +2896,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:2.25.2":
-  version: 2.25.2
-  resolution: "eslint-plugin-import@npm:2.25.2"
+"eslint-plugin-import@npm:2.25.3":
+  version: 2.25.3
+  resolution: "eslint-plugin-import@npm:2.25.3"
   dependencies:
     array-includes: ^3.1.4
     array.prototype.flat: ^1.2.5
     debug: ^2.6.9
     doctrine: ^2.1.0
     eslint-import-resolver-node: ^0.3.6
-    eslint-module-utils: ^2.7.0
+    eslint-module-utils: ^2.7.1
     has: ^1.0.3
-    is-core-module: ^2.7.0
+    is-core-module: ^2.8.0
     is-glob: ^4.0.3
     minimatch: ^3.0.4
     object.values: ^1.1.5
@@ -2915,7 +2915,7 @@ __metadata:
     tsconfig-paths: ^3.11.0
   peerDependencies:
     eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
-  checksum: 77f7470401dbeeacb6ab3c92c88a36599a30f872c8573e7542802cd24f8c6fb8e7c88fb7e38ae8f87e0bbdfd8ec36522a1db3be0f4034720c194edad7227f835
+  checksum: 536b2e346450efcf545b4743862afe7302a2892bb0a35c04e49af3e1c1fc634f56b7f699ebf40e331459ac44249bdb97ae1e9eed86dc274b53d4ff782932e68f
   languageName: node
   linkType: hard
 
@@ -4176,12 +4176,12 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.2.0, is-core-module@npm:^2.7.0":
-  version: 2.7.0
-  resolution: "is-core-module@npm:2.7.0"
+"is-core-module@npm:^2.2.0, is-core-module@npm:^2.8.0":
+  version: 2.8.0
+  resolution: "is-core-module@npm:2.8.0"
   dependencies:
     has: ^1.0.3
-  checksum: e017cc444527b1ce29689ec355b6f0f129a964f38a2655e411284e7672ac58b02642eba599edb54632e57275cfa0726ccb45d959089d5b633e7a18487e410c9e
+  checksum: 65e3222f4a5708b8d2973d240b9df21fa25eb21d7dfacbd3e05032881aec997f6a53bcec1d7102b8ba704f002d206f6790bd7b6f58f969f467be3eaddce12af6
   languageName: node
   linkType: hard
 
