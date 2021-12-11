@@ -1644,7 +1644,7 @@ __metadata:
     husky: 4.3.8
     jest: 26.6.3
     pob-lcov-reporter: 4.0.1
-    prettier: 2.5.0
+    prettier: 2.5.1
     standard-version: 9.3.2
   peerDependencies:
     "@babel/core": ^7.10.5
@@ -6468,12 +6468,12 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.5.0, prettier@npm:^2.1.2":
-  version: 2.5.0
-  resolution: "prettier@npm:2.5.0"
+"prettier@npm:2.5.1, prettier@npm:^2.1.2":
+  version: 2.5.1
+  resolution: "prettier@npm:2.5.1"
   bin:
     prettier: bin-prettier.js
-  checksum: 4f2da53948fc6b5cb85030bc033cc8a9d40ba3c3904e038ab1e9f5acbf68c71606a77157d880bcc41bb69362fedeac76f0aa8570588db2b4c7d3816c3ce3e173
+  checksum: c4d3328cfd9a8dfe016485ae20dd421cd56e22d700c85916d45b9b7aa3c42a0eec6f3f6a90db6a1572f7764cfe24ee59322122fc24b37f89e351e07f183605aa
   languageName: node
   linkType: hard
 
