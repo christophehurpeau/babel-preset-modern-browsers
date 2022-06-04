@@ -431,12 +431,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^12.0.1":
-  version: 12.1.4
-  resolution: "@commitlint/config-conventional@npm:12.1.4"
+"@commitlint/config-conventional@npm:^17.0.0":
+  version: 17.0.2
+  resolution: "@commitlint/config-conventional@npm:17.0.2"
   dependencies:
-    conventional-changelog-conventionalcommits: ^4.3.1
-  checksum: 3bcc963d88a130f50d3d2b12a29a11eff6c0a553ad945595fe1d9d36052be662a011c2a6784ce88ede8c91b5aaadf5517c3f533747e91c799e0fe3281338d98c
+    conventional-changelog-conventionalcommits: ^5.0.0
+  checksum: 821627e2b86bed8d795cee9b7ef6993d48f01838aae8093fd48084b04fb2903c4407cfedc4c86ce1edf7e827d82d191b1a22a9a660a1468b342b72bbfaa798f5
   languageName: node
   linkType: hard
 
@@ -874,12 +874,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/commitlint-config@npm:2.2.0":
-  version: 2.2.0
-  resolution: "@pob/commitlint-config@npm:2.2.0"
+"@pob/commitlint-config@npm:4.3.0":
+  version: 4.3.0
+  resolution: "@pob/commitlint-config@npm:4.3.0"
   dependencies:
-    "@commitlint/config-conventional": ^12.0.1
-  checksum: 9cdcd61c6edf42aab3fc51054245e478cb594234fb21f93e98fda2bcae9b439f1cb17bd2b19ca98c6ff0f0a198cac45264affe587f380c67053769c90b9a8fbe
+    "@commitlint/config-conventional": ^17.0.0
+  checksum: dc7d3cb9211f90b8f419f8358a63f4ca9c56c7b5c892041a6d81aa93123186514ba864cff643ca9987bb7a22dea8ef25f929938521d8e9dc982979707749a81a
   languageName: node
   linkType: hard
 
@@ -1649,7 +1649,7 @@ __metadata:
     "@babel/core": 7.18.2
     "@babel/plugin-syntax-numeric-separator": ^7.10.4
     "@babel/plugin-transform-modules-commonjs": ^7.10.4
-    "@pob/commitlint-config": 2.2.0
+    "@pob/commitlint-config": 4.3.0
     "@pob/eslint-config": 40.0.0
     "@pob/eslint-config-node": 41.1.2
     "@pob/root": 3.3.0
@@ -2185,7 +2185,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:4.6.3, conventional-changelog-conventionalcommits@npm:^4.3.1, conventional-changelog-conventionalcommits@npm:^4.5.0":
+"conventional-changelog-conventionalcommits@npm:4.6.3, conventional-changelog-conventionalcommits@npm:^4.5.0":
   version: 4.6.3
   resolution: "conventional-changelog-conventionalcommits@npm:4.6.3"
   dependencies:
@@ -2193,6 +2193,17 @@ __metadata:
     lodash: ^4.17.15
     q: ^1.5.1
   checksum: 6436c2e28dbc012c4412cc5a9aafad618500bd4988a0fe30e50c4ac4c16758e9464d35a3b03d48f3002039ca239df56a1f5fa75bc24b4ee9c9c4ea2b3d6374ef
+  languageName: node
+  linkType: hard
+
+"conventional-changelog-conventionalcommits@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "conventional-changelog-conventionalcommits@npm:5.0.0"
+  dependencies:
+    compare-func: ^2.0.0
+    lodash: ^4.17.15
+    q: ^1.5.1
+  checksum: 757fb714e3fbcd182fa2fe5d31b992f27afa8f329e7e107dfb37ec9c591c0a6066116226ea7a945c7c106491d9f2ab544ec37cdc96b9ee2f09985c7e3afeae24
   languageName: node
   linkType: hard
 
