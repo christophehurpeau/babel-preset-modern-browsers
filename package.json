@@ -73,7 +73,7 @@
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-prettier": "3.4.1",
-    "eslint-plugin-unicorn": "22.0.0",
+    "eslint-plugin-unicorn": "45.0.2",
     "husky": "4.3.8",
     "jest": "26.6.3",
     "pob-lcov-reporter": "4.0.1",
