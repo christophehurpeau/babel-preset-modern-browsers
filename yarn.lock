@@ -1663,7 +1663,7 @@ __metadata:
     "@pob/root": 3.3.0
     "@types/jest": 26.0.24
     eslint: 7.32.0
-    eslint-import-resolver-node: 0.3.6
+    eslint-import-resolver-node: 0.3.7
     eslint-plugin-import: 2.26.0
     eslint-plugin-node: 11.1.0
     eslint-plugin-prettier: 3.4.1
@@ -2900,13 +2900,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:0.3.6, eslint-import-resolver-node@npm:^0.3.6":
-  version: 0.3.6
-  resolution: "eslint-import-resolver-node@npm:0.3.6"
+"eslint-import-resolver-node@npm:0.3.7, eslint-import-resolver-node@npm:^0.3.6":
+  version: 0.3.7
+  resolution: "eslint-import-resolver-node@npm:0.3.7"
   dependencies:
     debug: ^3.2.7
-    resolve: ^1.20.0
-  checksum: 92e394bf0d61ac3bbedda3bf86fc27f662e9e08ce4586572fe0e443f3b784b5068441ae94d0114db82fa6651212d52b3008e36ca8f290a5ccd929af873046071
+    is-core-module: ^2.11.0
+    resolve: ^1.22.1
+  checksum: 58e1fb09e7f11ea610ad85264d5caffcc62be6032f98badde1427b90f87522a8312a0a3390629742dae68c4a421422e6a522935c8dfc820e4baba46112c0a5b1
   languageName: node
   linkType: hard
 
@@ -4203,12 +4204,12 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.8.1":
-  version: 2.9.0
-  resolution: "is-core-module@npm:2.9.0"
+"is-core-module@npm:^2.11.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
+  version: 2.11.0
+  resolution: "is-core-module@npm:2.11.0"
   dependencies:
     has: ^1.0.3
-  checksum: a3a5c330822f59e132f5107c30d5c2ebb8c794b1a1cdf162b479bb34adbe8b628437cfdada6bd56a85e76cd342192987db7b48ab154e272dc971f92d846d47c3
+  checksum: a17868d944c75682438e638a6dd79fc1485f9ca34ba63d83c070d46504e079749fed241267952ac69f18097fd50cac5d9406704d4667d94fb9debbff4aa3d263
   languageName: node
   linkType: hard
 
@@ -6885,29 +6886,29 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"resolve@^1.1.6, resolve@^1.10.0, resolve@^1.10.1, resolve@^1.12.0, resolve@^1.18.1, resolve@^1.20.0, resolve@^1.22.0":
-  version: 1.22.0
-  resolution: "resolve@npm:1.22.0"
+"resolve@^1.1.6, resolve@^1.10.0, resolve@^1.10.1, resolve@^1.12.0, resolve@^1.18.1, resolve@^1.20.0, resolve@^1.22.0, resolve@^1.22.1":
+  version: 1.22.1
+  resolution: "resolve@npm:1.22.1"
   dependencies:
-    is-core-module: ^2.8.1
+    is-core-module: ^2.9.0
     path-parse: ^1.0.7
     supports-preserve-symlinks-flag: ^1.0.0
   bin:
     resolve: bin/resolve
-  checksum: bffeb3d852567ef800db238e990bac439cfcca64828d8cd7da8da4273362b8c6fea3a1e0509b005d2aeff0225d831f3646144ad63c42ad2badd1668c9253d883
+  checksum: ceb58a131752b5fecedbac0eca6df09d2bac0f54d6a221e525738cae49c24bf7905f9d3c06b163f32096d599aaa054bc3709f91fcc23695ccd3dd72a38513ed7
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@^1.1.6#builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#builtin<compat/resolve>, resolve@patch:resolve@^1.10.1#builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#builtin<compat/resolve>, resolve@patch:resolve@^1.18.1#builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#builtin<compat/resolve>":
-  version: 1.22.0
-  resolution: "resolve@patch:resolve@npm%3A1.22.0#builtin<compat/resolve>::version=1.22.0&hash=3388aa"
+"resolve@patch:resolve@^1.1.6#builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#builtin<compat/resolve>, resolve@patch:resolve@^1.10.1#builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#builtin<compat/resolve>, resolve@patch:resolve@^1.18.1#builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#builtin<compat/resolve>":
+  version: 1.22.1
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#builtin<compat/resolve>::version=1.22.1&hash=3388aa"
   dependencies:
-    is-core-module: ^2.8.1
+    is-core-module: ^2.9.0
     path-parse: ^1.0.7
     supports-preserve-symlinks-flag: ^1.0.0
   bin:
     resolve: bin/resolve
-  checksum: b5540b19b9b0e0c846018a23f2b64eed8a6aa3754d5e2b590057d40feee3c7cbf50f48a9a6972976c2c8ed385989139fa582bc408af1830a37b68ef3c0562597
+  checksum: 2029682d258c40a095e3860f31c521e08a7c2f679425534550a0b3b760bf6cc231f9e1b63bb12d6dcdf3c1d19379332692fa0ba4434f0cd9e725321dad8a5173
   languageName: node
   linkType: hard
 
