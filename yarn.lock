@@ -907,20 +907,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/eslint-config@npm:40.0.0":
-  version: 40.0.0
-  resolution: "@pob/eslint-config@npm:40.0.0"
+"@pob/eslint-config@npm:40.1.0":
+  version: 40.1.0
+  resolution: "@pob/eslint-config@npm:40.1.0"
   dependencies:
-    "@pob/use-eslint-plugin": ^40.0.0
+    "@pob/use-eslint-plugin": ^40.1.0
     eslint-config-airbnb-base: ^14.2.0
     eslint-config-prettier: ^6.11.0
     eslint-plugin-prettier: ^3.1.4
-    eslint-plugin-unicorn: ^22.0.0
+    eslint-plugin-unicorn: ^23.0.0
   peerDependencies:
     eslint: ^7.5.0
     eslint-plugin-import: ^2.22.0
     eslint-plugin-prettier: ^3.1.4
-    eslint-plugin-unicorn: ^22.0.0
+    eslint-plugin-unicorn: ^23.0.0
     prettier: ^2.0.5
   peerDependenciesMeta:
     eslint-plugin-import:
@@ -929,7 +929,7 @@ __metadata:
       optional: true
     eslint-plugin-unicorn:
       optional: true
-  checksum: c58d1dab457d785e8c2f7ec6c447c3ad247e36c887973fbf6b02d571e95caa9372c8b79573d0a06351933b8f11a3ef291f15aa57ee862f52627e258606bdb4e0
+  checksum: 8abd8748f72703684e880999f88cbb9e125486107f940934c64e467a2e55d0904c369b310b0fb6bb32ce08d985ae5a95e9a4d29f0c2cbc4673017610c357969b
   languageName: node
   linkType: hard
 
@@ -1008,7 +1008,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/use-eslint-plugin@npm:^40.0.0":
+"@pob/use-eslint-plugin@npm:^40.1.0":
   version: 40.1.0
   resolution: "@pob/use-eslint-plugin@npm:40.1.0"
   checksum: aee89cab610c3a1b9b83df9701a4450971d9d0796cdc1a5077c98a1f60b8689e27eff0d914be1bb01169c5023c7f2660dbe8529330d3f69ae1646e7c124b2266
@@ -1658,7 +1658,7 @@ __metadata:
     "@babel/plugin-syntax-numeric-separator": ^7.10.4
     "@babel/plugin-transform-modules-commonjs": ^7.10.4
     "@pob/commitlint-config": 5.1.1
-    "@pob/eslint-config": 40.0.0
+    "@pob/eslint-config": 40.1.0
     "@pob/eslint-config-node": 41.1.2
     "@pob/root": 3.3.0
     "@types/jest": 26.0.24
@@ -2986,7 +2986,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:22.0.0, eslint-plugin-unicorn@npm:^22.0.0":
+"eslint-plugin-unicorn@npm:22.0.0":
   version: 22.0.0
   resolution: "eslint-plugin-unicorn@npm:22.0.0"
   dependencies:
@@ -3006,6 +3006,29 @@ __metadata:
   peerDependencies:
     eslint: ">=7.8.0"
   checksum: bed800d74970f7666e7a82d7a516c21a649cd14be7af3dd10323970f510515ee6341275a2671733ed9e24bd0236f8da22949ee42edfecc509e41199763fcb638
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-unicorn@npm:^23.0.0":
+  version: 23.0.0
+  resolution: "eslint-plugin-unicorn@npm:23.0.0"
+  dependencies:
+    ci-info: ^2.0.0
+    clean-regexp: ^1.0.0
+    eslint-ast-utils: ^1.1.0
+    eslint-template-visitor: ^2.2.1
+    eslint-utils: ^2.1.0
+    import-modules: ^2.0.0
+    lodash: ^4.17.20
+    pluralize: ^8.0.0
+    read-pkg-up: ^7.0.1
+    regexp-tree: ^0.1.21
+    reserved-words: ^0.1.2
+    safe-regex: ^2.1.1
+    semver: ^7.3.2
+  peerDependencies:
+    eslint: ">=7.11.0"
+  checksum: 655c90e72f0aa4a7f9dd6250ce95f187ddb85a7e1e3ac46091f21025c1c6c2b308a520a7f5abfb14866b6926fee1023e3ceb7882c5b1fb63a4f0698b25f0d7e6
   languageName: node
   linkType: hard
 
