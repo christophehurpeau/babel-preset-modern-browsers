@@ -12,7 +12,7 @@
 
 # DEPRECATED
 
-Use `@babel/preset-env` instead with configured `browserlists:
+Use `@babel/preset-env` instead with configured `browserslists`:
 
 > package.json
 
@@ -38,6 +38,8 @@ Use `@babel/preset-env` instead with configured `browserlists:
 +    }]]
 }
 ```
+
+https://babeljs.io/docs/babel-preset-env
 
 
 # Legacy README
