@@ -10,6 +10,38 @@
   <a href="https://npmjs.org/package/babel-preset-modern-browsers"><img src="https://img.shields.io/npm/v/babel-preset-modern-browsers.svg?style=flat-square"></a>
 </p>
 
+# DEPRECATED
+
+Use `@babel/preset-env` instead with configured `browserlists:
+
+> package.json
+
+```json
+{
+  "browserslist": {
+    "modern": [
+      "defaults and supports es6-module"
+    ]
+  },
+}
+```
+
+> babel.config.json
+
+```diff
+{
+-  "presets": ["modern-browsers"]
++  "presets": [["@babel/preset-env", {
++      "shippedProposals": true,
++      "bugfixes": true,
++      "browserslistEnv": "modern"
++    }]]
+}
+```
+
+
+# Legacy README
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Presets](#presets)
